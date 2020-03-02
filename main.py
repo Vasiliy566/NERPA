@@ -1,15 +1,4 @@
-def load_data(filename="data/sp1.stetch.faa"):
-    data = {}
-    f = open(filename)
-    while True:
-        line1 = f.readline()
-        line2 = f.readline()
-        if not line2 and not line1:
-            break  # EOF
-        if(len(line2) == 9):
-            break
-        data[line2[:-1]] = line1[1:-1]
-    return data
+
 
 
 def calculateDist(ref, inp):
@@ -36,7 +25,7 @@ def calculateMiddle(ref_s, dict, pos):
     res = []
     assert (len(candidates) == len(candidates_amount))
     for i in range(len(candidates)):
-        res.append([candidates[i], candidates_amount[i]/ total_accepted])
+        res.append([candidates[i], candidates_amount[i]])
     res = sorted(res, key=lambda tmp : tmp[1], reverse=True)
     return res
 

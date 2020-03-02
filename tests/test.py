@@ -1,5 +1,6 @@
-from main import load_data, calculateDist, getAnswer, calculateMiddle, getAnswerSingleLetter
-import json
+from main import calculateDist, getAnswer, calculateMiddle, getAnswerSingleLetter
+from dictionaryHandler import DictionaryHandler
+import unittest
 
 test0_data = {"nrpspksdomains_ctg1_19_AMP-binding.2":
                   {"NRPSPredictor2":
@@ -12,8 +13,11 @@ test0_data = {"nrpspksdomains_ctg1_19_AMP-binding.2":
               }
 
 
+
+
+
 def test0(debug=False):
-    dict = load_data()
+    dict = DictionaryHandler.load_data()
     top10 = []
     data = test0_data["nrpspksdomains_ctg1_19_AMP-binding.2"]["NRPSPredictor2"]["stachelhaus_seq"].lower()
     if debug:
@@ -24,7 +28,7 @@ def test0(debug=False):
             print("{}\n{}\nScore is {}".format(item, data, calculateDist(item, data)))
         match_score = calculateDist(item, data)
         if len(top10) < 10:
-            top10.append([dict[item], match_score])  # TODO: question: return top10 or all like in examplw
+            top10.append([dict[item], match_score])  # TODO: question: return top10 or all like in example
         else:
             top10 = sorted(top10, key=lambda tmp: tmp[1])  # TODO: improve performance. too slow
             if match_score > top10[0][1]:
@@ -33,7 +37,7 @@ def test0(debug=False):
 
 
 def test1(debug=False):
-    dict = load_data()
+    dict = DictionaryHandler.load_data()
     data = test0_data["nrpspksdomains_ctg1_19_AMP-binding.2"]["NRPSPredictor2"]["stachelhaus_seq"].lower()
     pos = 0
     for char in data:
@@ -41,4 +45,3 @@ def test1(debug=False):
         pos += 1
         if pos > 8:
             break
-
