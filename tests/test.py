@@ -12,12 +12,8 @@ test0_data = {"nrpspksdomains_ctg1_19_AMP-binding.2":
                    }
               }
 
-
-
-
-
 def test0(debug=False):
-    dict = DictionaryHandler.load_data()
+    dict = DictionaryHandler.load_data("../data/sp1.stetch.faa")
     top10 = []
     data = test0_data["nrpspksdomains_ctg1_19_AMP-binding.2"]["NRPSPredictor2"]["stachelhaus_seq"].lower()
     if debug:
@@ -37,8 +33,9 @@ def test0(debug=False):
 
 
 def test1(debug=False):
-    dict = DictionaryHandler.load_data()
+    dict = DictionaryHandler.load_data("../data/sp1.stetch.faa")
     data = test0_data["nrpspksdomains_ctg1_19_AMP-binding.2"]["NRPSPredictor2"]["stachelhaus_seq"].lower()
+    print(data)
     pos = 0
     for char in data:
         getAnswerSingleLetter(calculateMiddle(char, dict, pos), char)

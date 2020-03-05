@@ -15,21 +15,56 @@ class DictionaryHandler:
     def handle_name_string(name):
         return name.split("_")[-1].split("|")
 
-    def average_value(data):
-        processed_data = {}  # be like : {"gly" : {{"A" : 0.7, "B" : 0.3}, {"C" : 0.4 "D" : 0.6}]  }
-        for item in data.values():
-            tmp = DictionaryHandler.handle_name_string(item)
-            for amino in item:
-                if amino not in processed_data:
-                    processed_data[tmp] = []
-                    for amino_c in amino:
-                        processed_data[tmp].append({amino_c: 1})
-        return processed_data
+    def get_variants(data):
+        processed_data = []  # be like : ["gly", "ala" ]
+        processed_averages = [] # be like [[ {"A" : 1} , {"C" : 0.7, "D" : 0.3} ... ]]
+        for item in data:
+            data_l = item
+            name = data[item]
+            # if new name found - just create
+            for name_ in DictionaryHandler.handle_name_string(name):
+                if  name_ not in processed_data:
+                    processed_data.append(name_)
+                    tmp = [[],[],[],[],[],[],[],[],[]]
+                    for i in range(len(data_l)):
+                        tmp[i].append(data_l[i])
+                    processed_averages.append(tmp)
+                #need to increase of add some values
+                else:
+                    for i in range(len(data_l)):
+                        processed_averages[processed_data.index(name_)][i].append(data_l[i])
 
+        return processed_data, processed_averages
+    #example: [A, A, B, C] -> {A : 0,5, B : 0.25, c : 0.25}
+    def list_to_dict(data):
+        res = {}
+        for item in data:
+            if item not in res:
+                res[item] = 1
+            else:
+                tmp = res[item]
+                res[item] = tmp + 1
+        for item in res:
+            tmp = res[item]
+            res[item] = tmp / len(data)
+        return res
+    def calculate_average(processed_data, processed_averages):
+        #res like | amino |    pos1 posibilities      | pos 2 posibilities ...
+        #          {"ala" : ( ("A"| : 0.7, "B" : 0.3 ), ("C"| : 0.64, "D" : 0.36 ),  )}
+        res = {}
+        for name in processed_data:
+            tmp = []
+            for pos_chars in processed_averages[processed_data.index(name)]:
+                tmp.append((DictionaryHandler.list_to_dict(pos_chars)))
 
+            res[name] = tuple(tmp)
+        return res
+    def prepare_data(filename = "data/sp1.stetch.faa"):
+        r1, r2 = DictionaryHandler.get_variants(DictionaryHandler.load_data(filename))
+        return DictionaryHandler.calculate_average(r1, r2)
 def main():
-    DictionaryHandler.average_value(DictionaryHandler.load_data())
-
-
+    #r1, r2 = DictionaryHandler.get_variants(DictionaryHandler.load_data())
+    #print(DictionaryHandler.calculate_average(r1, r2))
+    print(DictionaryHandler.prepare_data())
 if __name__ == "__main__":
     main()

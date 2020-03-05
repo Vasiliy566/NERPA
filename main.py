@@ -1,5 +1,5 @@
 
-
+from dictionaryHandler import DictionaryHandler
 
 def calculateDist(ref, inp):
     ref = ref.lower()
@@ -9,6 +9,17 @@ def calculateDist(ref, inp):
         if ref[i] == inp[i]:
             out += 1
     return out
+def calculateSuspendedDist(ref_s, dict):
+    pos_res = {}
+    for item in dict:
+        out = 0
+        for i in range(len(ref_s)):
+            tmp_dict = dict[item][i]
+            if ref_s[i] in tmp_dict.keys():
+                out += tmp_dict[ref_s[i]]
+        pos_res[item] = out
+    return pos_res
+
 
 def calculateMiddle(ref_s, dict, pos):
     candidates = []
@@ -30,6 +41,7 @@ def calculateMiddle(ref_s, dict, pos):
     return res
 
 
+
 def getAnswer(top10):
     for item in top10:
         print("{}({}),".format(item[0].split('_')[-1], item[1]), end='')
@@ -38,8 +50,10 @@ def getAnswerSingleLetter(data, ref):
         print("{}: {}({}),".format(ref, item[0].split('_')[-1], item[1]), end='')
     print("")
 def main():
-    print(load_data())
+    print(DictionaryHandler.load_data())
 
 
 if __name__ == "__main__":
-    main()
+    dict = DictionaryHandler.prepare_data()
+    res = calculateSuspendedDist("DVGDVGSID", dict) #DVGMVGAVA
+    print({k: v for k, v in sorted(res.items(), key=lambda item: item[1])})
