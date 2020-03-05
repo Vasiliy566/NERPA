@@ -12,6 +12,7 @@ test0_data = {"nrpspksdomains_ctg1_19_AMP-binding.2":
                    }
               }
 
+
 def test0(debug=False):
     dict = DictionaryHandler.load_data("../data/sp1.stetch.faa")
     top10 = []
