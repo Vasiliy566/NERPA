@@ -17,6 +17,7 @@ test_data = ["DFWLVTMVH",
              "DVFWIGGTF",
              ">Q6WZB2_A2_3__ser",
              "DVRHMSMVE"]
+
 test_filename = "test.faa"
 
 
@@ -40,7 +41,8 @@ class TestDictionaryHandler(TestCase):
         self.assertEqual(DictionaryHandler.handle_name_string("O30981_A2_6__ala|val"), ["ala", "val"])
         self.assertEqual(DictionaryHandler.handle_name_string(">BGC0000464_CDG17981.1_533_mod1_leu"), ["leu"])
 
-    def test_average_value(self):
+    def test_get_variants(self):
+        data = {}
         # create_test_file()
         # print(DictionaryHandler.average_value(DictionaryHandler.load_data(test_filename)))
         pass
