@@ -1,7 +1,13 @@
 from dictionaryHandler import DictionaryHandler
 import json
 import sys
+import os
 import argparse
+import pandas as pd
+import csv
+import glob
+from csv import reader
+from csv import writer
 
 
 def calculateDist(ref, inp):
@@ -14,19 +20,21 @@ def calculateDist(ref, inp):
     return out
 
 
-def getAnswerSingleLetter(data, ref):
-    for item in data:
-        print("{}: {}({}),".format(ref, item[0].split('_')[-1], item[1]), end='')
+def classic(data, refDict):
+    res = {}
+    names = []
+    scores = []
+    for seq in refDict.keys():
+        names.append(refDict[seq])
+        scores.append(0)
+        for i in range(8):
+            if seq[i] == data[i]:
+                scores[-1] += 1
 
-
-def classic(data, dict):
-    pos = 0
-    print(data)
-    for char in data:
-        getAnswerSingleLetter(calculate_middle(char, dict, pos), char)
-        pos += 1
-        if pos > 8:
-            break
+    assert (len(names) == len(scores))
+    for i in range(len(names)):
+        res[names[i][0]] = scores[i]
+    return res
 
 
 def calculateSuspendedDist(ref_s, dict):
@@ -41,28 +49,6 @@ def calculateSuspendedDist(ref_s, dict):
     return pos_res
 
 
-def calculate_middle(ref_s, dict, pos):
-    candidates = []
-    candidates_amount = []
-    total_accepted = 0
-
-    for item in dict.keys():
-        if item[pos].lower() == ref_s:
-            total_accepted += 1
-            if dict[item].split("_")[-1] not in candidates:
-                candidates.append(dict[item].split("_")[-1])
-                candidates_amount.append(1)
-            else:
-                candidates_amount[candidates.count(dict[item].split("_")[-1])] += 1
-    print("_")
-    res = []
-    assert (len(candidates) == len(candidates_amount))
-    for i in range(len(candidates)):
-        res.append([candidates[i], candidates_amount[i]])
-    res = sorted(res, key=lambda tmp: tmp[1], reverse=True)
-    return res
-
-
 def getAnswer(top10):
     for item in top10:
         print("{}({}),".format(item[0].split('_')[-1], item[1]), end='')
@@ -71,6 +57,18 @@ def getAnswer(top10):
 def handleJson(filename="BGC0001763_antiSMASH_5.0.0/BGC0001763.json"):
     ret_data = []
     ret_names = []
+    # TODO: replase os to crossplatform solution
+    if (os.path.isdir(filename)):
+        files = os.listdir(filename)
+        candidates = []
+        for item in files:
+            if item.split(".")[-1] == "json":
+                candidates.append(item)
+        if len(candidates) > 1:
+            raise Exception("not one .json in target directory!\nset path for one .json file or to folder with lonle .json file")
+        else:
+            filename += candidates[0]
+
     with open(filename, 'r') as f:
         data = json.load(f)
     for item in data["records"][0]["modules"]["antismash.modules.nrps_pks"]["domain_predictions"].keys():
@@ -86,70 +84,162 @@ def handleJson(filename="BGC0001763_antiSMASH_5.0.0/BGC0001763.json"):
     return ret_data, ret_names
 
 
-def testMain():
-    test_data = ["ctg1\tDLYNLGLIHK	cys(80.0);orn(70.0);hpg(60.0);gly(60.0);ala(60.0)\tSer",
-                 "ctg1\tDVWHISLVDK	ser(90.0);arg(70.0);ala(60.0);glu(60.0);orn(60.0)\tSer",
-                 "ctg1\tDVWHISLVDK	ser(90.0);arg(70.0);ala(60.0);glu(60.0);orn(60.0)	Ser",
-                 "ctg1\tDAWEGGLVDK	gln(70.0);leu(70.0);glu(70.0);arg(70.0);trp(60.0)	hOrn",
-                 "ctg1\tDVWHISLVDK	ser(90.0);arg(70.0);ala(60.0);glu(60.0);orn(60.0)	Ser",
-                 "ctg1\tDINYWGGIGK	orn(100.0);val(70.0);phg(60.0);gly(50.0);asp(50.0)	hfOrn"]
-    dict = DictionaryHandler.prepare_data()
-    print(dict)
+def load_test_data(filename="testSource.csv"):
+    df = pd.read_csv(filename)
     res = []
-    for item in test_data:
-        tmp_res = calculateSuspendedDist(item.split('\t')[1][:-1], dict)
-        res.append({k: v for k, v in sorted(tmp_res.items(), key=lambda tmp_res: tmp_res[1])})
-    score = 0
+    for item in df.values.tolist():
+        res.append(str("ctg1\t" + str(item[4]) + "\t" + str(item[6]) + "\t" + str(item[12])))
+    return res
 
+
+def clear_logs(filename="errors_while_encoding.txt"):
+    lines_seen = set()  # holds lines already seen
+    outfile = open("error_while_encoding_unique.txt", "w")
+    for line in open(filename, "r"):
+        if line.split()[0] not in lines_seen:  # not a duplicate
+            outfile.write(line)
+            lines_seen.add(line.split()[0])
+    outfile.close()
+
+
+def export_result(data, title, filename="testSource.csv"):
+    with open(filename, 'r') as read_obj, \
+            open('output_1.csv', 'w', newline='') as write_obj:
+        csv_reader = csv.reader(read_obj)
+        csv_writer = csv.writer(write_obj)
+        for i in range(len(data)):
+            data[i].insert(0, title[i])
+        i = 0
+        for row in csv_reader:
+            for j in range(len(data)):
+                row.append(data[j][i])
+
+            csv_writer.writerow(row)
+            i += 1
+
+
+def calc_metric_nmax(res, max_n=5, strict=True):
+    test_data = load_test_data()
+    score = 0
     cur = 0
+    test_res = []
     for item in res:
-        max_ = 0
-        max_c = 'Z'
-        for i in item:
-            if item[i] > max_:
-                max_ = item[i]
-                max_c = i
-        print(str(max_c.split('-')[-1]) + " <> " + test_data[cur].split('\t')[-1].lower())
-        if max_c.split('-')[-1].lower() == test_data[cur].split('\t')[-1].lower():
-            score += 1
+        test_status = False
+        names = list(item.keys())
+        if strict:
+            for i in range(max_n):
+                # print("{} <> {} --> {}".format(names[i].lower(), test_data[cur].split('\t')[-1].lower(), names[i].lower() == test_data[cur].split('\t')[-1].lower()))
+                if names[i].lower() == test_data[cur].split('\t')[-1].lower():
+                    score += 1
+                    test_status = True
+                    break
+        else:
+            best_score = list(item.values())[0]
+            i = 0
+            while list(item.values())[i] == best_score and i < max_n:
+                if names[i].lower() == test_data[cur].split('\t')[-1].lower():
+                    score += 1
+                    test_status = True
+                    break
+                i += 1
+        test_res.append(int(test_status))
         cur += 1
-    print("score = ", score / len(test_data))
+    return score / len(test_data), test_res
+
+
+def toFixed(numObj, digits=0):
+    return f"{numObj:.{digits}f}"
+
+
+def testMain():
+    test_data = load_test_data()
+    defaultDict = DictionaryHandler.prepare_data()
+    singleResults = []
+    allResults = []
+    res = []
+
+    for item in test_data:
+        # Suspended
+        tmp_res = calculateSuspendedDist(item.split('\t')[1][:-1], defaultDict)
+        tmp_res = {k: v for k, v in sorted(tmp_res.items(), key=lambda tmp_res: tmp_res[1], reverse=True)}
+        res.append(tmp_res)
+
+        tmp_export = ""
+        for prec in tmp_res.items():
+            tmp_export += "{}:({});".format(prec[0], toFixed((prec[1] + 1) * 10, 1))  # TODO: format
+        allResults.append(tmp_export)
+
+    for item in res:
+        names = list(item.keys())
+        singleResults.append(names[0])
+
+    score_top1, top1_res = calc_metric_nmax(res, 1, False)
+    score_top3, top3_res = calc_metric_nmax(res, 3, False)
+    score_top5, top5_res = calc_metric_nmax(res, 5, False)
+
+    ref_score = 0
+
+    for item in test_data:
+        print(item)
+        if item.split("\t")[2][:3].lower() == item.split("\t")[-1].lower():
+            ref_score += 1
+
+    export_result([allResults, singleResults, top1_res, top3_res, top5_res], ["MY_FULL_PRECISION", "MY_SINGEL_PRECISION", "top1", "top3", "top5"])
+    print("score top1 = ", score_top1)
+    print("score top3 = ", score_top3)
+    print("score top5 = ", score_top5)
+    print("ref_score = ", ref_score / len(test_data))
 
 
 def main():
-    print("ok")
     parser = argparse.ArgumentParser(description='NERPA')
-    parser.add_argument('inp', type=str, help='Input file')
-    parser.add_argument('outdir', type=str, help='Output dir ')
     parser.add_argument(
-        '--calculate_method',
+        '--inp',
         type=str,
-        default="suspended",
-        help='provide calculating method, dafault is suspended'
+        default='',
+        help='Input file, can be .json file with results or folder of antishamsh5 outtput')
+
+    parser.add_argument(
+        '--outdir',
+        type=str,
+        default='',
+        help='Output dir'
+    )
+    parser.add_argument(
+        '--classic',
+        action='store_true'
     )
     parser.add_argument(
         '--save_mod',
-        type=int,
-        default=0,
-        help='0 if need to clear modification, another integer if not need to clean'
+        action='store_true'
+    )
+    parser.add_argument(
+        '--test',
+        action='store_true'
     )
     args = parser.parse_args()
+
+    if args.test:
+        testMain()
+        return
+
     data, names = handleJson(args.inp)
     path_out = args.outdir
-    method = args.calculate_method
-    mod = bool(args.save_mod)
-    print(mod)
-    dict = DictionaryHandler.prepare_data("data/sp1.stetch.faa", mod)
+    method = args.classic
+    print(method)
+    mod = args.save_mod
 
-    f = open((path_out + names[0][:-2] + "_codes.txt"), "w+")
+    defaultDict = DictionaryHandler.prepare_data("data/sp1.stetch.faa", mod, method)
+
+    f = open((path_out + names[0][:-2] + method * "classic" + "_codes.txt"), "w+")
 
     for i in range(len(data)):
-        if method in {"c", "classic"}:
-            res = classic(data, dict)
+        if method:
+            res = classic(data[i][:-1], defaultDict)
         else:
-            res = calculateSuspendedDist(data[i][:-1], dict)  # DVGMVGAVA
+            res = calculateSuspendedDist(data[i][:-1], defaultDict)  # DVGMVGAVA
 
-        tmp_res = {k: v for k, v in sorted(res.items(), key=lambda item: item[1])}
+        tmp_res = {k: v for k, v in sorted(res.items(), key=lambda item: item[1], reverse=True)}
         res_str_second = ""
         for item in tmp_res:
             res_str_second += "{}({});".format(item, tmp_res[item])
@@ -162,3 +252,4 @@ def main():
 if __name__ == "__main__":
     main()
     # testMain()
+    clear_logs()

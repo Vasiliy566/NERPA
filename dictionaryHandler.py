@@ -1,29 +1,60 @@
+
 class DictionaryHandler:
+    refAminos = ["ala",
+                 "cys",
+                 "asp",
+                 "glu",
+                 "phe",
+                 "gly",
+                 "gis",
+                 "ile",
+                 "lys",
+                 "leu",
+                 "met",
+                 "asn",
+                 "pyl",
+                 "pro",
+                 "gln",
+                 "arg",
+                 "ser",
+                 "thr",
+                 "sec",
+                 "val",
+                 "trp",
+                 "tyr"]
     def load_data(filename="data/sp1.stetch.faa"):
-        print(filename)
         data = {}
-        f = open(filename)
+        f = open(filename, "r")
 
         while True:
             line1 = f.readline()
             line2 = f.readline()
+
             if not line2 and not line1:
                 break  # EOF
             if (len(line2) == 9):
                 break
             data[line2[:-1]] = line1[1:-1]
-
+        f.close()
         return data
 
     # mod - save modifications
     def handle_name_string(name, mod=False):
-        #print(str(name) + " --> " + str(name.split("_")[-1].split("|")))
         res = name.split("_")[-1].split("|")
         if not mod:
             for i in range(len(res)):
                 res[i] = res[i].split("-")[-1]
-        print(str(name) + " --> " + str(res))
+                if len(res[i]) != 3:
+                    f = open("errors_while_encoding.txt", "a")
+                    f.write(str(str(name) + " --> " + str(res)) + " - wrong length != 3\n")
+                    f.close()
+                if res[i] not in DictionaryHandler.refAminos:
+                    f = open("errors_while_encoding.txt", "a")
+                    f.write(str(str(name) + " --> " + str(res)) + " - not it ref aminos\n")
+                    f.close()
+
         return res
+
 
     def get_variants(data, mod=False):
         processed_data = []  # be like : ["gly", "ala" ]
@@ -46,6 +77,7 @@ class DictionaryHandler:
 
         return processed_data, processed_averages
 
+
     # example: [A, A, B, C] -> {A : 0,5, B : 0.25, c : 0.25}
     def list_to_dict(data):
         res = {}
@@ -60,6 +92,7 @@ class DictionaryHandler:
             res[item] = tmp / len(data)
         return res
 
+
     def calculate_average(processed_data, processed_averages):
         # res like | amino |    pos1 posibilities      | pos 2 posibilities ...
         #          {"ala" : ( ("A"| : 0.7, "B" : 0.3 ), ("C"| : 0.64, "D" : 0.36 ),  )}
@@ -72,15 +105,23 @@ class DictionaryHandler:
             res[name] = tuple(tmp)
         return res
 
-    def prepare_data(filename="data/sp1.stetch.faa", mod=False):
+    # method: False = default, True = classic
+    def prepare_data(filename="data/sp1.stetch.faa", annotationMod=False, method=False ):
+        if method:
+            tmp_res = DictionaryHandler.load_data(filename)
+            res = {}
+            for item in tmp_res.keys():
+                res[item] = DictionaryHandler.handle_name_string(tmp_res[item])
+            return res
 
-        r1, r2 = DictionaryHandler.get_variants(DictionaryHandler.load_data(filename), mod)
+        r1, r2 = DictionaryHandler.get_variants(DictionaryHandler.load_data(filename), annotationMod)
 
         return DictionaryHandler.calculate_average(r1, r2)
 
 
 def main():
     print(DictionaryHandler.get_variants(DictionaryHandler.load_data()))
+
 
 if __name__ == "__main__":
     main()
