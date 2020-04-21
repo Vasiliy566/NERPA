@@ -16,6 +16,6 @@ jobs:
       
     - name: Test with pytest
       run: |
-        pip install pytest
-        pip install pandas
+        pip install -r requirements.txt
+        mkdir out
         PYTHONPATH=src py.test -o log_cli=true tests/
