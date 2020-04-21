@@ -1,0 +1,17 @@
+\\
+ctg1_orf00007_AT1
+Substrate:	Score:
+Malonyl-CoA	180.1
+inactive	109.2
+Methoxymalonyl-CoA	53.9
+Propionyl-CoA	43.4
+Methylmalonyl-CoA	41.5
+2-Methylbutyryl-CoA	26.4
+Acetyl-CoA	18.5
+Isobutyryl-CoA	12.9
+fatty_acid	12.6
+CHC-CoA	12.6
+Benzoyl-_CoA	9.7
+Ethylmalonyl-CoA	9.6
+trans-1,2-CPDA	8.6
+3-Methylbutyryl-CoA	0.0

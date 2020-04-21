@@ -1,0 +1,2 @@
+genome accession	geneclusters
+BGC0001763	BGC0001763_c1

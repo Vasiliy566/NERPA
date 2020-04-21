@@ -1,0 +1,2 @@
+ctg1_orf00007_KR1	active	?
+ctg1_orf00007_KR2	active	?

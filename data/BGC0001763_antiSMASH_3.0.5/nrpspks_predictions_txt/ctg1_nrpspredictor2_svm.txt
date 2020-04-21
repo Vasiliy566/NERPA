@@ -1,0 +1,8 @@
+#sequence-id<tab>8A-signature<tab>stachelhaus-code<tab>3class-pred<tab>large-class-pred<tab>small-class-pred<tab>single-class-pred<tab>nearest stachelhaus code<tab>NRPS1pred-large-class-pred<tab>NRPS2pred-large-class-pred<tab>outside applicability domain?<tab>coords<tab>pfam-score
+ctg1_orf00029_A1	L--AFDVAIWETTLHVGGEVNGYGTTECSVATTL	DVWTHGGVAK	hydrophobic-aromatic	phe,trp,phg,tyr,bht	phe,trp	N/A	N/A	orn,lys,arg	orn,horn	0	0:0	0.000000e+00
+ctg1_orf00029_A2	FGLAFDASVLELFLVVGAEVNAYGPTEITVAAAI	DALFVGAVAK	hydrophobic-aliphatic	gly,ala,val,leu,ile,abu,iva	N/A	N/A	N/A	N/A	N/A	0	0:0	0.000000e+00
+ctg1_orf00029_A3	LAKSFDAMVSETTLAVAGEINAYGPTESTVGAVM	DASTAAAVGK	hydrophobic-aromatic	phe,trp,phg,tyr,bht	tyr,bht	tyr	N/A	phe,trp,phg,tyr,bht	N/A	0	0:0	0.000000e+00
+ctg1_orf00029_A4	L-TTFDVSVMETFVVVAGEINAYGPTEATVYATT	DVMFVAAVYK	hydrophobic-aliphatic	gly,ala,val,leu,ile,abu,iva	N/A	N/A	N/A	orn,lys,arg	asp,asn	0	0:0	0.000000e+00
+ctg1_orf00029_A5	FGLAFDASVLELFLVVGAEVNAYGPTEITVAAAI	DALFVGAVAK	hydrophobic-aliphatic	gly,ala,val,leu,ile,abu,iva	N/A	N/A	N/A	N/A	N/A	0	0:0	0.000000e+00
+ctg1_orf00029_A6	FGLAFDASVLELFLVVGAEVNAYGPTEITVAAAI	DALFVGAVAK	hydrophobic-aliphatic	gly,ala,val,leu,ile,abu,iva	N/A	N/A	N/A	N/A	N/A	0	0:0	0.000000e+00
+ctg1_orf00029_A7	LAQAFDVSVWEMTLLVAGEINAYGPTESTVGAAM	DVWTLAAVGK	hydrophobic-aromatic	phe,trp,phg,tyr,bht	phe,trp	phe	N/A	phe,trp,phg,tyr,bht	N/A	0	0:0	0.000000e+00
