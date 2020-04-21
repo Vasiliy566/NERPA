@@ -1,4 +1,4 @@
-[![Actions Status](https://github.com/Vasiliy566/NERPA/blob/master/.github/workflows/pythonapp.yml)](https://github.com/Vasiliy566/NERPA/actions)
+![Python application](https://github.com/Vasiliy566/NERPA/workflows/Python%20application/badge.svg)
 # Project Title
 1. Reformat antismash5 output to antismash3 format
 2. Predict NRPS by 10-aa code
