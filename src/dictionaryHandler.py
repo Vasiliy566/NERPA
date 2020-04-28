@@ -1,9 +1,14 @@
-refAminos = ["ala", "cys", "asp", "glu",
-             "phe", "gly", "gis", "ile",
-             "lys", "leu", "met", "asn",
-             "pyl", "pro", "gln", "arg",
-             "ser", "thr", "sec", "val",
-             "trp", "tyr"]
+refAminos = [
+             "asp", "hmp", "gly", "dab",
+             "ala", "ser", "dpg", "tyr",
+             "dhh", "end", "bmt", "glu",
+             "akv", "arg", "trp", "pyr",
+             "thr", "pro", "orn", "dap",
+             "dhb", "ahp", "cys", "gln",
+             "asn", "phe", "ile", "leu",
+             "his", "lys", "kyn", "val",
+             "pip", "hpg", "hpr",
+             ]
 
 
 def list_to_dict(data):
@@ -42,15 +47,12 @@ def handle_name_string(name, mod=False):
     if not mod:
         for i in range(len(res)):
             res[i] = res[i].split("-")[-1]
+            f = open("out/errors_while_encoding.txt", "a")
             if len(res[i]) != 3:
-                f = open("out/errors_while_encoding.txt", "a")
                 f.write(str(str(name) + " --> " + str(res)) + " - wrong length != 3\n")
-                f.close()
-            if res[i] not in refAminos:
-                f = open("out/errors_while_encoding.txt", "a")
+            if res[i].lower() not in refAminos:
                 f.write(str(str(name) + " --> " + str(res)) + " - not it ref aminos\n")
-                f.close()
-
+            f.close()
     return res
 
 
