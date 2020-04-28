@@ -103,7 +103,7 @@ def clear_logs(filename="out/errors_while_encoding.txt"):
     outfile.close()
 
 
-def prepare_data(filename="data/sp1.stetch.faa", annotation_mod=False, method=False):
+def prepare_data(filename="data/nrp2.faa", annotation_mod=False, method=False):
     print(filename)
     if method:
         tmp_res = load_data(filename)

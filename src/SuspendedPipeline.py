@@ -8,10 +8,9 @@ class SuspendedPipeline:
     dict_handler_key = False
     @staticmethod
     def process(ref_s, ref_dict):
-        print(ref_dict)
+        ref_s = ref_s[1:]
         pos_res = {}
         for item in ref_dict:
-            assert len(item) == len(ref_s)
             out = 0
             for i in range(len(ref_s)):
                 tmp_dict = ref_dict[item][i]

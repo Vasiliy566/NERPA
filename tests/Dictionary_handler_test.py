@@ -38,8 +38,11 @@ def test_handle_name_string():
 
 def test_get_variants():
     create_test_file()
-    test_dict = prepare_data(filename="data/nrp2.faa", method=True)
+    test_dict = prepare_data(filename="data/sp1.stetch.faa", method=True)
     print(test_dict)
-    print(ClassicPipeline.process("DAWFLGNVV", test_dict))
+    res = ClassicPipeline.process("DLYNLGLIH", test_dict)
+    tmp_res = {k: v for k, v in sorted(res.items(), key=lambda tmp_res: tmp_res[1], reverse=True)}
+    print(tmp_res["cys"])
+    print(tmp_res)
 
-    pass
+
