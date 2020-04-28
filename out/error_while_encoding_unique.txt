@@ -1,65 +1,427 @@
-Q6WZ98_A1_blys --> ['blys'] - wrong length != 3
-BGC0000376_BAP16689.1_223_mod1_6cl-4hydroxyindole-3-carboxylic --> ['carboxylic'] - wrong length != 3
-Q09164_A6_abu --> ['abu'] - not it ref aminos
-Q83VS0_A8_18__dhab|dht --> ['dhab', 'dht'] - wrong length != 3
-Q8G985/24744795_ALod_phe-ac --> ['ac'] - wrong length != 3
-Q8KLL5_A1_4__hpg|hpg2cl --> ['hpg', 'hpg2cl'] - wrong length != 3
-Q9C1G0v2_A1_aad --> ['aad'] - not it ref aminos
-Q8NJX1_A7_abu|iva --> ['abu', 'iva'] - not it ref aminos
-Q939Z1_A2_bht --> ['bht'] - not it ref aminos
-Q5DIV7_A4_horn --> ['horn'] - wrong length != 3
-Q8KLL5_A2_hpg|hpg2cl --> ['hpg', 'hpg2cl'] - wrong length != 3
-Q8NJX1_A5_abu|iva --> ['abu', 'iva'] - not it ref aminos
-Q9FDT8_ALod_phe-ac --> ['ac'] - wrong length != 3
-CCJ67640.1_3780_mod4_hse --> ['hse'] - not it ref aminos
-BGC0000431_EFE73308.1_231_mod1_cysa --> ['cysa'] - wrong length != 3
-BGC0000371_BAH31686.1_4563_mod4_horn --> ['horn'] - wrong length != 3
-Q8KLL5_A3_6__bht --> ['bht'] - not it ref aminos
-BGC0000456_BAO73252.1_996_mod1_athr|ser --> ['athr', 'ser'] - wrong length != 3
-Q8J0L6_A1_lys-erg --> ['erg'] - not it ref aminos
-P27743_A1_aad --> ['aad'] - not it ref aminos
-O52820_A2_5__hpg|hpg2cl --> ['hpg', 'hpg2cl'] - wrong length != 3
-Q9Z4X6_A6_hpg|hpg2cl --> ['hpg', 'hpg2cl'] - wrong length != 3
-P26046_A1_aad --> ['aad'] - not it ref aminos
-YP_702283.1_1525_mod2_fhorn --> ['fhorn'] - wrong length != 3
-BGC0000419_AIG79243.1_1041_mod2_bht --> ['bht'] - not it ref aminos
-Q9RFM9_A1_dhb|sal --> ['dhb', 'sal'] - not it ref aminos
-CBG75492_2792_mod3_nme-fhorn --> ['fhorn'] - wrong length != 3
-Q70AZ7_A2_5__hpg|hpg2cl --> ['hpg', 'hpg2cl'] - wrong length != 3
-Q54356_A1_pro-4p --> ['4p'] - wrong length != 3
-Q5DIP4_A4_7__horn --> ['horn'] - wrong length != 3
-BGC0000371_BAH33409.1_3340_mod3_horn --> ['horn'] - wrong length != 3
-P25464_A1_aad --> ['aad'] - not it ref aminos
-BGC0000414_BAO84864.1_768_mod1_glycolic-acid --> ['acid'] - wrong length != 3
-BGC0001036_AGZ15458.1_478_mod1_piperazic --> ['piperazic'] - wrong length != 3
-BGC0000418_AHF20584.1_3410_mod3_bht --> ['bht'] - not it ref aminos
-simA_mod7_sar --> ['sar'] - not it ref aminos
-Q54959_A2_abu|iva --> ['abu', 'iva'] - not it ref aminos
-Q9RK14_A1_orn|horn --> ['orn', 'horn'] - wrong length != 3
-Q8NJX1_A12_abu|iva --> ['abu', 'iva'] - not it ref aminos
-Q8Z8L1_A1_dhb|sal --> ['dhb', 'sal'] - not it ref aminos
-O33743_A_blys --> ['blys'] - wrong length != 3
-Q8NJX1_A16_abu|iva --> ['abu', 'iva'] - not it ref aminos
-Q8CV01_A1_dhb|sal --> ['dhb', 'sal'] - not it ref aminos
-BGC0000423_CBG75492.1_240_mod1_fhorn --> ['fhorn'] - wrong length != 3
-Q939Y2_A1_8__bht|tyr --> ['bht', 'tyr'] - not it ref aminos
-BGC0001036_AGZ15459.1_694_mod1_piperazic --> ['piperazic'] - wrong length != 3
-EPE34341.1_3930_mod4_4oh-5oh-hty --> ['hty'] - not it ref aminos
-Q5J1Q7_A3_hpg|hpg2cl --> ['hpg', 'hpg2cl'] - wrong length != 3
-Q01886_A4_aeo --> ['aeo'] - not it ref aminos
-Q83VS0_A4_14__dhab|dht --> ['dhab', 'dht'] - wrong length != 3
-CBG75492_5304_mod5_d-cyclo-horn --> ['horn'] - wrong length != 3
-Q56950b_A1_dhb|sal --> ['dhb', 'sal'] - not it ref aminos
-Q00869_A1_hyv --> ['hyv'] - not it ref aminos
-Q5J1Q7_A1_hpg|hpg2cl --> ['hpg', 'hpg2cl'] - wrong length != 3
-O07944_A4_gly-ph --> ['ph'] - wrong length != 3
-Q09164_A7_gly|sar --> ['gly', 'sar'] - not it ref aminos
-BGC0001147_AIS24862.1_37_mod1_glycy --> ['glycy'] - wrong length != 3
-YP_631961.1_11304_mod8_blys --> ['blys'] - wrong length != 3
-Q8NJX1_A18_val-vol --> ['vol'] - not it ref aminos
-P07702_A1_aad --> ['aad'] - not it ref aminos
-Q70AZ7_A3_6__bht --> ['bht'] - not it ref aminos
-Q7WRJ0/31616733_ALod_phe-ac --> ['ac'] - wrong length != 3
-Q9RLP6_A4_alaninol --> ['alaninol'] - wrong length != 3
-P40976_A1_aad --> ['aad'] - not it ref aminos
-P10378/2506183_A1_dhb|sal --> ['dhb', 'sal'] - not it ref aminos
+>BGC0000400_AGM16414.1_1316_mod2_lys
+ --> ['lys\n'] - wrong length != 3
+>AHZ34233.1_1522_mod2_gln
+>Q70JZ8_A1_asn
+>BGC0000425_AFH75321.1_3778_mod4_d-leu
+>AEC14347.1_567_mod1_phe
+>XP_754329.2_1103_mod2_ala
+>Q84BC7_A2_5__ser
+>Q6WZ98_A1_blys
+>AHZ34232.1_1547_mod2_leu
+>BGC0000376_BAP16689.1_223_mod1_6cl-4hydroxyindole-3-carboxylic
+>Q9RLP6v2_A3_ala
+>Q09164_A6_abu
+>O33743_A4_8__val
+>AHZ20774.1_3047_mod3_gly
+>Q6YK39_A1_ser
+>Q83VS0_A8_18__dhab|dht
+>BGC0000398_AFH75330.1_584_mod1_leu
+>Q70LM7_A2_gly
+>Q9RLP6v2_A2_thr
+>Q83VS1_A1_ala
+>BGC0000439_AHH53508.1_483_mod1_glu
+>EWS95124_2422_mod3_ala|gly
+>XP_002568558.1_227_mod1_trp
+>BGC0000400_AGM16414.1_277_mod1_val
+>AHZ34233.1_2589_mod3_val
+>BGC0000439_AHH53506.1_3045_mod3_asp
+>Q9R9J0_A4_pro
+>BGC0000423_CBG75492.1_1712_mod2_ser
+>P39847_A1_glu
+>AEA30272.1_2611_mod3_asp|bme-asp
+>BGC0000376_BAP16699.1_1300_mod1_ser
+>BGC0000292_XP_001212648.1_529_mod1_phe
+>AEU11003.1_1620_mod2_phe
+>Q9Z4X6_A5_asp
+>BGC0000369_AHZ20784.1_1992_mod2_glu|tyr
+>Q8G985/24744795_ALod_phe-ac
+>Q8KLL5_A1_4__hpg|hpg2cl
+>O52819_A1_leu
+>P71717_A1_ser|thr
+>simA_mod1_d-ala
+>BGC0001045_AFR69334.1_3500_mod3_ile|val
+>BGC0001125_AIW82283.1_552_mod1_deoxy-thr
+>Q9C1G0v2_A1_aad
+>AEA30273.1_3652_mod4_d-trp
+>Q70KJ7_A3_leu
+>BGC0000398_AFH75330.1_2671_mod3_ser
+>Q8NJX1_A7_abu|iva
+>Q8CJX2_A2_11__trp
+>Q8GAQ3_A1_3__phe
+>BGC0000431_EFE73312.1_441_mod1_thr
+>BGC0000418_AHF20585.1_481_mod1_dpg
+>Q93N89_A2_trp
+>P0C063_A3_orn
+>AHF21228.1_10396_mod8_dab
+>Q6WZB2_A1_2__ser
+>Q5DIS9_A1_5__gln
+>O66069_A1_gln
+>Q9RLP6/5869932_A1_phe
+>Q939Z1_A2_bht
+>Q9K5M1_A4_6__tyr
+>BGC0001019_AHB82072.1_552_mod1_gly
+>Q93TX2/14210837_A1_8__ala
+>Q9RAH2_A3_asn
+>AGM16412.1_5576_mod5_ser
+>BGC0000414_BAO84868.1_386_mod1_me-tyr
+>removed_A2_3__val
+>BGC0000400_AGM16412.1_4054_mod4_orn
+>O68007_A1_6__lys
+>O87704_A1_3__tyr
+>Q83VS0_A10_20__dab
+>AGZ15476.1_490_mod1_3oh-leu
+>BGC0001019_AHB82071.1_2004_mod2_trp
+>P94873_A2_cys
+>Q9K5L9_A1_7__ile
+>P0C063_A4_leu
+>BGC0000419_AIG79243.1_26_mod1_hpg
+>simA_mod9_val
+>Q5DIV7_A4_horn
+>BGC0001133_XBJ1_0775_1543_mod2_ser
+>P25464_A3_val
+>Q9F638/11127897_A_dhb
+>Q8KLL5_A2_hpg|hpg2cl
+>Q70LM4_A4_16__gly
+>YP_003712466.1_562_mod1_val
+>BGC0000418_AHF20583.1_473_mod1_dpg
+>Q9FB23_A1_ser
+>Q70AZ9_A2_tyr
+>Q09164_A10_leu
+>Q9L8H4_A1_4__pro
+>BGC0000335_AID65222.1_2687_mod1_asn
+>Q8NJX1_A5_abu|iva
+>Q50857_A1_ala
+>Q45R83_A3_10__gly
+>Q9FDT8_ALod_phe-ac
+>Q79JZ1_A1_cys
+>EWS95122_476_mod1_ser
+>CCJ67640.1_3780_mod4_hse
+>BGC0000398_AFH75329.1_1652_mod2_val
+>EWS95124_9_mod1_gly
+>AEC14349.1_24_mod1_val
+>BGC0000431_EFE73308.1_231_mod1_cysa
+>AHH53508.1_1559_mod2_kyn
+>BGC0000371_BAH31686.1_4563_mod4_horn
+>Q8KLL5_A3_6__bht
+>AGM16414.1_2358_mod3_ile
+>BGC0000464_CDG17980.1_3751_mod4_leu
+>Q5DIS7_A2_dab
+>BGC0000456_BAO73252.1_996_mod1_athr|ser
+>Q8J0L6_A1_lys-erg
+>BGC0000449_AHF21228.1_3575_mod3_gly
+>P27743_A1_aad
+>AEA30274.1_3073_mod3_boh-d-leu
+>Q9C1G0v2_A2_cys
+>Q9FB27_A1_asn
+>BGC0000464_CDG17981.1_533_mod1_leu
+>Q9FDB3_A3_3__val
+>CCJ67640.1_4826_mod5_d-dab
+>CCA29202.1_1497_mod2_cys
+>Q5DIP3_A3_orn
+>O52820_A2_5__hpg|hpg2cl
+>Q9Z4X5_A2_8__gly
+>O07944_A1_pro
+>Q6VT95_A1_5__gly
+>BGC0000376_BAP16684.1_33_mod1_trp|6cl-trp
+>O85168_A5_arg
+>O87314_A3_orn
+>Q45295_A2_leu
+>BGC0001166_AGQ43600.1_1838_mod2_ala
+>O68008_A1_8__ile
+>Q5DIV7_A2_arg
+>Q7WZ65_A1_dpg
+>BGC0001178_AGS77308.1_476_mod1_dpg
+>Q70KJ7_A1_glu
+>CBG75492_4248_mod4_orn
+>BGC0000439_AHH53506.1_475_mod1_trp
+>AEU11006.1_4186_mod2_gly
+>AEA30273.1_1527_mod2_pro
+>Q8NJX1_A6_gln
+>Q7WRQ4_A2_9__me-asp
+>simA_mod11_ala
+>Q01886v1_A1_pro
+>AEF33078.1_1540_mod2_33p-l-ala
+>Q9Z4X6_A6_hpg|hpg2cl
+>O07944_A2_phe
+>BGC0000463_AGM14934.1_3713_mod4_ile|val
+>BGC0000456_BAO73252.1_6319_mod5_tyr
+>P26046_A1_aad
+>BGC0000464_CDG17980.1_2686_mod3_val
+>NP_216896.3_457_mod1_lys
+>Q5V8A8_A1_val
+>YP_702283.1_1525_mod2_fhorn
+>O30980_A2_glu
+>AFZ61501.1_498_mod1_leu
+>Q5MD35_A1_cys
+>O30408_A2_3__phe
+>BGC0000419_AIG79243.1_1041_mod2_bht
+>Q9RFM9_A1_dhb|sal
+>AHF21228.1_6670_mod5_trp
+>Q9Z5F4_A1_gly
+>YP_631961.1_10241_mod7_tyr
+>BGC0000463_AGM14925.1_1531_mod2_glu
+>O68006_A5_ile
+>CCJ67640.1_5904_mod6_lys
+>Q5DIP4_A3_6__ser
+>BGC0000431_EFE73312.1_5470_mod5_thr
+>Q09164_A5_bmt
+>Q8G983/24744797_A2_7__ala
+>Q2XNF8_A1_2__ala
+>O87313_A2_b-ala
+>EPE34341.1_6121_mod6_3oh-pro|3oh-4me-pro
+>P0A398_A1_ala
+>BGC0000425_AFH75321.1_581_mod1_d-gln
+>CBG75492_2792_mod3_nme-fhorn
+>Q70AZ7_A2_5__hpg|hpg2cl
+>Q54356_A1_pro-4p
+>O85740_A1_3__cys
+>Q5DIP4_A4_7__horn
+>BGC0000371_BAH33409.1_3340_mod3_horn
+>BGC0001045_AFR69334.1_2032_mod2_d-cys
+>Q8KLL4v1_A1_dpg
+>BGC0000299_ERG36783.1_2037_mod2_asn
+>BGC0000463_AGM14934.1_1604_mod2_leu
+>P25464_A1_aad
+>BGC0000414_BAO84864.1_768_mod1_glycolic-acid
+>Q70LM4_A1_13__trp
+>Q50E73_A3_8__ala
+>Q08787_A1_7__leu
+>BGC0000314_WP_010369428.1_544_mod1_val
+>O87606_A2_orn
+>BGC0000974_AIR74925.1_516_mod1_gly
+>Q9L8H4_A3_6__val
+>BGC0001036_AGZ15458.1_478_mod1_piperazic
+>Q50E73_A1_6__orn
+>BGC0001149_CDF96614.1_480_mod1_ser
+>BGC0000425_AFH75320.1_1563_mod2_d-pro
+>Q9FDB3_A2_2__pro
+>BGC0000418_AHF20584.1_3410_mod3_bht
+>BGC0000463_AGM14933.1_5818_mod6_ser
+>Q83Y49_A1_val
+>simA_mod7_sar
+>Q8NJX1_A11_leu
+>Q8NJX1_A13_pro
+>AGC65513.1_491_mod1_phe|tyr
+>O68006_A4_glu
+>Q54959_A2_abu|iva
+>BGC0001133_XBJ1_0774_2057_mod2_leu
+>Q5ZPB0_A1_pip
+>BGC0000449_AHF21229.1_280_mod1_val
+>P94460_A1_ile
+>O69246_A2_5__asp
+>O30980_A1_pro
+>AEA30274.1_484_mod1_aoh-gly
+>Q9ZGA6_A1_11__pip
+>BGC0001036_AGZ15459.1_2235_mod2_3oh-3me-pro
+>Q9Z4X6_A3_trp
+>Q9RK14_A1_orn|horn
+>Q8NJX1_A12_abu|iva
+>P0C062_A1_1__phe
+>YP_116976.1_488_mod1_lys
+>Q8Z8L1_A1_dhb|sal
+>O33743_A_blys
+>Q50E73_A6_11__ser
+>Q9RAH4_A3_pro|me-pro
+>Q9I157_A1_2__glu
+>AEC14348.1_1108_mod1_phe
+>BGC0000425_AFH75322.1_2740_mod3_ile
+>Q01886/62867029_A3_ala
+>O76858_A1_b-ala
+>BGC0000464_CDG17982.1_1657_mod2_b-ala
+>Q70LM7_A1_val
+>Q8RTG4_A1_arg
+>EPE34341.1_685_mod1_4oh-5oh-orn
+>Q8NJX1_A16_abu|iva
+>EPE34341.1_2860_mod3_4oh-pro
+>BGC0000371_BAH33409.1_2360_mod2_gly
+>simA_mod3_leu
+>Q2XNF8_A2_3__ala
+>O85168_A3_dab
+>Q8CV01_A1_dhb|sal
+>BGC0000439_AHH53507.1_2589_mod3_ala
+>AEA30272.1_3675_mod4_gly
+>Q9FB27_A2_his
+>Q8NJX1_A3_ala
+>BGC0000423_CBG75492.1_240_mod1_fhorn
+>Q939Y2_A1_8__bht|tyr
+>O30408_A3_4__phe
+>Q70JX1_A2_orn
+>O52819_A3_asn
+>O94205_A3_pro
+>BGC0000449_AHF21229.1_2929_mod3_ala
+>YP_631961.1_3708_mod3_goh-val
+>BGC0000371_BAH33409.1_494_mod1_arg
+>Q8NJX1_A4_val
+>Q2XNF8_A3_4__arg
+>simA_mod2_leu
+>O85168_A6_phe
+>AHF21229.1_1387_mod3_ala
+>BGC0001036_AGZ15459.1_694_mod1_piperazic
+>BGC0001019_AHB82069.1_1590_mod1_asn
+>Q6DNE7_A1_4__cys
+>Q45R85_A4_thr
+>BGC0000426_AGZ03651.1_1997_mod2_trp
+>Q83Y48_A1_lys
+>EFE73313.1_2638_mod3_gly
+>Q09164/440169_A11_ala
+>CCJ67636.1_1568_mod2_d-pro
+>EPE34341.1_3930_mod4_4oh-5oh-hty
+>BGC0001036_AGZ15455.1_29_mod1_ala|leu|val
+>Q5J1Q7_A3_hpg|hpg2cl
+>XP_001220460.1_3743_mod1_trp
+>P94873_A3_val
+>Q01886_A4_aeo
+>O85739_A1_cys
+>Q5V8A8_A2_trp
+>Q45R83_A4_11__asn
+>P27206_A2_leu
+>Q8NJX1_A10_ser
+>BGC0000431_EFE73313.1_1569_mod2_lys
+>BGC0000335_AID65224.1_1515_mod2_phe
+>O94205_A2_phe
+>Q83VS0_A4_14__dhab|dht
+>Q9RBY6_A1_thr
+>Q45R82_A2_13__ile|val
+>P39847_A2_val
+>Q6WZB2_A2_3__ser
+>Q70LM5_A6_12__leu
+>Q50E73_A5_10__gly
+>P39581_A1_ala
+>BGC0001125_AIW82277.1_2006_mod2_pro
+>O33743_A3_7__tyr
+>Q45R85_A2_glu
+>CBG75492_5304_mod5_d-cyclo-horn
+>Q56950b_A1_dhb|sal
+>P68878_A1_ala
+>O68008_A2_9__phe
+>YP_631961.1_12373_mod9_ala
+>YP_116975.1_508_mod1_lys
+>BGC0000436_EJK79842.1_762_mod1_ile|val
+>Q8CJX2_A1_10__glu|3-me-glu
+>CCJ67636.1_2656_mod3_d-ser
+>Q9R9J0_A1_tyr
+>simA_mod10_leu
+>AGC65514.1_4147_mod3_val
+>AGZ15460.1_476_mod1_noh-val
+>Q00869_A1_hyv
+>EPE34341.1_5024_mod5_3oh-gln
+>simA_mod8_leu
+>AGC65517.1_453_mod1_tyr
+>AEA30272.1_1550_mod2_ala
+>Q5J1Q7_A1_hpg|hpg2cl
+>Q70LM5_A5_11__trp
+>Q50JA3_A2_leu
+>AFZ61501.1_1515_mod2_glu
+>Q8NJX1_A8_ala
+>EWS95124_960_mod2_hpg
+>O07944_A4_gly-ph
+>O30980_A3_9__tyr
+>Q09164_A7_gly|sar
+>AGZ15458.1_2022_mod2_noh-d-ala|oh-d-ala
+>BGC0001045_AFR69334.1_544_mod1_d-ala
+>Q8G982_A1_8__leu
+>O85168_A1_ser
+>BGC0001149_CDF96614.1_1540_mod2_pro
+>AEI70245.1_445_mod1_ala
+>Q2VQ15_A4_7__lys
+>Q84BC7_A3_6__pro|me-pro
+>BGC0000456_BAO73252.1_4122_mod3_pro
+>P35854_A1_ala
+>BGC0000314_WP_010369430.1_2041_mod2_ile
+>Q50E73_A4_9__asp
+>BGC0000376_BAP16697.1_524_mod1_d-ala
+>Q09164_A9_val
+>Q333U7_A1_3__cys
+>Q45R85_A1_trp
+>Q8NJX1_A14_leu|val
+>BGC0000456_BAO73252.1_5226_mod4_gln
+>Q884E5_A1_asp
+>BGC0001147_AIS24862.1_37_mod1_glycy
+>YP_631961.1_11304_mod8_blys
+>Q2VQ15_A2_5__val
+>Q8NJX1_A2_gly
+>Q8NJX1_A18_val-vol
+>BGC0001035_EPE34341.1_1766_mod2_3oh-gln
+>Q9FB24_A1_thr
+>O68008_A3_10__his
+>XP_754329.2_55_mod1_trp
+>P07702_A1_aad
+>AHF21228.1_11933_mod9_phe
+>Q70AZ7_A3_6__bht
+>Q8GGN5_ADiscrete_ala
+>ADL64235_1458_mod2_phe
+>Q7WRJ0/31616733_ALod_phe-ac
+>Q7WRQ4_A1_8__leu
+>CCA29202.1_393_mod1_gly
+>Q5DIV8_A1_5__lys
+>Q9RLP6_A4_alaninol
+>Q9FDB2_A_dhb
+>O94205_A1_ala
+>BGC0000414_BAO84866.1_500_mod1_4-5-dehydro-arg|me-tyr
+>P40976_A1_aad
+>XP_002568558.1_1292_mod2_his
+>O30408_A1_2__pro
+>BGC0000451_CP001614.2_15150-22349_mod1_orn
+>BGC0000376_BAP16693.1_511_mod1_alpha-me-ser
+>O85168_A8_asp
+>Q54298_A1_pip
+>Q45R83_A1_8__lys
+>Q09164_A4_val
+>BGC0000426_AGZ03651.1_480_mod1_ala
+>P0C063_A1_pro
+>Q70LM6_A1_3__ala
+>YP_631961.1_5832_mod5_val
+>Q9FDB0_A1_thr
+>Q9F636_A1_lys
+>Q9RAH2_A2_gly
+>AHH53506.1_1527_mod2_asp
+>ChaP_mod1_trp
+>O07944_A3_pip
+>BGC0000464_CDG17980.1_1601_mod2_ala
+>simA_mod5_bmt
+>BGC0001168_509516289_4_mod1_arg
+>AEA30273.1_2593_mod3_boh-ome-tyr
+>Q53526_A1_ala
+>Q8G982_A2_9__me-asp
+>Q00869_A2_val
+>YP_116977.1_584_mod1_thr
+>Q83VS0_A12_22__tyr
+>ChaP_mod2_ser
+>Q884E3_A1_asp
+>BGC0000382_AIT38302.1_845_mod1_leu
+>Q9RNA9_A1_arg
+>simA_mod4_val
+>Q70LM4_A3_15__trp
+>YP_631961.1_2650_mod2_leu
+>Q09164_A1_ala
+>BGC0000371_BAH31686.1_1984_mod2_ser
+>P10378/2506183_A1_dhb|sal
+>BGC0001178_AGS77310.1_492_mod1_dpg
+phg --> ['phg'] - not it ref aminos
+lys-b --> ['b'] - wrong length != 3
+bht --> ['bht'] - not it ref aminos
+dhpg --> ['dhpg'] - wrong length != 3
+hforn --> ['hforn'] - wrong length != 3
+ala-b --> ['b'] - wrong length != 3
+horn --> ['horn'] - wrong length != 3
+aad --> ['aad'] - not it ref aminos
+sal --> ['sal'] - not it ref aminos
+aeo --> ['aeo'] - not it ref aminos
+4ppro --> ['4ppro'] - wrong length != 3
+abu --> ['abu'] - not it ref aminos
+tcl --> ['tcl'] - not it ref aminos
+d-lyserg --> ['lyserg'] - wrong length != 3
+iva --> ['iva'] - not it ref aminos
+vol --> ['vol'] - not it ref aminos
+alaninol --> ['alaninol'] - wrong length != 3
+N-(1,1-dimethyl-1-allyl)Trp --> ['allyl)Trp'] - wrong length != 3
+val/ile --> ['val/ile'] - wrong length != 3
+val/ile/alloile --> ['val/ile/alloile'] - wrong length != 3
+hasn --> ['hasn'] - wrong length != 3
+haorn --> ['haorn'] - wrong length != 3
+2-oxo-isovaleric-acid --> ['acid'] - wrong length != 3
+alpha-hydroxy-isocaproic-acid --> ['acid'] - wrong length != 3
+hiv-d --> ['d'] - wrong length != 3
+LDAP --> ['LDAP'] - wrong length != 3
+cap --> ['cap'] - not it ref aminos
+trp/tyr --> ['trp/tyr'] - wrong length != 3

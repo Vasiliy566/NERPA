@@ -19,8 +19,11 @@ class ClassicPipeline:
 
         for seq in ref_dict.keys():
             names.append(ref_dict[seq])
+            if len(seq) == 9:
+                logger.info(f"{seq} 1st symbol was trimmed ")
+                seq = seq[1:]
+
             scores.append(0)
-            seq = seq[1:]
             for i in range(8):
                 if seq[i] == data[i]:
                     scores[-1] += 1

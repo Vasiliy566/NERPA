@@ -35,9 +35,11 @@ def load_data(filename="data/sp1.stetch.faa"):
 
         if not line2 and not line1:
             break  # EOF
-        if len(line2) == 9:
-            break
-        data[line2[:-1]] = line1[1:-1]
+        if line1[-1] == "\n":
+            line1 = line1[:-1]
+        if line2[-1] == "\n":
+            line2 = line2[:-1]
+        data[line2[1:]] = line1
     f.close()
     return data
 
@@ -94,9 +96,10 @@ def clear_logs(filename="out/errors_while_encoding.txt"):
     lines_seen = set()  # holds lines already seen
     outfile = open("out/error_while_encoding_unique.txt", "w")
     for line in open(filename, "r"):
-        if line.split()[0] not in lines_seen:  # not a duplicate
-            outfile.write(line)
-            lines_seen.add(line.split()[0])
+        if len(line) is not None:
+            if line.split()[0] not in lines_seen:  # not a duplicate
+                outfile.write(line)
+                lines_seen.add(line.split()[0])
     outfile.close()
 
 
