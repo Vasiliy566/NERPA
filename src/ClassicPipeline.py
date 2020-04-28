@@ -18,12 +18,21 @@ class ClassicPipeline:
             data = data[1:]
 
         for seq in ref_dict.keys():
-            names.append(ref_dict[seq])
-            scores.append(0)
-            seq = seq[1:]
+            if ref_dict[seq] not in names:
+                names.append(ref_dict[seq])
+                scores.append(0)
+
+            if len(seq) == 9:
+                logger.info(f"{seq} 1st symbol was trimmed ")
+                seq = seq[1:]
+            tmp_score = 0
+            assert len(data) == len(seq)
             for i in range(8):
                 if seq[i] == data[i]:
-                    scores[-1] += 1
+                    tmp_score += 1
+            if scores[names.index(ref_dict[seq])] < tmp_score:
+                scores[names.index(ref_dict[seq])] = tmp_score
+
         logger.debug(f"classic finished work with {data}")
 
         for i in range(len(names)):
