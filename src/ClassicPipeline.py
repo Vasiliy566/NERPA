@@ -6,6 +6,7 @@ logger = logging.getLogger(__name__)
 class ClassicPipeline:
     # TODO: replace with enum when it will be a few piplines
     dict_handler_key = True
+
     @staticmethod
     def process(data, ref_dict):
         # Classic algorithm like in nrps-predictor 2

@@ -1,0 +1,102 @@
+Q6WZ98_A1_blys --> ['blys'] - wrong length != 3
+BGC0000376_BAP16689.1_223_mod1_6cl-4hydroxyindole-3-carboxylic --> ['carboxylic'] - wrong length != 3
+Q09164_A6_abu --> ['abu'] - not it ref aminos
+Q83VS0_A8_18__dhab|dht --> ['dhab', 'dht'] - wrong length != 3
+Q8G985/24744795_ALod_phe-ac --> ['ac'] - wrong length != 3
+Q8KLL5_A1_4__hpg|hpg2cl --> ['hpg', 'hpg2cl'] - not it ref aminos
+Q9C1G0v2_A1_aad --> ['aad'] - not it ref aminos
+Q8NJX1_A7_abu|iva --> ['abu', 'iva'] - not it ref aminos
+BGC0000418_AHF20585.1_481_mod1_dpg --> ['dpg'] - not it ref aminos
+P0C063_A3_orn --> ['orn'] - not it ref aminos
+AHF21228.1_10396_mod8_dab --> ['dab'] - not it ref aminos
+Q939Z1_A2_bht --> ['bht'] - not it ref aminos
+BGC0000400_AGM16412.1_4054_mod4_orn --> ['orn'] - not it ref aminos
+Q83VS0_A10_20__dab --> ['dab'] - not it ref aminos
+BGC0000419_AIG79243.1_26_mod1_hpg --> ['hpg'] - not it ref aminos
+Q5DIV7_A4_horn --> ['horn'] - wrong length != 3
+Q9F638/11127897_A_dhb --> ['dhb'] - not it ref aminos
+Q8KLL5_A2_hpg|hpg2cl --> ['hpg', 'hpg2cl'] - not it ref aminos
+BGC0000418_AHF20583.1_473_mod1_dpg --> ['dpg'] - not it ref aminos
+Q8NJX1_A5_abu|iva --> ['abu', 'iva'] - not it ref aminos
+Q9FDT8_ALod_phe-ac --> ['ac'] - wrong length != 3
+CCJ67640.1_3780_mod4_hse --> ['hse'] - not it ref aminos
+BGC0000431_EFE73308.1_231_mod1_cysa --> ['cysa'] - wrong length != 3
+AHH53508.1_1559_mod2_kyn --> ['kyn'] - not it ref aminos
+BGC0000371_BAH31686.1_4563_mod4_horn --> ['horn'] - wrong length != 3
+Q8KLL5_A3_6__bht --> ['bht'] - not it ref aminos
+Q5DIS7_A2_dab --> ['dab'] - not it ref aminos
+BGC0000456_BAO73252.1_996_mod1_athr|ser --> ['athr', 'ser'] - wrong length != 3
+Q8J0L6_A1_lys-erg --> ['erg'] - not it ref aminos
+P27743_A1_aad --> ['aad'] - not it ref aminos
+CCJ67640.1_4826_mod5_d-dab --> ['dab'] - not it ref aminos
+Q5DIP3_A3_orn --> ['orn'] - not it ref aminos
+O52820_A2_5__hpg|hpg2cl --> ['hpg', 'hpg2cl'] - not it ref aminos
+O87314_A3_orn --> ['orn'] - not it ref aminos
+Q7WZ65_A1_dpg --> ['dpg'] - not it ref aminos
+BGC0001178_AGS77308.1_476_mod1_dpg --> ['dpg'] - not it ref aminos
+CBG75492_4248_mod4_orn --> ['orn'] - not it ref aminos
+Q9Z4X6_A6_hpg|hpg2cl --> ['hpg', 'hpg2cl'] - not it ref aminos
+P26046_A1_aad --> ['aad'] - not it ref aminos
+YP_702283.1_1525_mod2_fhorn --> ['fhorn'] - wrong length != 3
+BGC0000419_AIG79243.1_1041_mod2_bht --> ['bht'] - not it ref aminos
+Q9RFM9_A1_dhb|sal --> ['dhb', 'sal'] - not it ref aminos
+Q09164_A5_bmt --> ['bmt'] - not it ref aminos
+CBG75492_2792_mod3_nme-fhorn --> ['fhorn'] - wrong length != 3
+Q70AZ7_A2_5__hpg|hpg2cl --> ['hpg', 'hpg2cl'] - not it ref aminos
+Q54356_A1_pro-4p --> ['4p'] - wrong length != 3
+Q5DIP4_A4_7__horn --> ['horn'] - wrong length != 3
+BGC0000371_BAH33409.1_3340_mod3_horn --> ['horn'] - wrong length != 3
+Q8KLL4v1_A1_dpg --> ['dpg'] - not it ref aminos
+P25464_A1_aad --> ['aad'] - not it ref aminos
+BGC0000414_BAO84864.1_768_mod1_glycolic-acid --> ['acid'] - wrong length != 3
+O87606_A2_orn --> ['orn'] - not it ref aminos
+BGC0001036_AGZ15458.1_478_mod1_piperazic --> ['piperazic'] - wrong length != 3
+Q50E73_A1_6__orn --> ['orn'] - not it ref aminos
+BGC0000418_AHF20584.1_3410_mod3_bht --> ['bht'] - not it ref aminos
+simA_mod7_sar --> ['sar'] - not it ref aminos
+Q54959_A2_abu|iva --> ['abu', 'iva'] - not it ref aminos
+Q5ZPB0_A1_pip --> ['pip'] - not it ref aminos
+Q9ZGA6_A1_11__pip --> ['pip'] - not it ref aminos
+Q9RK14_A1_orn|horn --> ['orn', 'horn'] - not it ref aminos
+Q8NJX1_A12_abu|iva --> ['abu', 'iva'] - not it ref aminos
+Q8Z8L1_A1_dhb|sal --> ['dhb', 'sal'] - not it ref aminos
+O33743_A_blys --> ['blys'] - wrong length != 3
+EPE34341.1_685_mod1_4oh-5oh-orn --> ['orn'] - not it ref aminos
+Q8NJX1_A16_abu|iva --> ['abu', 'iva'] - not it ref aminos
+O85168_A3_dab --> ['dab'] - not it ref aminos
+Q8CV01_A1_dhb|sal --> ['dhb', 'sal'] - not it ref aminos
+Q9FB27_A2_his --> ['his'] - not it ref aminos
+BGC0000423_CBG75492.1_240_mod1_fhorn --> ['fhorn'] - wrong length != 3
+Q939Y2_A1_8__bht|tyr --> ['bht', 'tyr'] - not it ref aminos
+Q70JX1_A2_orn --> ['orn'] - not it ref aminos
+BGC0001036_AGZ15459.1_694_mod1_piperazic --> ['piperazic'] - wrong length != 3
+EPE34341.1_3930_mod4_4oh-5oh-hty --> ['hty'] - not it ref aminos
+Q5J1Q7_A3_hpg|hpg2cl --> ['hpg', 'hpg2cl'] - not it ref aminos
+Q01886_A4_aeo --> ['aeo'] - not it ref aminos
+Q83VS0_A4_14__dhab|dht --> ['dhab', 'dht'] - wrong length != 3
+CBG75492_5304_mod5_d-cyclo-horn --> ['horn'] - wrong length != 3
+Q56950b_A1_dhb|sal --> ['dhb', 'sal'] - not it ref aminos
+Q00869_A1_hyv --> ['hyv'] - not it ref aminos
+Q5J1Q7_A1_hpg|hpg2cl --> ['hpg', 'hpg2cl'] - not it ref aminos
+EWS95124_960_mod2_hpg --> ['hpg'] - not it ref aminos
+O07944_A4_gly-ph --> ['ph'] - wrong length != 3
+Q09164_A7_gly|sar --> ['gly', 'sar'] - not it ref aminos
+BGC0001147_AIS24862.1_37_mod1_glycy --> ['glycy'] - wrong length != 3
+YP_631961.1_11304_mod8_blys --> ['blys'] - wrong length != 3
+Q8NJX1_A18_val-vol --> ['vol'] - not it ref aminos
+O68008_A3_10__his --> ['his'] - not it ref aminos
+P07702_A1_aad --> ['aad'] - not it ref aminos
+Q70AZ7_A3_6__bht --> ['bht'] - not it ref aminos
+Q7WRJ0/31616733_ALod_phe-ac --> ['ac'] - wrong length != 3
+Q9RLP6_A4_alaninol --> ['alaninol'] - wrong length != 3
+Q9FDB2_A_dhb --> ['dhb'] - not it ref aminos
+P40976_A1_aad --> ['aad'] - not it ref aminos
+XP_002568558.1_1292_mod2_his --> ['his'] - not it ref aminos
+BGC0000451_CP001614.2_15150-22349_mod1_orn --> ['orn'] - not it ref aminos
+Q54298_A1_pip --> ['pip'] - not it ref aminos
+O07944_A3_pip --> ['pip'] - not it ref aminos
+simA_mod5_bmt --> ['bmt'] - not it ref aminos
+P10378/2506183_A1_dhb|sal --> ['dhb', 'sal'] - not it ref aminos
+FWLVTMVH --> ['FWLVTMVH'] - wrong length != 3
+ AEC14347.1_567 --> ['567'] - not it ref aminos
+AYVVFAVW --> ['AYVVFAVW'] - wrong length != 3

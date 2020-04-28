@@ -2,9 +2,9 @@ import logging
 import pandas as pd
 import csv
 
-from ClassicPipeline import ClassicPipeline
-from SuspendedPipeline import SuspendedPipeline
-from dictionaryHandler import prepare_data
+from src.ClassicPipeline import ClassicPipeline
+from src.SuspendedPipeline import SuspendedPipeline
+from src.dictionaryHandler import prepare_data
 from src.util import toFixed
 
 logger = logging.getLogger(__name__)
@@ -13,10 +13,12 @@ logger = logging.getLogger(__name__)
 def load_test_data(filename="tests/testSource.csv"):
     df = pd.read_csv(filename)
     res = []
+    line = 0
     for item in df.values.tolist():
         str_to_add = str("ctg1\t" + str(item[4]) + "\t" + str(item[6]) + "\t" + str(item[12]))
-        if len(str(item[4])) == 10:
-            res.append(str_to_add)
+        assert (len(str(item[4])) == 10)
+        res.append(str_to_add)
+        line += 1
     return res
 
 
@@ -28,12 +30,12 @@ def export_result(data, title, filename="tests/testSource.csv"):
         for i in range(len(data)):
             data[i].insert(0, title[i])
         i = 0
+        print(len(data[0]), len(data[1]), len(data[2]), len(data[3]), len(data[4]))
         for row in csv_reader:
-            if i == 0 or not len(row[4]) == 10:
-                for j in range(len(data)):
-                    row.append(data[j][i])
-                csv_writer.writerow(row)
-                i += 1
+            for j in range(len(data)):
+                row.append(data[j][i])
+            csv_writer.writerow(row)
+            i += 1
 
 
 def calc_metric_nmax(res, max_n=5, strict=True):
@@ -95,7 +97,7 @@ def nrps_pred_2_test():
     # export_result([aa_id, ref_single_res, ref_top1_res, ref_top3_res, ref_top5_res],
     #              ["aa_id", "NRPsPred2_single", "top1_nrps", "top3_nrps", "top5_nrps"])
 
-    print("\nref score top1 = ", ref_score_top1)
+    print("ref score top1 = ", ref_score_top1)
     print("ref score top3 = ", ref_score_top3)
     print("ref score top5 = ", ref_score_top5)
 
@@ -111,8 +113,6 @@ def run_pipeline(pipeline):
     res = []
 
     for item in test_data:
-        # Suspended
-        # classic(item.split('\t')[1][:-1], defaultDict)#
 
         tmp_res = pipeline.process(item.split('\t')[1][:-1], default_dict)
         tmp_res = {k: v for k, v in sorted(tmp_res.items(), key=lambda tmp_res: tmp_res[1], reverse=True)}
@@ -136,6 +136,7 @@ def run_pipeline(pipeline):
     print("score top1 = ", score_top1)
     print("score top3 = ", score_top3)
     print("score top5 = ", score_top5)
+    print(len(all_results), " <> ", len(all_results))
     return [single_results, all_results, top1_res, top3_res, top5_res], [
         "MY_SINGEL_PRECISION" + "_classic" * int(pipeline.dict_handler_key),
         "MY_FULL_PRECISION" + "_classic" * int(pipeline.dict_handler_key), "top1", "top3", "top5"]
@@ -143,14 +144,18 @@ def run_pipeline(pipeline):
 
 def test_all():
     data, names = [], []
+
+    print("\nnrps-pred-2")
     tmp_data, tmp_names = nrps_pred_2_test()
     data += tmp_data
     names += tmp_names
+    print("Suspended-pipline")
     tmp_data, tmp_names = run_pipeline(SuspendedPipeline)
     data += tmp_data
     names += tmp_names
+    print("classic-pipline")
     tmp_data, tmp_names = run_pipeline(ClassicPipeline)
     data += tmp_data
     names += tmp_names
-    print(names)
+    logger.info(names)
     export_result(data, names)

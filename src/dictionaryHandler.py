@@ -99,6 +99,7 @@ def clear_logs(filename="out/errors_while_encoding.txt"):
 
 
 def prepare_data(filename="data/sp1.stetch.faa", annotation_mod=False, method=False):
+    print(filename)
     if method:
         tmp_res = load_data(filename)
         res = {}
