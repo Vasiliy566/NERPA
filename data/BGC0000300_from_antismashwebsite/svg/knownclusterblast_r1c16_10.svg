@@ -1,0 +1,140 @@
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg" height="230" width="800" xmlns:xlink="http://www.w3.org/1999/xlink" preserveAspectRatio="none" x="0" y="0" viewBox="0 0 800 230"  >
+<g label="Query sequence" class="clusterblast-cluster"  >
+<text class="clusterblast-acc" y="20" x="5"  >
+Query sequence</text>
+<line x1="10" x2="778.0" y2="35" style="stroke-width:1; stroke:grey; " y1="35"  />
+<polygon locus_tag="SSMG_04068" description="&lt;b&gt;SSMG_04068&lt;/b&gt;&lt;br&gt;predicted protein&lt;br&gt;Location: 4430591 - 4431389" points="221,40 222,40 227,35 222,30 221,30 221,40 " style="stroke-width:1; stroke:black; fill:white; " id="dummy-16_q0_0_all" class="clusterblast-orf"  />
+<polygon locus_tag="SSMG_04069" description="&lt;b&gt;SSMG_04069&lt;/b&gt;&lt;br&gt;proline/betaine transporter&lt;br&gt;Location: 4431385 - 4432696" points="227,40 231,40 236,35 231,30 227,30 227,40 " style="stroke-width:1; stroke:black; fill:white; " id="dummy-16_q1_0_all" class="clusterblast-orf"  />
+<polygon locus_tag="SSMG_04070" description="&lt;b&gt;SSMG_04070&lt;/b&gt;&lt;br&gt;predicted protein&lt;br&gt;Location: 4432692 - 4434222" points="236,40 243,40 248,35 243,30 236,30 236,40 " style="stroke-width:1; stroke:black; fill:white; " id="dummy-16_q2_0_all" class="clusterblast-orf"  />
+<polygon locus_tag="SSMG_04071" description="&lt;b&gt;SSMG_04071&lt;/b&gt;&lt;br&gt;predicted protein&lt;br&gt;Location: 4434196 - 4436218" points="247,40 258,40 263,35 258,30 247,30 247,40 " style="stroke-width:1; stroke:black; fill:white; " id="dummy-16_q3_0_all" class="clusterblast-orf"  />
+<polygon locus_tag="SSMG_04072" description="&lt;b&gt;SSMG_04072&lt;/b&gt;&lt;br&gt;predicted protein&lt;br&gt;Location: 4436425 - 4437238" points="264,35 269,30 270,30 270,40 269,40 264,35 " style="stroke-width:1; stroke:black; fill:white; " id="dummy-16_q4_0_all" class="clusterblast-orf"  />
+<polygon locus_tag="SSMG_04073" description="&lt;b&gt;SSMG_04073&lt;/b&gt;&lt;br&gt;major facilitator superfamily transporter permease&lt;br&gt;Location: 4437234 - 4438521" points="270,35 275,30 280,30 280,40 275,40 270,35 " style="stroke-width:1; stroke:black; fill:white; " id="dummy-16_q5_0_all" class="clusterblast-orf"  />
+<polygon locus_tag="SSMG_04074" description="&lt;b&gt;SSMG_04074&lt;/b&gt;&lt;br&gt;conserved hypothetical protein&lt;br&gt;Location: 4438628 - 4441787" points="280,40 299,40 304,35 299,30 280,30 280,40 " style="stroke-width:1; stroke:black; fill:white; " id="dummy-16_q6_0_all" class="clusterblast-orf"  />
+<polygon locus_tag="SSMG_04075" description="&lt;b&gt;SSMG_04075&lt;/b&gt;&lt;br&gt;predicted protein&lt;br&gt;Location: 4442155 - 4443325" points="307,35 312,30 315,30 315,40 312,40 307,35 " style="stroke-width:1; stroke:black; fill:white; " id="dummy-16_q7_0_all" class="clusterblast-orf"  />
+<polygon locus_tag="SSMG_04076" description="&lt;b&gt;SSMG_04076&lt;/b&gt;&lt;br&gt;acetyl coenzyme A synthetase&lt;br&gt;Location: 4443318 - 4445454" points="315,40 326,40 331,35 326,30 315,30 315,40 " style="stroke-width:1; stroke:black; fill:white; " id="dummy-16_q8_0_all" class="clusterblast-orf"  />
+<polygon locus_tag="SSMG_04077" description="&lt;b&gt;SSMG_04077&lt;/b&gt;&lt;br&gt;predicted protein&lt;br&gt;Location: 4445446 - 4446766" points="331,40 336,40 341,35 336,30 331,30 331,40 " style="stroke-width:1; stroke:black; fill:white; " id="dummy-16_q9_0_all" class="clusterblast-orf"  />
+<polygon locus_tag="SSMG_04078" description="&lt;b&gt;SSMG_04078&lt;/b&gt;&lt;br&gt;predicted protein&lt;br&gt;Location: 4446822 - 4448145" points="341,40 346,40 351,35 346,30 341,30 341,40 " style="stroke-width:1; stroke:black; fill:white; " id="dummy-16_q10_0_all" class="clusterblast-orf"  />
+<polygon locus_tag="SSMG_04079" description="&lt;b&gt;SSMG_04079&lt;/b&gt;&lt;br&gt;predicted protein&lt;br&gt;Location: 4448144 - 4449326" points="351,40 355,40 360,35 355,30 351,30 351,40 " style="stroke-width:1; stroke:black; fill:white; " id="dummy-16_q11_0_all" class="clusterblast-orf"  />
+<polygon locus_tag="SSMG_04080" description="&lt;b&gt;SSMG_04080&lt;/b&gt;&lt;br&gt;cytochrome P450&lt;br&gt;Location: 4449339 - 4450548" points="360,35 365,30 369,30 369,40 365,40 360,35 " style="stroke-width:1; stroke:black; fill:#d81515; " id="dummy-16_q12_0_all" class="clusterblast-orf"  />
+<polygon locus_tag="SSMG_04081" description="&lt;b&gt;SSMG_04081&lt;/b&gt;&lt;br&gt;predicted protein&lt;br&gt;Location: 4450544 - 4456262" points="369,35 374,30 412,30 412,40 374,40 369,35 " style="stroke-width:1; stroke:black; fill:#15d8d8; " id="dummy-16_q13_0_all" class="clusterblast-orf"  />
+<polygon locus_tag="SSMG_04082" description="&lt;b&gt;SSMG_04082&lt;/b&gt;&lt;br&gt;predicted protein&lt;br&gt;Location: 4456548 - 4457130" points="414,40 418,35 414,30 414,40 " style="stroke-width:1; stroke:black; fill:white; " id="dummy-16_q14_0_all" class="clusterblast-orf"  />
+<polygon locus_tag="SSMG_04083" description="&lt;b&gt;SSMG_04083&lt;/b&gt;&lt;br&gt;translation elongation factor EF-1, subunit alpha&lt;br&gt;Location: 4457199 - 4459032" points="419,35 424,30 432,30 432,40 424,40 419,35 " style="stroke-width:1; stroke:black; fill:white; " id="dummy-16_q15_0_all" class="clusterblast-orf"  />
+<polygon locus_tag="SSMG_04084" description="&lt;b&gt;SSMG_04084&lt;/b&gt;&lt;br&gt;sulfate adenylyltransferase subunit 2&lt;br&gt;Location: 4459028 - 4459946" points="432,35 437,30 439,30 439,40 437,40 432,35 " style="stroke-width:1; stroke:black; fill:white; " id="dummy-16_q16_0_all" class="clusterblast-orf"  />
+<polygon locus_tag="SSMG_04085" description="&lt;b&gt;SSMG_04085&lt;/b&gt;&lt;br&gt;baiE protein&lt;br&gt;Location: 4460028 - 4460502" points="440,40 443,35 440,30 440,40 " style="stroke-width:1; stroke:black; fill:white; " id="dummy-16_q17_0_all" class="clusterblast-orf"  />
+<polygon locus_tag="SSMG_04086" description="&lt;b&gt;SSMG_04086&lt;/b&gt;&lt;br&gt;transcriptional regulator&lt;br&gt;Location: 4460511 - 4461399" points="443,35 448,30 450,30 450,40 448,40 443,35 " style="stroke-width:1; stroke:black; fill:white; " id="dummy-16_q18_0_all" class="clusterblast-orf"  />
+<polygon locus_tag="SSMG_04087" description="&lt;b&gt;SSMG_04087&lt;/b&gt;&lt;br&gt;conserved hypothetical protein&lt;br&gt;Location: 4461487 - 4462654" points="451,40 454,40 459,35 454,30 451,30 451,40 " style="stroke-width:1; stroke:black; fill:white; " id="dummy-16_q19_0_all" class="clusterblast-orf"  />
+<polygon locus_tag="SSMG_04088" description="&lt;b&gt;SSMG_04088&lt;/b&gt;&lt;br&gt;3-oxoacyl-[acyl-carrier-protein] reductase&lt;br&gt;Location: 4462658 - 4463438" points="459,40 460,40 465,35 460,30 459,30 459,40 " style="stroke-width:1; stroke:black; fill:white; " id="dummy-16_q20_0_all" class="clusterblast-orf"  />
+<polygon locus_tag="SSMG_04089" description="&lt;b&gt;SSMG_04089&lt;/b&gt;&lt;br&gt;conserved hypothetical protein&lt;br&gt;Location: 4463448 - 4464600" points="465,40 469,40 474,35 469,30 465,30 465,40 " style="stroke-width:1; stroke:black; fill:white; " id="dummy-16_q21_0_all" class="clusterblast-orf"  />
+<polygon locus_tag="SSMG_04090" description="&lt;b&gt;SSMG_04090&lt;/b&gt;&lt;br&gt;predicted protein&lt;br&gt;Location: 4464580 - 4465225" points="474,40 478,35 474,30 474,40 " style="stroke-width:1; stroke:black; fill:white; " id="dummy-16_q22_0_all" class="clusterblast-orf"  />
+<polygon locus_tag="SSMG_04091" description="&lt;b&gt;SSMG_04091&lt;/b&gt;&lt;br&gt;predicted protein&lt;br&gt;Location: 4465316 - 4469924" points="479,35 484,30 513,30 513,40 484,40 479,35 " style="stroke-width:1; stroke:black; fill:white; " id="dummy-16_q23_0_all" class="clusterblast-orf"  />
+<polygon locus_tag="SSMG_04092" description="&lt;b&gt;SSMG_04092&lt;/b&gt;&lt;br&gt;conserved hypothetical protein&lt;br&gt;Location: 4470040 - 4470820" points="514,35 519,30 520,30 520,40 519,40 514,35 " style="stroke-width:1; stroke:black; fill:white; " id="dummy-16_q24_0_all" class="clusterblast-orf"  />
+<polygon locus_tag="SSMG_04093" description="&lt;b&gt;SSMG_04093&lt;/b&gt;&lt;br&gt;predicted protein&lt;br&gt;Location: 4471112 - 4471874" points="522,40 523,40 528,35 523,30 522,30 522,40 " style="stroke-width:1; stroke:black; fill:white; " id="dummy-16_q25_0_all" class="clusterblast-orf"  />
+<polygon locus_tag="SSMG_04094" description="&lt;b&gt;SSMG_04094&lt;/b&gt;&lt;br&gt;NUDIX hydrolase&lt;br&gt;Location: 4471920 - 4472331" points="528,40 531,35 528,30 528,40 " style="stroke-width:1; stroke:black; fill:white; " id="dummy-16_q26_0_all" class="clusterblast-orf"  />
+<polygon locus_tag="SSMG_04095" description="&lt;b&gt;SSMG_04095&lt;/b&gt;&lt;br&gt;5-oxoprolinase&lt;br&gt;Location: 4472373 - 4473963" points="531,35 536,30 543,30 543,40 536,40 531,35 " style="stroke-width:1; stroke:black; fill:white; " id="dummy-16_q27_0_all" class="clusterblast-orf"  />
+<polygon locus_tag="SSMG_04096" description="&lt;b&gt;SSMG_04096&lt;/b&gt;&lt;br&gt;5-oxoprolinase&lt;br&gt;Location: 4473959 - 4475999" points="543,35 548,30 558,30 558,40 548,40 543,35 " style="stroke-width:1; stroke:black; fill:white; " id="dummy-16_q28_0_all" class="clusterblast-orf"  />
+</g>
+<g label="BGC0000135" description="BGC0000135_c1: reveromycin A (9% of genes show similarity), Polyketide" class="clusterblast-cluster"  >
+<text class="clusterblast-acc" y="70" x="5"  >
+<a xlink:href="https://mibig.secondarymetabolites.org/go/BGC0000135/1" target="_blank">BGC0000135</a>:                                                                    reveromycin A (9% of genes show similarity), Polyketide</text>
+<line x1="10" x2="778.0" y2="85" style="stroke-width:1; stroke:grey; " y1="85"  />
+</g>
+<g id="a16_000"  >
+<polygon locus_tag="BAK64659.1" description="&lt;b&gt;BAK64659.1&lt;/b&gt;&lt;br&gt;hypothetical protein&lt;br&gt;Location: 104853 - 103885" points="0,85 5,80 7,80 7,90 5,90 0,85 " style="stroke-width:1; stroke:black; fill:white; " id="dummy-16_h16_10_0" class="clusterblast-orf"  />
+</g>
+<g id="a16_001"  >
+<polygon locus_tag="BAK64658.1" description="&lt;b&gt;BAK64658.1&lt;/b&gt;&lt;br&gt;putative hydrolase&lt;br&gt;Location: 103888 - 102995" points="7,85 12,80 13,80 13,90 12,90 7,85 " style="stroke-width:1; stroke:black; fill:white; " id="dummy-16_h16_10_1" class="clusterblast-orf"  />
+</g>
+<g id="a16_002"  >
+<polygon locus_tag="BAK64657.1" description="&lt;b&gt;BAK64657.1&lt;/b&gt;&lt;br&gt;putative dehydrogenase&lt;br&gt;Location: 102976 - 101954" points="13,85 18,80 21,80 21,90 18,90 13,85 " style="stroke-width:1; stroke:black; fill:white; " id="dummy-16_h16_10_2" class="clusterblast-orf"  />
+</g>
+<g id="a16_003"  >
+<polygon locus_tag="BAK64656.1" description="&lt;b&gt;BAK64656.1&lt;/b&gt;&lt;br&gt;putative oxidoreductase&lt;br&gt;Location: 101957 - 100893" points="21,85 26,80 29,80 29,90 26,90 21,85 " style="stroke-width:1; stroke:black; fill:white; " id="dummy-16_h16_10_3" class="clusterblast-orf"  />
+</g>
+<g id="a16_004"  >
+<polygon locus_tag="BAK64655.1" description="&lt;b&gt;BAK64655.1&lt;/b&gt;&lt;br&gt;putative peptidase&lt;br&gt;Location: 100890 - 99718" points="29,85 34,80 38,80 38,90 34,90 29,85 " style="stroke-width:1; stroke:black; fill:white; " id="dummy-16_h16_10_4" class="clusterblast-orf"  />
+</g>
+<g id="a16_005"  >
+<polygon locus_tag="BAK64654.1" description="&lt;b&gt;BAK64654.1&lt;/b&gt;&lt;br&gt;putative transporter&lt;br&gt;Location: 99700 - 98486" points="38,85 43,80 47,80 47,90 43,90 38,85 " style="stroke-width:1; stroke:black; fill:white; " id="dummy-16_h16_10_5" class="clusterblast-orf"  />
+</g>
+<g id="a16_006"  >
+<polygon locus_tag="BAK64653.1" description="&lt;b&gt;BAK64653.1&lt;/b&gt;&lt;br&gt;putative transporter&lt;br&gt;Location: 98486 - 96795" points="47,85 52,80 59,80 59,90 52,90 47,85 " style="stroke-width:1; stroke:black; fill:white; " id="dummy-16_h16_10_6" class="clusterblast-orf"  />
+</g>
+<g id="a16_007"  >
+<polygon locus_tag="BAK64652.1" description="&lt;b&gt;BAK64652.1&lt;/b&gt;&lt;br&gt;hypothetical protein&lt;br&gt;Location: 96494 - 95517" points="62,90 64,90 69,85 64,80 62,80 62,90 " style="stroke-width:1; stroke:black; fill:white; " id="dummy-16_h16_10_7" class="clusterblast-orf"  />
+</g>
+<g id="a16_008"  >
+<polygon locus_tag="BAK64651.1" description="&lt;b&gt;BAK64651.1&lt;/b&gt;&lt;br&gt;putative transcriptional regulator&lt;br&gt;Location: 95367 - 92596" points="70,85 75,80 91,80 91,90 75,90 70,85 " style="stroke-width:1; stroke:black; fill:white; " id="dummy-16_h16_10_8" class="clusterblast-orf"  />
+</g>
+<g id="a16_009"  >
+<polygon locus_tag="BAK64650.1" description="&lt;b&gt;BAK64650.1&lt;/b&gt;&lt;br&gt;polyketide synthase&lt;br&gt;Location: 92208 - 71116&lt;br&gt;&lt;br&gt;&lt;b&gt;BlastP hit with SSMG_04081&lt;/b&gt;&lt;br&gt;Percentage identity: 46&lt;br&gt;Percentage coverage: 106&lt;br&gt;BLAST bit score: 1419&lt;br&gt;E-value: 0.0" points="94,85 99,80 250,80 250,90 99,90 94,85 " style="stroke-width:1; stroke:black; fill:#15d8d8; " id="dummy-16_h16_10_9" class="clusterblast-orf"  />
+</g>
+<g id="a16_0010"  >
+<polygon locus_tag="BAK64649.1" description="&lt;b&gt;BAK64649.1&lt;/b&gt;&lt;br&gt;polyketide synthase&lt;br&gt;Location: 71039 - 52185" points="251,85 256,80 391,80 391,90 256,90 251,85 " style="stroke-width:1; stroke:black; fill:white; " id="dummy-16_h16_10_10" class="clusterblast-orf"  />
+</g>
+<g id="a16_0011"  >
+<polygon locus_tag="BAK64648.1" description="&lt;b&gt;BAK64648.1&lt;/b&gt;&lt;br&gt;putative thioesterase&lt;br&gt;Location: 51664 - 50747" points="395,85 400,80 402,80 402,90 400,90 395,85 " style="stroke-width:1; stroke:black; fill:white; " id="dummy-16_h16_10_11" class="clusterblast-orf"  />
+</g>
+<g id="a16_0012"  >
+<polygon locus_tag="BAK64647.1" description="&lt;b&gt;BAK64647.1&lt;/b&gt;&lt;br&gt;putative quinone oxidoreductase&lt;br&gt;Location: 50523 - 49561" points="404,85 409,80 411,80 411,90 409,90 404,85 " style="stroke-width:1; stroke:black; fill:white; " id="dummy-16_h16_10_12" class="clusterblast-orf"  />
+</g>
+<g id="a16_0013"  >
+<polygon locus_tag="BAK64646.1" description="&lt;b&gt;BAK64646.1&lt;/b&gt;&lt;br&gt;hypothetical protein&lt;br&gt;Location: 49384 - 48311" points="412,85 417,80 420,80 420,90 417,90 412,85 " style="stroke-width:1; stroke:black; fill:white; " id="dummy-16_h16_10_13" class="clusterblast-orf"  />
+</g>
+<g id="a16_0014"  >
+<polygon locus_tag="BAK64645.1" description="&lt;b&gt;BAK64645.1&lt;/b&gt;&lt;br&gt;putative malonyl transferase&lt;br&gt;Location: 48279 - 47347" points="420,85 425,80 427,80 427,90 425,90 420,85 " style="stroke-width:1; stroke:black; fill:white; " id="dummy-16_h16_10_14" class="clusterblast-orf"  />
+</g>
+<g id="a16_0015"  >
+<polygon locus_tag="BAK64644.1" description="&lt;b&gt;BAK64644.1&lt;/b&gt;&lt;br&gt;spiroacetal synthase&lt;br&gt;Location: 46954 - 45944" points="430,90 433,90 438,85 433,80 430,80 430,90 " style="stroke-width:1; stroke:black; fill:white; " id="dummy-16_h16_10_15" class="clusterblast-orf"  />
+</g>
+<g id="a16_0016"  >
+<polygon locus_tag="BAK64643.1" description="&lt;b&gt;BAK64643.1&lt;/b&gt;&lt;br&gt;putative monooxygenase&lt;br&gt;Location: 45877 - 44684&lt;br&gt;&lt;br&gt;&lt;b&gt;BlastP hit with SSMG_04080&lt;/b&gt;&lt;br&gt;Percentage identity: 49&lt;br&gt;Percentage coverage: 97&lt;br&gt;BLAST bit score: 376&lt;br&gt;E-value: 5.5e-104" points="438,90 442,90 447,85 442,80 438,80 438,90 " style="stroke-width:1; stroke:black; fill:#d81515; " id="dummy-16_h16_10_16" class="clusterblast-orf"  />
+</g>
+<g id="a16_0017"  >
+<polygon locus_tag="BAK64642.1" description="&lt;b&gt;BAK64642.1&lt;/b&gt;&lt;br&gt;putative FAD dependent oxidoreductase&lt;br&gt;Location: 44641 - 43118" points="447,90 454,90 459,85 454,80 447,80 447,90 " style="stroke-width:1; stroke:black; fill:white; " id="dummy-16_h16_10_17" class="clusterblast-orf"  />
+</g>
+<g id="a16_0018"  >
+<polygon locus_tag="BAK64641.1" description="&lt;b&gt;BAK64641.1&lt;/b&gt;&lt;br&gt;dihydroxy ketone synthase&lt;br&gt;Location: 43048 - 42227" points="459,85 464,80 465,80 465,90 464,90 459,85 " style="stroke-width:1; stroke:black; fill:white; " id="dummy-16_h16_10_18" class="clusterblast-orf"  />
+</g>
+<g id="a16_0019"  >
+<polygon locus_tag="BAK64640.1" description="&lt;b&gt;BAK64640.1&lt;/b&gt;&lt;br&gt;putative aldehyde dehydrogenase&lt;br&gt;Location: 42144 - 40693" points="466,85 471,80 477,80 477,90 471,90 466,85 " style="stroke-width:1; stroke:black; fill:white; " id="dummy-16_h16_10_19" class="clusterblast-orf"  />
+</g>
+<g id="a16_0020"  >
+<polygon locus_tag="BAK64639.1" description="&lt;b&gt;BAK64639.1&lt;/b&gt;&lt;br&gt;putative dehydrogenase&lt;br&gt;Location: 40624 - 39521" points="477,85 482,80 486,80 486,90 482,90 477,85 " style="stroke-width:1; stroke:black; fill:white; " id="dummy-16_h16_10_20" class="clusterblast-orf"  />
+</g>
+<g id="a16_0021"  >
+<polygon locus_tag="BAK64638.1" description="&lt;b&gt;BAK64638.1&lt;/b&gt;&lt;br&gt;polyketide synthase&lt;br&gt;Location: 39506 - 28332" points="486,85 491,80 569,80 569,90 491,90 486,85 " style="stroke-width:1; stroke:black; fill:white; " id="dummy-16_h16_10_21" class="clusterblast-orf"  />
+</g>
+<g id="a16_0022"  >
+<polygon locus_tag="BAK64637.1" description="&lt;b&gt;BAK64637.1&lt;/b&gt;&lt;br&gt;polyketide synthase&lt;br&gt;Location: 28304 - 12672&lt;br&gt;&lt;br&gt;&lt;b&gt;BlastP hit with SSMG_04081&lt;/b&gt;&lt;br&gt;Percentage identity: 51&lt;br&gt;Percentage coverage: 47&lt;br&gt;BLAST bit score: 794&lt;br&gt;E-value: 3e-229" points="569,85 574,80 685,80 685,90 574,90 569,85 " style="stroke-width:1; stroke:black; fill:#15d8d8; " id="dummy-16_h16_10_22" class="clusterblast-orf"  />
+</g>
+<g id="a16_0023"  >
+<polygon locus_tag="BAK64636.1" description="&lt;b&gt;BAK64636.1&lt;/b&gt;&lt;br&gt;putative CoA reductase carboxylase&lt;br&gt;Location: 12050 - 10719" points="690,90 695,90 700,85 695,80 690,80 690,90 " style="stroke-width:1; stroke:black; fill:white; " id="dummy-16_h16_10_23" class="clusterblast-orf"  />
+</g>
+<g id="a16_0024"  >
+<polygon locus_tag="BAK64635.1" description="&lt;b&gt;BAK64635.1&lt;/b&gt;&lt;br&gt;putative CoA ligase&lt;br&gt;Location: 10681 - 8942" points="700,90 708,90 713,85 708,80 700,80 700,90 " style="stroke-width:1; stroke:black; fill:white; " id="dummy-16_h16_10_24" class="clusterblast-orf"  />
+</g>
+<g id="a16_0025"  >
+<polygon locus_tag="BAK64634.1" description="&lt;b&gt;BAK64634.1&lt;/b&gt;&lt;br&gt;putative 3-oxoacyl-ACP synthase&lt;br&gt;Location: 8942 - 7941" points="713,90 715,90 720,85 715,80 713,80 713,90 " style="stroke-width:1; stroke:black; fill:white; " id="dummy-16_h16_10_25" class="clusterblast-orf"  />
+</g>
+<g id="a16_0026"  >
+<polygon locus_tag="BAK64633.1" description="&lt;b&gt;BAK64633.1&lt;/b&gt;&lt;br&gt;putative transcriptional regulator&lt;br&gt;Location: 7424 - 6591" points="724,90 725,90 730,85 725,80 724,80 724,90 " style="stroke-width:1; stroke:black; fill:white; " id="dummy-16_h16_10_26" class="clusterblast-orf"  />
+</g>
+<g id="a16_0027"  >
+<polygon locus_tag="BAK64632.1" description="&lt;b&gt;BAK64632.1&lt;/b&gt;&lt;br&gt;putative transcriptional regulator&lt;br&gt;Location: 6399 - 5725" points="732,90 732,90 737,85 732,80 732,80 732,90 " style="stroke-width:1; stroke:black; fill:white; " id="dummy-16_h16_10_27" class="clusterblast-orf"  />
+</g>
+<g id="a16_0028"  >
+<polygon locus_tag="BAK64631.1" description="&lt;b&gt;BAK64631.1&lt;/b&gt;&lt;br&gt;putative transporter&lt;br&gt;Location: 5676 - 4375" points="737,85 742,80 747,80 747,90 742,90 737,85 " style="stroke-width:1; stroke:black; fill:white; " id="dummy-16_h16_10_28" class="clusterblast-orf"  />
+</g>
+<g id="a16_0029"  >
+<polygon locus_tag="BAK64630.1" description="&lt;b&gt;BAK64630.1&lt;/b&gt;&lt;br&gt;putative transcriptional regulator&lt;br&gt;Location: 3793 - 3134" points="751,85 756,80 756,80 756,90 756,90 751,85 " style="stroke-width:1; stroke:black; fill:white; " id="dummy-16_h16_10_29" class="clusterblast-orf"  />
+</g>
+<g id="a16_0030"  >
+<polygon locus_tag="BAK64629.1" description="&lt;b&gt;BAK64629.1&lt;/b&gt;&lt;br&gt;putative amidohydrolase&lt;br&gt;Location: 2899 - 1874" points="758,90 761,90 766,85 761,80 758,80 758,90 " style="stroke-width:1; stroke:black; fill:white; " id="dummy-16_h16_10_30" class="clusterblast-orf"  />
+</g>
+<g id="a16_0031"  >
+<polygon locus_tag="BAK64628.1" description="&lt;b&gt;BAK64628.1&lt;/b&gt;&lt;br&gt;hypothetical protein&lt;br&gt;Location: 1637 - 954" points="767,90 767,90 772,85 767,80 767,80 767,90 " style="stroke-width:1; stroke:black; fill:white; " id="dummy-16_h16_10_31" class="clusterblast-orf"  />
+</g>
+<g id="a16_0032"  >
+<polygon locus_tag="BAK64627.1" description="&lt;b&gt;BAK64627.1&lt;/b&gt;&lt;br&gt;putative amidohydrolase&lt;br&gt;Location: 909 - 1" points="773,90 775,90 780,85 775,80 773,80 773,90 " style="stroke-width:1; stroke:black; fill:white; " id="dummy-16_h16_10_32" class="clusterblast-orf"  />
+</g>
+</svg>

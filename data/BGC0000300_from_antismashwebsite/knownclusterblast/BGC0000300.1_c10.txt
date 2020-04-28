@@ -1,0 +1,154 @@
+ClusterBlast scores for BGC0000300.1
+
+Table of genes, locations, strands and annotations of query cluster:
+SSMG_02824	3055539	3056109	+	RNA polymerase sigma-C factor	
+SSMG_02825	3056738	3058676	+	hypothetical protein	
+SSMG_02826	3058827	3059061	-	conserved hypothetical protein	
+SSMG_02827	3059250	3061485	+	copper-translocating P-type ATPase	
+SSMG_02828	3061548	3062046	+	predicted protein	
+SSMG_02829	3062390	3063599	+	aminodeoxychorismate synthase, component I	
+SSMG_02830	3063579	3063789	+	3-deoxy-7-phosphoheptulonate synthase	
+SSMG_02831	3063880	3064720	-	predicted protein	
+SSMG_02832	3064922	3066551	+	dicarboxylate-CoA ligase PimA	
+SSMG_02833	3066582	3067380	+	short-chain dehydrogenase/reductase SDR	
+SSMG_02834	3067466	3068045	-	predicted protein	
+SSMG_02835	3068090	3068735	+	predicted protein	
+SSMG_02836	3068749	3069541	-	predicted protein	
+SSMG_02837	3069974	3070925	-	predicted protein	
+SSMG_02838	3070921	3072493	-	O-succinylbenzoate-CoA ligase	
+SSMG_02839	3072489	3073230	-	2-ketocyclohexanecarboxyl-CoA hydrolase	
+SSMG_02840	3073229	3074420	-	formyl-CoA transferase	
+SSMG_02841	3074416	3075148	-	2-ketocyclohexanecarboxyl-CoA hydrolase	
+SSMG_02842	3075155	3076076	-	isopropylmalate/homocitrate/citramalate synthase	
+SSMG_02843	3076137	3076671	-	transcriptional regulator	
+SSMG_02844	3076720	3078058	+	4-hydroxyphenylacetate permease	
+SSMG_02845	3078181	3079615	+	transcriptional regulator	
+SSMG_02846	3079854	3083772	+	non-ribosomal peptide synthetase	
+SSMG_02847	3083841	3085032	-	formyl-CoA transferase	
+SSMG_02848	3085031	3086222	-	cyclohexanecarboxyl-CoA dehydrogenase	
+SSMG_02849	3086340	3087081	+	predicted protein	
+SSMG_02850	3087226	3088543	+	predicted protein	
+SSMG_02851	3088653	3089235	-	predicted protein	
+SSMG_02852	3089418	3090249	+	predicted protein	
+SSMG_02853	3090245	3092261	+	glycosyl transferase	
+SSMG_02854	3092331	3095499	-	immunoreactive 87kD antigen PG92	
+SSMG_02855	3096001	3097363	-	predicted protein	
+SSMG_02856	3097406	3099266	-	glyoxylate carboligase	
+SSMG_02857	3099262	3100069	-	myo-inositol catabolism IolB protein	
+SSMG_02858	3100065	3100932	-	deoxyribose-phosphate aldolase superfamily protein	
+SSMG_02859	3100928	3101876	-	PfkB domain-containing protein	
+SSMG_02860	3101966	3102731	+	phosphonate metabolism transcriptional regulator PhnF	
+SSMG_02861	3102790	3103603	-	2-ketocyclohexanecarboxyl-CoA hydrolase	
+
+
+Significant hits: 
+1. BGC0000093	meilingmycin
+
+
+Details:
+
+>>
+1. BGC0000093
+Source: meilingmycin
+Type: Polyketide
+Number of proteins with BLAST hits to this cluster: 2
+Cumulative BLAST score: 858
+
+Table of genes, locations, strands and annotations of subject cluster:
+ADC45511.1	ADC45511.1	1	1337	-	Na+/H+_antiporter
+ADC45512.1	ADC45512.1	1603	2280	-	intracellular_protease/amidase
+ADC45513.1	ADC45513.1	2432	3331	+	LysR-family_transcriptional_regulator
+ADC45514.1	ADC45514.1	3487	4683	+	cytochrome_P450
+ADC45515.1	ADC45515.1	4699	10563	-	modular_polyketide_synthase
+ADC45516.1	ADC45516.1	10556	17425	-	modular_polyketide_synthase
+ADC45517.1	ADC45517.1	17671	19389	+	AMP-dependent_synthetase_and_ligase
+ADC45518.1	ADC45518.1	19386	20252	+	hypothetical_protein
+ADC45519.1	ADC45519.1	20249	20779	+	thioesterase
+ADC45520.1	ADC45520.1	20776	21066	+	acyl_carrier_protein
+ADC45521.1	ADC45521.1	21063	21932	+	cyclopropane-fatty-acyl-phospholipid_synthase
+ADC45522.1	ADC45522.1	21929	22801	+	acyl-[acyl-carrier_protein]_desaturase
+ADC45523.1	ADC45523.1	22816	24429	-	secreted_amidase
+ADC45524.1	ADC45524.1	24504	25007	-	hypothetical_protein
+ADC45525.1	ADC45525.1	25161	27209	+	alpha-glucuronidase
+ADC45526.1	ADC45526.1	27238	31071	-	hypothetical_protein
+ADC45527.1	ADC45527.1	31153	32580	-	gluconate_transporter
+ADC45528.1	ADC45528.1	32668	33654	-	hypothetical_protein
+ADC45529.1	ADC45529.1	33753	35426	+	two-component_system_histidine_kinase
+ADC45530.1	ADC45530.1	35423	36115	+	two-component_system_response_regulator
+ADC45531.1	ADC45531.1	36139	37263	-	hypothetical_protein
+ADC45532.1	ADC45532.1	37274	37849	-	heavy_metal_translocating_P-type_ATPase
+ADC45533.1	ADC45533.1	38044	39195	+	hypothetical_protein
+ADC45534.1	ADC45534.1	39452	57415	+	modular_polyketide_synthase
+AAM97313.1	AAM97313.1	57429	58421	+	post-polyketide_modification_protein
+AAM97314.1	AAM97314.1	58480	59859	-	cytochrome_P450_hydroxylase
+ADC45535.1	ADC45535.1	59936	75769	-	modular_polyketide_synthase
+ADC45536.1	ADC45536.1	76029	76829	+	reductase
+AAP13848.2	AAP13848.2	76867	77679	-	C5-ketoreductase
+ADC45537.1	ADC45537.1	77846	78601	-	hypothetical_protein
+ADC45538.1	ADC45538.1	78606	96074	-	modular_polyketide_synthase
+ADC45539.1	ADC45539.1	96121	99015	-	LuxR-family_transcriptional_regulator
+ADC45540.1	ADC45540.1	99318	100469	+	hypothetical_protein
+ADC45541.1	ADC45541.1	100671	102113	+	beta-lactamase-like_protein
+ADC45542.1	ADC45542.1	102173	103669	-	Na+/solute_symporter
+ADC45543.1	ADC45543.1	103666	103896	-	hypothetical_protein
+ADC45544.1	ADC45544.1	104276	104656	+	hypothetical_protein
+ADC45545.1	ADC45545.1	104656	105486	+	hydroxypyruvate_isomerase
+ADC45546.1	ADC45546.1	105556	106452	+	2-hydroxy-3-oxopropionate_reductase
+ADC45547.1	ADC45547.1	106518	108287	+	glyoxylate_carboligase
+ADC45548.1	ADC45548.1	108318	109508	-	mandelate_racemase
+ADC45549.1	ADC45549.1	109505	110284	-	5-carboxymethyl-2-hydroxymuconate_delta-isomerase
+ADC45550.1	ADC45550.1	110464	111825	-	anion/cation_symporter
+ADC45551.1	ADC45551.1	112100	112885	+	dimethylmenaquinone_methyltransferase
+ADC45552.1	ADC45552.1	112882	113391	+	hypothetical_protein
+ADC45553.1	ADC45553.1	113420	114931	+	aldehyde_dehydrogenase
+ADC45554.1	ADC45554.1	114915	115772	-	aldose_1-epimerase
+ADC45555.1	ADC45555.1	115938	117386	+	sugar_transporter
+ADC45556.1	ADC45556.1	117383	118279	+	2-hydroxycyclohexanecarboxyl-CoA_dehyrogenase
+ADC45557.1	ADC45557.1	118276	119445	+	isomerase
+ADC45558.1	ADC45558.1	119490	120278	-	transcriptional_regulator
+ADC45559.1	ADC45559.1	120722	121447	-	acetyl-xylan_esterase
+ADC45560.1	ADC45560.1	121600	122463	-	citrate_lyase_beta_subunit
+ADC45561.1	ADC45561.1	122516	123400	-	hypothetical_protein
+ADC45562.1	ADC45562.1	123478	124077	-	sulfopyruvate_decarboxylase_beta_subunit
+ADC45563.1	ADC45563.1	124077	124613	-	sulfopyruvate_decarboxylase_alpha_subunit
+ADC45564.1	ADC45564.1	124725	125549	-	hydrolase
+ADC45565.1	ADC45565.1	125629	126582	-	LysR-family_transcriptional_regulator
+ADC45566.1	ADC45566.1	126703	127887	+	L-carnitine_dehydratase
+ADC45567.1	ADC45567.1	127932	129095	+	acyl-CoA_dehydrogenase
+ADC45568.1	ADC45568.1	129165	132380	-	rhamnosidase
+ADC45569.1	ADC45569.1	132620	132940	-	hypothetical_protein
+ADC45570.1	ADC45570.1	133101	133751	-	transcriptional_regulator
+ADC45571.1	ADC45571.1	133941	134603	+	hypothetical_protein
+ADC45572.1	ADC45572.1	134605	135198	-	TetR-family_transcriptional_regulator
+ADC45573.1	ADC45573.1	135388	136407	+	aldoketoreductase
+ADC45574.1	ADC45574.1	136478	137323	+	flavin-dependent_oxidoreductase
+ADC45575.1	ADC45575.1	137355	138866	-	hydrolase
+ADC45576.1	ADC45576.1	139224	140276	+	hypothetical_protein
+ADC45577.1	ADC45577.1	140258	141583	+	hypothetical_protein
+ADC45578.1	ADC45578.1	141628	142818	+	lysine/ornithine_decarboxylase
+ADC45579.1	ADC45579.1	142827	143357	+	hypothetical_protein
+ADC45580.1	ADC45580.1	143354	144553	+	transmembrane_transport_protein
+ADC45581.1	ADC45581.1	144519	145820	-	glycoside_hydrolase
+ADC45582.1	ADC45582.1	145963	148932	-	hypothetical_protein
+ADC45583.1	ADC45583.1	149148	150152	+	sugar-binding_transcriptional_regulator
+ADC45584.1	ADC45584.1	150307	152142	+	monooxygenase
+ADC45585.1	ADC45585.1	152139	153836	+	hypothetical_protein
+ADC45586.1	ADC45586.1	154052	167044	+	modular_polyketide_synthase
+ADC45587.1	ADC45587.1	167087	167947	+	C5-O-methyltransferase
+ADC45588.1	ADC45588.1	167960	171655	-	hydrolase
+ADC45589.1	ADC45589.1	171713	172498	-	short-chain_dehydrogenase/reductase_SDR
+ADC45590.1	ADC45590.1	172569	174362	-	beta-glucuronidase_precursor
+ADC45591.1	ADC45591.1	174404	175621	-	beta-glucosidase
+ADC45592.1	ADC45592.1	175618	176493	-	ABC_transporter
+ADC45593.1	ADC45593.1	176490	178325	-	ABC_transporter
+ADC45594.1	ADC45594.1	178322	179278	-	transporter
+ADC45595.1	ADC45595.1	179275	180837	-	extracellular_solute-binding_protein
+ADC45596.1	ADC45596.1	181085	181693	+	TetR-family_transcriptional_regulator
+ADC45597.1	ADC45597.1	181698	182726	-	LacI-family_transcriptional_regulator
+ADC45598.1	ADC45598.1	182934	183905	+	carbohydrate_kinase
+ADC45599.1	ADC45599.1	183922	184824	+	hypothetical_protein
+
+Table of Blast hits (query gene, subject gene, %identity, blast score, %coverage, e-value):
+SSMG_02858	ADC45599.1	76	417	98.95833333333334	1.5e-116
+SSMG_02859	ADC45598.1	72	441	100.31746031746032	8.3e-124
+

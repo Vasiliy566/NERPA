@@ -1,0 +1,97 @@
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg" height="230" width="800" xmlns:xlink="http://www.w3.org/1999/xlink" preserveAspectRatio="none" x="0" y="0" viewBox="0 0 800 230"  >
+<g label="Query sequence" class="clusterblast-cluster"  >
+<text class="clusterblast-acc" y="20" x="5"  >
+Query sequence</text>
+<line x1="10" x2="778.0" y2="35" style="stroke-width:1; stroke:grey; " y1="35"  />
+<polygon locus_tag="SSMG_00016" description="&lt;b&gt;SSMG_00016&lt;/b&gt;&lt;br&gt;regulatory protein&lt;br&gt;Location: 18425 - 18938" points="286,35 291,30 292,30 292,40 291,40 286,35 " style="stroke-width:1; stroke:black; fill:white; " id="dummy-1_q0_0_all" class="clusterblast-orf"  />
+<polygon locus_tag="SSMG_00017" description="&lt;b&gt;SSMG_00017&lt;/b&gt;&lt;br&gt;esterase/lipase&lt;br&gt;Location: 19064 - 20027" points="293,40 298,40 303,35 298,30 293,30 293,40 " style="stroke-width:1; stroke:black; fill:white; " id="dummy-1_q1_0_all" class="clusterblast-orf"  />
+<polygon locus_tag="SSMG_00018" description="&lt;b&gt;SSMG_00018&lt;/b&gt;&lt;br&gt;predicted protein&lt;br&gt;Location: 20186 - 21581" points="304,40 314,40 319,35 314,30 304,30 304,40 " style="stroke-width:1; stroke:black; fill:white; " id="dummy-1_q2_0_all" class="clusterblast-orf"  />
+<polygon locus_tag="SSMG_00019" description="&lt;b&gt;SSMG_00019&lt;/b&gt;&lt;br&gt;predicted protein&lt;br&gt;Location: 21584 - 22448" points="319,35 324,30 328,30 328,40 324,40 319,35 " style="stroke-width:1; stroke:black; fill:white; " id="dummy-1_q3_0_all" class="clusterblast-orf"  />
+<polygon locus_tag="SSMG_00020" description="&lt;b&gt;SSMG_00020&lt;/b&gt;&lt;br&gt;TetR-family transcriptional regulator&lt;br&gt;Location: 22567 - 23146" points="329,35 334,30 335,30 335,40 334,40 329,35 " style="stroke-width:1; stroke:black; fill:#d81515; " id="dummy-1_q4_0_all" class="clusterblast-orf"  />
+<polygon locus_tag="SSMG_00021" description="&lt;b&gt;SSMG_00021&lt;/b&gt;&lt;br&gt;membrane protein&lt;br&gt;Location: 23236 - 23683" points="336,40 340,35 336,30 336,40 " style="stroke-width:1; stroke:black; fill:#4dd815; " id="dummy-1_q5_0_all" class="clusterblast-orf"  />
+<polygon locus_tag="SSMG_00022" description="&lt;b&gt;SSMG_00022&lt;/b&gt;&lt;br&gt;predicted protein&lt;br&gt;Location: 23843 - 24374" points="342,40 342,40 347,35 342,30 342,30 342,40 " style="stroke-width:1; stroke:black; fill:white; " id="dummy-1_q6_0_all" class="clusterblast-orf"  />
+<polygon locus_tag="SSMG_00023" description="&lt;b&gt;SSMG_00023&lt;/b&gt;&lt;br&gt;adenylosuccinate lyase&lt;br&gt;Location: 24440 - 25841" points="348,35 353,30 362,30 362,40 353,40 348,35 " style="stroke-width:1; stroke:black; fill:white; " id="dummy-1_q7_0_all" class="clusterblast-orf"  />
+<polygon locus_tag="SSMG_00024" description="&lt;b&gt;SSMG_00024&lt;/b&gt;&lt;br&gt;conserved hypothetical protein&lt;br&gt;Location: 26639 - 27155" points="370,35 375,30 376,30 376,40 375,40 370,35 " style="stroke-width:1; stroke:black; fill:white; " id="dummy-1_q8_0_all" class="clusterblast-orf"  />
+<polygon locus_tag="SSMG_00025" description="&lt;b&gt;SSMG_00025&lt;/b&gt;&lt;br&gt;predicted protein&lt;br&gt;Location: 27543 - 28605" points="380,40 386,40 391,35 386,30 380,30 380,40 " style="stroke-width:1; stroke:black; fill:#1585d8; " id="dummy-1_q9_0_all" class="clusterblast-orf"  />
+<polygon locus_tag="SSMG_00026" description="&lt;b&gt;SSMG_00026&lt;/b&gt;&lt;br&gt;tryptophanase&lt;br&gt;Location: 28647 - 30024" points="391,40 400,40 405,35 400,30 391,30 391,40 " style="stroke-width:1; stroke:black; fill:#d815bc; " id="dummy-1_q10_0_all" class="clusterblast-orf"  />
+<polygon locus_tag="SSMG_00027" description="&lt;b&gt;SSMG_00027&lt;/b&gt;&lt;br&gt;ATP/GTP-binding protein&lt;br&gt;Location: 30097 - 30685" points="406,35 411,30 412,30 412,40 411,40 406,35 " style="stroke-width:1; stroke:black; fill:#d8bc15; " id="dummy-1_q11_0_all" class="clusterblast-orf"  />
+<polygon locus_tag="SSMG_00028" description="&lt;b&gt;SSMG_00028&lt;/b&gt;&lt;br&gt;conserved hypothetical protein&lt;br&gt;Location: 30665 - 31031" points="412,35 415,30 415,40 412,35 " style="stroke-width:1; stroke:black; fill:#15d885; " id="dummy-1_q12_0_all" class="clusterblast-orf"  />
+<polygon locus_tag="SSMG_00029" description="&lt;b&gt;SSMG_00029&lt;/b&gt;&lt;br&gt;conserved hypothetical protein&lt;br&gt;Location: 31027 - 31453" points="415,35 420,30 420,30 420,40 420,40 415,35 " style="stroke-width:1; stroke:black; fill:#4d15d8; " id="dummy-1_q13_0_all" class="clusterblast-orf"  />
+<polygon locus_tag="SSMG_00030" description="&lt;b&gt;SSMG_00030&lt;/b&gt;&lt;br&gt;hypothetical protein&lt;br&gt;Location: 31495 - 33862" points="420,35 425,30 444,30 444,40 425,40 420,35 " style="stroke-width:1; stroke:black; fill:white; " id="dummy-1_q14_0_all" class="clusterblast-orf"  />
+<polygon locus_tag="SSMG_00031" description="&lt;b&gt;SSMG_00031&lt;/b&gt;&lt;br&gt;predicted protein&lt;br&gt;Location: 34268 - 36653" points="449,35 454,30 473,30 473,40 454,40 449,35 " style="stroke-width:1; stroke:black; fill:white; " id="dummy-1_q15_0_all" class="clusterblast-orf"  />
+<polygon locus_tag="SSMG_00032" description="&lt;b&gt;SSMG_00032&lt;/b&gt;&lt;br&gt;predicted protein&lt;br&gt;Location: 36857 - 37337" points="475,40 475,40 480,35 475,30 475,30 475,40 " style="stroke-width:1; stroke:black; fill:white; " id="dummy-1_q16_0_all" class="clusterblast-orf"  />
+<polygon locus_tag="SSMG_00033" description="&lt;b&gt;SSMG_00033&lt;/b&gt;&lt;br&gt;integral membrane protein&lt;br&gt;Location: 37320 - 37722" points="480,40 484,35 480,30 480,40 " style="stroke-width:1; stroke:black; fill:white; " id="dummy-1_q17_0_all" class="clusterblast-orf"  />
+<polygon locus_tag="SSMG_00034" description="&lt;b&gt;SSMG_00034&lt;/b&gt;&lt;br&gt;poly(L-lactic acid) depolymerase&lt;br&gt;Location: 37874 - 38588" points="486,40 488,40 493,35 488,30 486,30 486,40 " style="stroke-width:1; stroke:black; fill:white; " id="dummy-1_q18_0_all" class="clusterblast-orf"  />
+</g>
+<g label="BGC0001648" description="BGC0001648_c1: lasalocid (9% of genes show similarity), Polyketide" class="clusterblast-cluster"  >
+<text class="clusterblast-acc" y="70" x="5"  >
+<a xlink:href="https://mibig.secondarymetabolites.org/go/BGC0001648/1" target="_blank">BGC0001648</a>:                                                                        lasalocid (9% of genes show similarity), Polyketide</text>
+<line x1="10" x2="778.0" y2="85" style="stroke-width:1; stroke:grey; " y1="85"  />
+</g>
+<g id="a1_000"  >
+<polygon locus_tag="ANR02559.1" description="&lt;b&gt;ANR02559.1&lt;/b&gt;&lt;br&gt;LodR1&lt;br&gt;Location: 1 - 578&lt;br&gt;&lt;br&gt;&lt;b&gt;BlastP hit with SSMG_00020&lt;/b&gt;&lt;br&gt;Percentage identity: 83&lt;br&gt;Percentage coverage: 100&lt;br&gt;BLAST bit score: 302&lt;br&gt;E-value: 6.3e-82" points="0,85 5,80 5,80 5,90 5,90 0,85 " style="stroke-width:1; stroke:black; fill:#d81515; " id="dummy-1_h1_3_0" class="clusterblast-orf"  />
+</g>
+<g id="a1_001"  >
+<polygon locus_tag="ANR02542.1" description="&lt;b&gt;ANR02542.1&lt;/b&gt;&lt;br&gt;LodA&lt;br&gt;Location: 669 - 1115&lt;br&gt;&lt;br&gt;&lt;b&gt;BlastP hit with SSMG_00021&lt;/b&gt;&lt;br&gt;Percentage identity: 63&lt;br&gt;Percentage coverage: 99&lt;br&gt;BLAST bit score: 177&lt;br&gt;E-value: 1.4e-44" points="6,90 6,90 11,85 6,80 6,80 6,90 " style="stroke-width:1; stroke:black; fill:#4dd815; " id="dummy-1_h1_3_1" class="clusterblast-orf"  />
+</g>
+<g id="a1_002"  >
+<polygon locus_tag="ANR02543.1" description="&lt;b&gt;ANR02543.1&lt;/b&gt;&lt;br&gt;LodB&lt;br&gt;Location: 1230 - 1580" points="12,90 16,85 12,80 12,90 " style="stroke-width:1; stroke:black; fill:white; " id="dummy-1_h1_3_2" class="clusterblast-orf"  />
+</g>
+<g id="a1_003"  >
+<polygon locus_tag="ANR02544.1" description="&lt;b&gt;ANR02544.1&lt;/b&gt;&lt;br&gt;LodC&lt;br&gt;Location: 1884 - 2915" points="19,90 24,90 29,85 24,80 19,80 19,90 " style="stroke-width:1; stroke:black; fill:white; " id="dummy-1_h1_3_3" class="clusterblast-orf"  />
+</g>
+<g id="a1_004"  >
+<polygon locus_tag="ANR02545.1" description="&lt;b&gt;ANR02545.1&lt;/b&gt;&lt;br&gt;LodD&lt;br&gt;Location: 2936 - 3673" points="30,85 35,80 37,80 37,90 35,90 30,85 " style="stroke-width:1; stroke:black; fill:white; " id="dummy-1_h1_3_4" class="clusterblast-orf"  />
+</g>
+<g id="a1_005"  >
+<polygon locus_tag="ANR02546.1" description="&lt;b&gt;ANR02546.1&lt;/b&gt;&lt;br&gt;LodE&lt;br&gt;Location: 3842 - 5410" points="39,85 44,80 55,80 55,90 44,90 39,85 " style="stroke-width:1; stroke:black; fill:white; " id="dummy-1_h1_3_5" class="clusterblast-orf"  />
+</g>
+<g id="a1_006"  >
+<polygon locus_tag="ANR02560.1" description="&lt;b&gt;ANR02560.1&lt;/b&gt;&lt;br&gt;LodR2&lt;br&gt;Location: 5532 - 6017" points="56,90 56,90 61,85 56,80 56,80 56,90 " style="stroke-width:1; stroke:black; fill:white; " id="dummy-1_h1_3_6" class="clusterblast-orf"  />
+</g>
+<g id="a1_007"  >
+<polygon locus_tag="ANR02561.1" description="&lt;b&gt;ANR02561.1&lt;/b&gt;&lt;br&gt;LodR3&lt;br&gt;Location: 6649 - 9303" points="68,90 90,90 95,85 90,80 68,80 68,90 " style="stroke-width:1; stroke:black; fill:white; " id="dummy-1_h1_3_7" class="clusterblast-orf"  />
+</g>
+<g id="a1_008"  >
+<polygon locus_tag="ANR02547.1" description="&lt;b&gt;ANR02547.1&lt;/b&gt;&lt;br&gt;LodF&lt;br&gt;Location: 9314 - 10657" points="95,90 104,90 109,85 104,80 95,80 95,90 " style="stroke-width:1; stroke:black; fill:white; " id="dummy-1_h1_3_8" class="clusterblast-orf"  />
+</g>
+<g id="a1_009"  >
+<polygon locus_tag="ANR02548.1" description="&lt;b&gt;ANR02548.1&lt;/b&gt;&lt;br&gt;LodG&lt;br&gt;Location: 10770 - 12488" points="110,85 115,80 127,80 127,90 115,90 110,85 " style="stroke-width:1; stroke:black; fill:white; " id="dummy-1_h1_3_9" class="clusterblast-orf"  />
+</g>
+<g id="a1_0010"  >
+<polygon locus_tag="ANR02549.1" description="&lt;b&gt;ANR02549.1&lt;/b&gt;&lt;br&gt;LodH&lt;br&gt;Location: 12783 - 18617" points="130,90 185,90 190,85 185,80 130,80 130,90 " style="stroke-width:1; stroke:black; fill:white; " id="dummy-1_h1_3_10" class="clusterblast-orf"  />
+</g>
+<g id="a1_0011"  >
+<polygon locus_tag="ANR02550.1" description="&lt;b&gt;ANR02550.1&lt;/b&gt;&lt;br&gt;LodI&lt;br&gt;Location: 18598 - 20730" points="190,90 207,90 212,85 207,80 190,80 190,90 " style="stroke-width:1; stroke:black; fill:white; " id="dummy-1_h1_3_11" class="clusterblast-orf"  />
+</g>
+<g id="a1_0012"  >
+<polygon locus_tag="ANR02551.1" description="&lt;b&gt;ANR02551.1&lt;/b&gt;&lt;br&gt;LodJ&lt;br&gt;Location: 20808 - 24155" points="213,90 242,90 247,85 242,80 213,80 213,90 " style="stroke-width:1; stroke:black; fill:white; " id="dummy-1_h1_3_12" class="clusterblast-orf"  />
+</g>
+<g id="a1_0013"  >
+<polygon locus_tag="ANR02552.1" description="&lt;b&gt;ANR02552.1&lt;/b&gt;&lt;br&gt;LodK&lt;br&gt;Location: 24201 - 29153" points="247,90 293,90 298,85 293,80 247,80 247,90 " style="stroke-width:1; stroke:black; fill:white; " id="dummy-1_h1_3_13" class="clusterblast-orf"  />
+</g>
+<g id="a1_0014"  >
+<polygon locus_tag="ANR02553.1" description="&lt;b&gt;ANR02553.1&lt;/b&gt;&lt;br&gt;LodL&lt;br&gt;Location: 29219 - 38434" points="299,90 388,90 393,85 388,80 299,80 299,90 " style="stroke-width:1; stroke:black; fill:white; " id="dummy-1_h1_3_14" class="clusterblast-orf"  />
+</g>
+<g id="a1_0015"  >
+<polygon locus_tag="ANR02554.1" description="&lt;b&gt;ANR02554.1&lt;/b&gt;&lt;br&gt;LodM&lt;br&gt;Location: 38451 - 47180" points="393,90 478,90 483,85 478,80 393,80 393,90 " style="stroke-width:1; stroke:black; fill:white; " id="dummy-1_h1_3_15" class="clusterblast-orf"  />
+</g>
+<g id="a1_0016"  >
+<polygon locus_tag="ANR02555.1" description="&lt;b&gt;ANR02555.1&lt;/b&gt;&lt;br&gt;LodN&lt;br&gt;Location: 47229 - 63542" points="483,90 645,90 650,85 645,80 483,80 483,90 " style="stroke-width:1; stroke:black; fill:white; " id="dummy-1_h1_3_16" class="clusterblast-orf"  />
+</g>
+<g id="a1_0017"  >
+<polygon locus_tag="ANR02556.1" description="&lt;b&gt;ANR02556.1&lt;/b&gt;&lt;br&gt;LodO&lt;br&gt;Location: 63594 - 69296" points="651,90 704,90 709,85 704,80 651,80 651,90 " style="stroke-width:1; stroke:black; fill:white; " id="dummy-1_h1_3_17" class="clusterblast-orf"  />
+</g>
+<g id="a1_0018"  >
+<polygon locus_tag="ANR02557.1" description="&lt;b&gt;ANR02557.1&lt;/b&gt;&lt;br&gt;LodP&lt;br&gt;Location: 69293 - 73222" points="709,90 744,90 749,85 744,80 709,80 709,90 " style="stroke-width:1; stroke:black; fill:white; " id="dummy-1_h1_3_18" class="clusterblast-orf"  />
+</g>
+<g id="a1_0019"  >
+<polygon locus_tag="ANR02558.1" description="&lt;b&gt;ANR02558.1&lt;/b&gt;&lt;br&gt;LodQ&lt;br&gt;Location: 73331 - 73699" points="750,85 754,80 754,90 750,85 " style="stroke-width:1; stroke:black; fill:white; " id="dummy-1_h1_3_19" class="clusterblast-orf"  />
+</g>
+<g id="a1_0020"  >
+<polygon locus_tag="ANR02562.1" description="&lt;b&gt;ANR02562.1&lt;/b&gt;&lt;br&gt;LodS&lt;br&gt;Location: 73894 - 75312" points="756,90 766,90 771,85 766,80 756,80 756,90 " style="stroke-width:1; stroke:black; fill:white; " id="dummy-1_h1_3_20" class="clusterblast-orf"  />
+</g>
+<g id="a1_0021"  >
+<polygon locus_tag="ANR02563.1" description="&lt;b&gt;ANR02563.1&lt;/b&gt;&lt;br&gt;LodT&lt;br&gt;Location: 75340 - 76167" points="771,90 775,90 780,85 775,80 771,80 771,90 " style="stroke-width:1; stroke:black; fill:white; " id="dummy-1_h1_3_21" class="clusterblast-orf"  />
+</g>
+</svg>

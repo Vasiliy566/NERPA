@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+<meta charset="utf-8" />
+<link rel="stylesheet" type="text/css" href="../../css/style.css">
+
+<script type="text/javascript" src="../../js/jquery.js"></script>
+<script type="text/javascript" src="../../js/jquery.tablesorter.min.js"></script>
+
+<script type="text/javascript" >
+var counter = 1;
+function addInput(divName){
+     var newdiv = document.createElement('div');
+     newdiv.innerHTML = "<b>Locus " + (counter + 1) + "</b><br> GenBank accession: <input type='text' required name='myInputs[]'> Start nt: <input type='number' name='myStartCoords[]' placeholder='N/A'> End nt: <input type='number' name='myEndCoords[]' placeholder='N/A'> <br><br>";
+     document.getElementById(divName).appendChild(newdiv);
+     counter++;
+}
+</script>
+
+<script>
+$(document).ready(function()
+    {
+        $("#myTable").tablesorter();
+    }
+);
+
+</script>
+<style>
+table {
+    border-width: thin;
+    border-spacing: 2px;
+    border-style: none;
+    border-color: black;
+}
+</style>
+</head>
+<body>
+    <table id="myTable" class="tablesorter" border=1>
+    <thead>
+    <tr>
+        <th>MIBiG Protein</th>
+        <th>Description</th>
+        <th>MIBiG Cluster</th>
+        <th>MiBiG Product</th>
+        <th>% ID</th>
+        <th>% Coverage</th>
+        <th>BLAST Score</th>
+        <th>E-value</th>
+    </tr>
+    </thead>
+    <tbody>
+    
+          <tr>
+              <td>CAJ87599.1</td>
+              <td>putative_transport_protein,_shikimate</td>
+              <td><a href="https://mibig.secondarymetabolites.org/go/BGC0001055/1">BGC0001055</a></td>
+              <td>NRP + Polyketide</td>
+              <td>39.0</td>
+              <td>94.3</td>
+              <td>289.0</td>
+              <td>9.7e-78</td>
+          </tr>
+    
+          <tr>
+              <td>AMP46598.1</td>
+              <td>NucR</td>
+              <td><a href="https://mibig.secondarymetabolites.org/go/BGC0001387/1">BGC0001387</a></td>
+              <td>Other</td>
+              <td>41.0</td>
+              <td>99.5</td>
+              <td>279.0</td>
+              <td>7.6e-75</td>
+          </tr>
+    
+          <tr>
+              <td>AAP42848.1</td>
+              <td>NanT1</td>
+              <td><a href="https://mibig.secondarymetabolites.org/go/BGC0000105/1">BGC0000105</a></td>
+              <td>Polyketide</td>
+              <td>40.0</td>
+              <td>98.9</td>
+              <td>260.0</td>
+              <td>3.7e-69</td>
+          </tr>
+    
+          <tr>
+              <td>AAY93399.1</td>
+              <td>transporter,_major_facilitator_family</td>
+              <td><a href="https://mibig.secondarymetabolites.org/go/BGC0000413/1">BGC0000413</a></td>
+              <td>NRP</td>
+              <td>37.0</td>
+              <td>96.8</td>
+              <td>256.0</td>
+              <td>9.1e-68</td>
+          </tr>
+    
+          <tr>
+              <td>AEZ64550.1</td>
+              <td>putative_membrane_transport_protein</td>
+              <td><a href="https://mibig.secondarymetabolites.org/go/BGC0001065/1">BGC0001065</a></td>
+              <td>Polyketide</td>
+              <td>35.0</td>
+              <td>99.1</td>
+              <td>243.0</td>
+              <td>4.7e-64</td>
+          </tr>
+    
+          <tr>
+              <td>CAK50769.1</td>
+              <td>membrane_protein</td>
+              <td><a href="https://mibig.secondarymetabolites.org/go/BGC0000247/1">BGC0000247</a></td>
+              <td>Polyketide:Type II + Saccharide:Oligosaccharide</td>
+              <td>40.0</td>
+              <td>79.6</td>
+              <td>224.0</td>
+              <td>2.9e-58</td>
+          </tr>
+    
+          <tr>
+              <td>AAY32956.1</td>
+              <td>metabolite_MFS_transporter</td>
+              <td><a href="https://mibig.secondarymetabolites.org/go/BGC0001093/1">BGC0001093</a></td>
+              <td>NRP + Polyketide</td>
+              <td>37.0</td>
+              <td>86.2</td>
+              <td>220.0</td>
+              <td>7.2e-57</td>
+          </tr>
+    
+          <tr>
+              <td>AIT42133.1</td>
+              <td>putative_MFS_transporter</td>
+              <td><a href="https://mibig.secondarymetabolites.org/go/BGC0001221/1">BGC0001221</a></td>
+              <td>Other:Phenazine</td>
+              <td>34.0</td>
+              <td>102.5</td>
+              <td>211.0</td>
+              <td>3.3e-54</td>
+          </tr>
+    
+          <tr>
+              <td>CAJ14054.1</td>
+              <td>putative_membrane_transport_protein</td>
+              <td><a href="https://mibig.secondarymetabolites.org/go/BGC0000406/1">BGC0000406</a></td>
+              <td>NRP</td>
+              <td>38.0</td>
+              <td>89.4</td>
+              <td>189.0</td>
+              <td>1e-47</td>
+          </tr>
+    
+          <tr>
+              <td>CAH10094.1</td>
+              <td>putative_3-(2-hydroxyphenyl)_propionic_acid_transporter</td>
+              <td><a href="https://mibig.secondarymetabolites.org/go/BGC0000268/1">BGC0000268</a></td>
+              <td>Polyketide</td>
+              <td>36.0</td>
+              <td>82.8</td>
+              <td>183.0</td>
+              <td>9.7e-46</td>
+          </tr>
+    
+          <tr>
+              <td>ANY94447.1</td>
+              <td>citrate/shikimate_transporter</td>
+              <td><a href="https://mibig.secondarymetabolites.org/go/BGC0001584/1">BGC0001584</a></td>
+              <td>Polyketide</td>
+              <td>33.0</td>
+              <td>100.7</td>
+              <td>167.0</td>
+              <td>5.5e-41</td>
+          </tr>
+    
+          <tr>
+              <td>AAL06677.1</td>
+              <td>citrate/shikimate_transporter</td>
+              <td><a href="https://mibig.secondarymetabolites.org/go/BGC0000965/1">BGC0000965</a></td>
+              <td>Polyketide:Iterative type I + Polyketide:Enediyne type I</td>
+              <td>32.0</td>
+              <td>99.5</td>
+              <td>160.0</td>
+              <td>5.2e-39</td>
+          </tr>
+    
+          <tr>
+              <td>ALU98439.1</td>
+              <td>cinnamoyl-CoA_reductase</td>
+              <td><a href="https://mibig.secondarymetabolites.org/go/BGC0001397/1">BGC0001397</a></td>
+              <td>NRP + Polyketide</td>
+              <td>32.0</td>
+              <td>96.4</td>
+              <td>156.0</td>
+              <td>1.3e-37</td>
+          </tr>
+    
+    </tbody>
+  </table>
+</body>

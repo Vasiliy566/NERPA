@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+<meta charset="utf-8" />
+<link rel="stylesheet" type="text/css" href="../../css/style.css">
+
+<script type="text/javascript" src="../../js/jquery.js"></script>
+<script type="text/javascript" src="../../js/jquery.tablesorter.min.js"></script>
+
+<script type="text/javascript" >
+var counter = 1;
+function addInput(divName){
+     var newdiv = document.createElement('div');
+     newdiv.innerHTML = "<b>Locus " + (counter + 1) + "</b><br> GenBank accession: <input type='text' required name='myInputs[]'> Start nt: <input type='number' name='myStartCoords[]' placeholder='N/A'> End nt: <input type='number' name='myEndCoords[]' placeholder='N/A'> <br><br>";
+     document.getElementById(divName).appendChild(newdiv);
+     counter++;
+}
+</script>
+
+<script>
+$(document).ready(function()
+    {
+        $("#myTable").tablesorter();
+    }
+);
+
+</script>
+<style>
+table {
+    border-width: thin;
+    border-spacing: 2px;
+    border-style: none;
+    border-color: black;
+}
+</style>
+</head>
+<body>
+    <table id="myTable" class="tablesorter" border=1>
+    <thead>
+    <tr>
+        <th>MIBiG Protein</th>
+        <th>Description</th>
+        <th>MIBiG Cluster</th>
+        <th>MiBiG Product</th>
+        <th>% ID</th>
+        <th>% Coverage</th>
+        <th>BLAST Score</th>
+        <th>E-value</th>
+    </tr>
+    </thead>
+    <tbody>
+    
+          <tr>
+              <td>AAU39353.1</td>
+              <td>hydantoinase_A</td>
+              <td><a href="https://mibig.secondarymetabolites.org/go/BGC0000381/1">BGC0000381</a></td>
+              <td>NRP</td>
+              <td>33.0</td>
+              <td>100.0</td>
+              <td>367.0</td>
+              <td>4.3e-101</td>
+          </tr>
+    
+          <tr>
+              <td>PLB46275.1</td>
+              <td>putative_5-oxoprolinase</td>
+              <td><a href="https://mibig.secondarymetabolites.org/go/BGC0001712/1">BGC0001712</a></td>
+              <td>Other</td>
+              <td>31.0</td>
+              <td>110.6</td>
+              <td>254.0</td>
+              <td>4e-67</td>
+          </tr>
+    
+          <tr>
+              <td>EJP62791.1</td>
+              <td>hydantoinase_B/oxoprolinase</td>
+              <td><a href="https://mibig.secondarymetabolites.org/go/BGC0001720/1">BGC0001720</a></td>
+              <td>Polyketide</td>
+              <td>29.0</td>
+              <td>109.4</td>
+              <td>250.0</td>
+              <td>5.8e-66</td>
+          </tr>
+    
+    </tbody>
+  </table>
+</body>

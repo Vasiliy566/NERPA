@@ -1,0 +1,265 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+<meta charset="utf-8" />
+<link rel="stylesheet" type="text/css" href="../../css/style.css">
+
+<script type="text/javascript" src="../../js/jquery.js"></script>
+<script type="text/javascript" src="../../js/jquery.tablesorter.min.js"></script>
+
+<script type="text/javascript" >
+var counter = 1;
+function addInput(divName){
+     var newdiv = document.createElement('div');
+     newdiv.innerHTML = "<b>Locus " + (counter + 1) + "</b><br> GenBank accession: <input type='text' required name='myInputs[]'> Start nt: <input type='number' name='myStartCoords[]' placeholder='N/A'> End nt: <input type='number' name='myEndCoords[]' placeholder='N/A'> <br><br>";
+     document.getElementById(divName).appendChild(newdiv);
+     counter++;
+}
+</script>
+
+<script>
+$(document).ready(function()
+    {
+        $("#myTable").tablesorter();
+    }
+);
+
+</script>
+<style>
+table {
+    border-width: thin;
+    border-spacing: 2px;
+    border-style: none;
+    border-color: black;
+}
+</style>
+</head>
+<body>
+    <table id="myTable" class="tablesorter" border=1>
+    <thead>
+    <tr>
+        <th>MIBiG Protein</th>
+        <th>Description</th>
+        <th>MIBiG Cluster</th>
+        <th>MiBiG Product</th>
+        <th>% ID</th>
+        <th>% Coverage</th>
+        <th>BLAST Score</th>
+        <th>E-value</th>
+    </tr>
+    </thead>
+    <tbody>
+    
+          <tr>
+              <td>AAM78021.1</td>
+              <td>NDP-hexose-2,3-dehydratase</td>
+              <td><a href="https://mibig.secondarymetabolites.org/go/BGC0000112/1">BGC0000112</a></td>
+              <td>Polyketide:Iterative type I + Polyketide:Enediyne type I</td>
+              <td>40.0</td>
+              <td>100.6</td>
+              <td>195.0</td>
+              <td>1.8e-49</td>
+          </tr>
+    
+          <tr>
+              <td>AAL01055.1</td>
+              <td>putative_steroid_dehydrogenase</td>
+              <td><a href="https://mibig.secondarymetabolites.org/go/BGC0000865/1">BGC0000865</a></td>
+              <td>Other</td>
+              <td>28.0</td>
+              <td>79.8</td>
+              <td>91.0</td>
+              <td>2.8e-18</td>
+          </tr>
+    
+          <tr>
+              <td>CAA16184.1</td>
+              <td>oxidoreductase</td>
+              <td><a href="https://mibig.secondarymetabolites.org/go/BGC0001063/1">BGC0001063</a></td>
+              <td>NRP + Polyketide</td>
+              <td>32.0</td>
+              <td>88.2</td>
+              <td>86.0</td>
+              <td>6.9e-17</td>
+          </tr>
+    
+          <tr>
+              <td>AHF22855.1</td>
+              <td>MarK</td>
+              <td><a href="https://mibig.secondarymetabolites.org/go/BGC0000091/1">BGC0000091</a></td>
+              <td>Polyketide</td>
+              <td>29.0</td>
+              <td>96.0</td>
+              <td>80.0</td>
+              <td>6.5e-15</td>
+          </tr>
+    
+          <tr>
+              <td>BAG84249.1</td>
+              <td>putative_oxidoreductase</td>
+              <td><a href="https://mibig.secondarymetabolites.org/go/BGC0000257/1">BGC0000257</a></td>
+              <td>Polyketide</td>
+              <td>28.0</td>
+              <td>105.9</td>
+              <td>69.0</td>
+              <td>1.5e-11</td>
+          </tr>
+    
+          <tr>
+              <td>BAV57070.1</td>
+              <td>NAD-dependent_epimerase/dehydratase</td>
+              <td><a href="https://mibig.secondarymetabolites.org/go/BGC0001514/1">BGC0001514</a></td>
+              <td>Other</td>
+              <td>29.0</td>
+              <td>96.9</td>
+              <td>67.0</td>
+              <td>3.3e-11</td>
+          </tr>
+    
+          <tr>
+              <td>AAD05466.1</td>
+              <td>putative_epimerase/dehydratase_WbiG</td>
+              <td><a href="https://mibig.secondarymetabolites.org/go/BGC0000782/1">BGC0000782</a></td>
+              <td>Saccharide</td>
+              <td>29.0</td>
+              <td>85.0</td>
+              <td>63.0</td>
+              <td>6.3e-10</td>
+          </tr>
+    
+          <tr>
+              <td>AAK27403.1</td>
+              <td>putative_epimerase/dehydratase</td>
+              <td><a href="https://mibig.secondarymetabolites.org/go/BGC0000785/1">BGC0000785</a></td>
+              <td>Saccharide</td>
+              <td>29.0</td>
+              <td>85.0</td>
+              <td>63.0</td>
+              <td>6.3e-10</td>
+          </tr>
+    
+          <tr>
+              <td>AAF23991.1</td>
+              <td>WbpV</td>
+              <td><a href="https://mibig.secondarymetabolites.org/go/BGC0000781/1">BGC0000781</a></td>
+              <td>Saccharide</td>
+              <td>27.0</td>
+              <td>90.3</td>
+              <td>63.0</td>
+              <td>8.2e-10</td>
+          </tr>
+    
+          <tr>
+              <td>ABF87343.1</td>
+              <td>conserved_hypothetical_protein</td>
+              <td><a href="https://mibig.secondarymetabolites.org/go/BGC0000871/1">BGC0000871</a></td>
+              <td>Other:Nucleoside</td>
+              <td>27.0</td>
+              <td>102.2</td>
+              <td>62.0</td>
+              <td>1.8e-09</td>
+          </tr>
+    
+          <tr>
+              <td>ABV98197.1</td>
+              <td>NAD-dependent_epimerase/dehydratase</td>
+              <td><a href="https://mibig.secondarymetabolites.org/go/BGC0000827/1">BGC0000827</a></td>
+              <td>Alkaloid</td>
+              <td>33.0</td>
+              <td>57.0</td>
+              <td>59.0</td>
+              <td>1.5e-08</td>
+          </tr>
+    
+          <tr>
+              <td>ABC35136.1</td>
+              <td>dihydroflavonol-4-reductase_family_protein</td>
+              <td><a href="https://mibig.secondarymetabolites.org/go/BGC0000386/1">BGC0000386</a></td>
+              <td>NRP:NRP siderophore</td>
+              <td>36.0</td>
+              <td>36.1</td>
+              <td>55.0</td>
+              <td>1.7e-07</td>
+          </tr>
+    
+          <tr>
+              <td>OLZ52437.1</td>
+              <td>NAD-dependent_epimerase/dehydratase</td>
+              <td><a href="https://mibig.secondarymetabolites.org/go/BGC0001462/1">BGC0001462</a></td>
+              <td>NRP:Glycopeptide</td>
+              <td>29.0</td>
+              <td>88.8</td>
+              <td>55.0</td>
+              <td>1.7e-07</td>
+          </tr>
+    
+          <tr>
+              <td>EFG04598.1</td>
+              <td>Staurosporine_biosynthesis_4-ketoreductase_StaK</td>
+              <td><a href="https://mibig.secondarymetabolites.org/go/BGC0000826/1">BGC0000826</a></td>
+              <td>Alkaloid</td>
+              <td>33.0</td>
+              <td>71.3</td>
+              <td>53.0</td>
+              <td>8.5e-07</td>
+          </tr>
+    
+          <tr>
+              <td>ACB47067.1</td>
+              <td>conserved_hypothetical_protein</td>
+              <td><a href="https://mibig.secondarymetabolites.org/go/BGC0001060/1">BGC0001060</a></td>
+              <td>Polyketide</td>
+              <td>26.0</td>
+              <td>95.3</td>
+              <td>51.0</td>
+              <td>2.5e-06</td>
+          </tr>
+    
+          <tr>
+              <td>CAE17544.1</td>
+              <td>NDP-4-ketoreductase</td>
+              <td><a href="https://mibig.secondarymetabolites.org/go/BGC0000210/1">BGC0000210</a></td>
+              <td>Polyketide:Type II + Saccharide:Oligosaccharide</td>
+              <td>28.0</td>
+              <td>85.0</td>
+              <td>50.0</td>
+              <td>7.2e-06</td>
+          </tr>
+    
+          <tr>
+              <td>AIE77081.1</td>
+              <td>NAD-dependent_epimerase_dehydratase</td>
+              <td><a href="https://mibig.secondarymetabolites.org/go/BGC0000418/1">BGC0000418</a></td>
+              <td>NRP</td>
+              <td>29.0</td>
+              <td>72.0</td>
+              <td>50.0</td>
+              <td>7.2e-06</td>
+          </tr>
+    
+          <tr>
+              <td>AIG79219.1</td>
+              <td>NAD-dependent_epimerase/dehydratase</td>
+              <td><a href="https://mibig.secondarymetabolites.org/go/BGC0000419/1">BGC0000419</a></td>
+              <td>Saccharide + NRP:Glycopeptide</td>
+              <td>29.0</td>
+              <td>71.7</td>
+              <td>50.0</td>
+              <td>7.2e-06</td>
+          </tr>
+    
+          <tr>
+              <td>AEI58885.1</td>
+              <td>4-ketoreductase</td>
+              <td><a href="https://mibig.secondarymetabolites.org/go/BGC0000455/1">BGC0000455</a></td>
+              <td>NRP</td>
+              <td>33.0</td>
+              <td>69.8</td>
+              <td>49.0</td>
+              <td>9.4e-06</td>
+          </tr>
+    
+    </tbody>
+  </table>
+</body>

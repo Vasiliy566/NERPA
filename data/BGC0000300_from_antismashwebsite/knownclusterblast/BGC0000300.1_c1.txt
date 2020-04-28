@@ -1,0 +1,259 @@
+ClusterBlast scores for BGC0000300.1
+
+Table of genes, locations, strands and annotations of query cluster:
+SSMG_00016	18425	18938	-	regulatory protein	
+SSMG_00017	19064	20027	+	esterase/lipase	
+SSMG_00018	20186	21581	+	predicted protein	
+SSMG_00019	21584	22448	-	predicted protein	
+SSMG_00020	22567	23146	-	TetR-family transcriptional regulator	
+SSMG_00021	23236	23683	+	membrane protein	
+SSMG_00022	23843	24374	+	predicted protein	
+SSMG_00023	24440	25841	-	adenylosuccinate lyase	
+SSMG_00024	26639	27155	-	conserved hypothetical protein	
+SSMG_00025	27543	28605	+	predicted protein	
+SSMG_00026	28647	30024	+	tryptophanase	
+SSMG_00027	30097	30685	-	ATP/GTP-binding protein	
+SSMG_00028	30665	31031	-	conserved hypothetical protein	
+SSMG_00029	31027	31453	-	conserved hypothetical protein	
+SSMG_00030	31495	33862	-	hypothetical protein	
+SSMG_00031	34268	36653	-	predicted protein	
+SSMG_00032	36857	37337	+	predicted protein	
+SSMG_00033	37320	37722	+	integral membrane protein	
+SSMG_00034	37874	38588	+	poly(L-lactic acid) depolymerase	
+
+
+Significant hits: 
+1. BGC0000695	fortimicin
+2. BGC0001197	frankiamicin
+3. BGC0001648	lasalocid
+4. BGC0001856	caniferolide A / caniferolide B / caniferolide C / caniferolide D
+5. BGC0001483	5-isoprenylindole-3-carboxylate β-D-glycosyl ester
+
+
+Details:
+
+>>
+1. BGC0000695
+Source: fortimicin
+Type: Saccharide
+Number of proteins with BLAST hits to this cluster: 4
+Cumulative BLAST score: 1295
+
+Table of genes, locations, strands and annotations of subject cluster:
+CAF31530.1	CAF31530.1	1	1416	-	hypothetical_protein
+CAF31531.1	CAF31531.1	1547	2467	-	putative_transposase
+CAF31532.1	CAF31532.1	2968	4290	+	ForY
+CAF31533.1	CAF31533.1	4629	6635	+	putative_component_in_exporter_complex
+CAF31534.1	CAF31534.1	6632	8143	+	putative_component_in_exporter_complex
+CAF31535.1	CAF31535.1	8169	10031	+	putative_component_in_exporter_complex
+CAF31536.1	CAF31536.1	10124	11803	+	putative_fortimicin_dehydrogenase
+CAF31537.1	CAF31537.1	11817	12680	-	cytochrome_c-type
+CAF31538.1	CAF31538.1	12677	14227	-	putative_transmembrane_efflux_protein
+CAF31539.1	CAF31539.1	14239	15522	-	putative_(N-acetyl-)hexosaminyltransferase
+CAF31540.1	CAF31540.1	15533	16804	-	putative_ketocyclitol_aminotransferase_I_and_II
+CAF31541.1	CAF31541.1	16801	17862	-	putative_(cyclitol-)dehydrogenase
+CAF31542.1	CAF31542.1	17859	18593	-	putative_fortimicin_O-methyltransferase
+CAF31543.1	CAF31543.1	18619	19758	-	conserved_hypothetical_protein;_putative_fortimicin_production_protein
+CAF31544.1	CAF31544.1	19752	20660	-	putative_N-acetylhexosaminyl_deacetylase
+CAF31545.1	CAF31545.1	20660	21484	-	putative_fortimicin_3'-phosphotransferase_(biosynthetic)
+CAF31546.1	CAF31546.1	21486	22814	-	putative_fortimicin_6'-aminotransferase
+CAF31547.1	CAF31547.1	23004	24665	-	fortimicin_KL1_C-methyltransferase
+CAF31548.1	CAF31548.1	24691	26139	-	fortimicin_A_N-forimidoyltransferase
+CAF31549.1	CAF31549.1	26925	27392	+	putative_fortimicin_production_protein
+CAF31550.1	CAF31550.1	27450	28511	+	putative_myo-inositol_3-dehydrogenase
+CAF31551.1	CAF31551.1	28508	29350	+	putative_fortimicin_N-methyltransferase
+CAF31552.1	CAF31552.1	29359	30204	+	putative_myo-inositol-3-phosphate_phosphatase
+CAF31553.1	CAF31553.1	30466	31254	-	putative_fortimicin_biosynthetic_oxidoreductase
+CAF31554.1	CAF31554.1	31607	31906	+	hypothetical_protein
+CAF31555.1	CAF31555.1	31944	32825	+	16S_rRNA_methyltransferase
+CAF31556.1	CAF31556.1	32936	33877	+	putative_fortimicin_production_protein
+CAF31557.1	CAF31557.1	33910	34266	-	putative_fortimicin_production_protein
+CAF31558.1	CAF31558.1	34266	34904	-	putative_fortimicin_production_protein
+CAF31559.1	CAF31559.1	34911	35612	-	putative_fortimicin_production_protein;_unknown_ATP/GTP-binding_protein
+CAF31560.1	CAF31560.1	35772	36185	-	possible_fortimicin_production_protein
+CAF31561.1	CAF31561.1	36526	36897	-	possible_fortimicin_production_protein
+CAF31562.1	CAF31562.1	36896	37372	+	16S_rRNA_methyltransferase;_fortimicin_resistance
+CAF31563.1	CAF31563.1	37713	38522	-	16S_rRNA_methyltransferase
+CAF31564.1	CAF31564.1	38531	39688	-	possible_fortimicin_production_protein
+CAF31565.1	CAF31565.1	40025	41155	+	conserved_hypothetical_protein
+CAF31566.1	CAF31566.1	41180	42595	+	putative_tryptophanase
+CAF31567.1	CAF31567.1	42675	42806	-	putative_ATP/GTP-binding_protein
+CAF31567.1	CAF31567.1	42675	42806	-	putative_ATP/GTP-binding_protein
+CAG38669.1	CAG38669.1	42675	43229	-	putative_GTPase
+CAG38670.1	CAG38670.1	43274	43639	-	conserved_hypothetical_protein
+CAG38671.1	CAG38671.1	43636	44064	-	conserved_hypothetical_protein
+CAG38672.1	CAG38672.1	44075	45499	-	putative_signal_transduction_histidine_kinase
+CAG38673.1	CAG38673.1	46148	47035	-	putative_acetyltransferase
+
+Table of Blast hits (query gene, subject gene, %identity, blast score, %coverage, e-value):
+SSMG_00025	CAF31565.1	51	330	100.28328611898016	3.9e-90
+SSMG_00026	CAF31566.1	67	611	99.34497816593887	8.8e-175
+SSMG_00027	CAG38669.1	69	242	88.71794871794872	6e-64
+SSMG_00029	CAG38671.1	49	112	97.16312056737588	6.7e-25
+
+
+
+>>
+2. BGC0001197
+Source: frankiamicin
+Type: Polyketide
+Number of proteins with BLAST hits to this cluster: 3
+Cumulative BLAST score: 445
+
+Table of genes, locations, strands and annotations of subject cluster:
+
+Table of Blast hits (query gene, subject gene, %identity, blast score, %coverage, e-value):
+SSMG_00027	Franean1_2387	61	231	96.41025641025641	1.4e-60
+SSMG_00028	Franean1_2386	47	97	97.52066115702479	1.9e-20
+SSMG_00029	Franean1_2385	50	117	82.97872340425532	1.6e-26
+
+
+
+>>
+3. BGC0001648
+Source: lasalocid
+Type: Polyketide
+Number of proteins with BLAST hits to this cluster: 2
+Cumulative BLAST score: 479
+
+Table of genes, locations, strands and annotations of subject cluster:
+ANR02559.1	ANR02559.1	1	578	-	LodR1
+ANR02542.1	ANR02542.1	669	1115	+	LodA
+ANR02543.1	ANR02543.1	1230	1580	+	LodB
+ANR02544.1	ANR02544.1	1884	2915	+	LodC
+ANR02545.1	ANR02545.1	2936	3673	-	LodD
+ANR02546.1	ANR02546.1	3842	5410	-	LodE
+ANR02560.1	ANR02560.1	5532	6017	+	LodR2
+ANR02561.1	ANR02561.1	6649	9303	+	LodR3
+ANR02547.1	ANR02547.1	9314	10657	+	LodF
+ANR02548.1	ANR02548.1	10770	12488	-	LodG
+ANR02549.1	ANR02549.1	12783	18617	+	LodH
+ANR02550.1	ANR02550.1	18598	20730	+	LodI
+ANR02551.1	ANR02551.1	20808	24155	+	LodJ
+ANR02552.1	ANR02552.1	24201	29153	+	LodK
+ANR02553.1	ANR02553.1	29219	38434	+	LodL
+ANR02554.1	ANR02554.1	38451	47180	+	LodM
+ANR02555.1	ANR02555.1	47229	63542	+	LodN
+ANR02556.1	ANR02556.1	63594	69296	+	LodO
+ANR02557.1	ANR02557.1	69293	73222	+	LodP
+ANR02558.1	ANR02558.1	73331	73699	-	LodQ
+ANR02562.1	ANR02562.1	73894	75312	+	LodS
+ANR02563.1	ANR02563.1	75340	76167	+	LodT
+
+Table of Blast hits (query gene, subject gene, %identity, blast score, %coverage, e-value):
+SSMG_00020	ANR02559.1	83	302	100.0	6.3e-82
+SSMG_00021	ANR02542.1	63	177	99.32432432432432	1.4e-44
+
+
+
+>>
+4. BGC0001856
+Source: caniferolide A / caniferolide B / caniferolide C / caniferolide D
+Type: Polyketide:Modular type I
+Number of proteins with BLAST hits to this cluster: 2
+Cumulative BLAST score: 383
+
+Table of genes, locations, strands and annotations of subject cluster:
+QBF51744.1	QBF51744.1	1	717	-	hypothetical_protein
+QBF51745.1	QBF51745.1	1051	1758	+	hypothetical_protein
+QBF51746.1	QBF51746.1	1891	2115	-	hypothetical_protein
+QBF51747.1	QBF51747.1	2441	3160	+	4'-phosphopantetheinyl_transferase
+QBF51748.1	QBF51748.1	3265	6141	-	LuxR_family_transcriptional_regulator
+QBF51749.1	QBF51749.1	7173	8018	-	PAS-LuxR_transcriptional_regulator
+QBF51750.1	QBF51750.1	8365	11175	-	LuxR_family_transcriptional_regulator
+QBF51751.1	QBF51751.1	12219	12995	+	GntR_family_transcriptional_regulator
+QBF51752.1	QBF51752.1	13079	13711	+	TetR_family_transcriptional_regulator
+QBF51753.1	QBF51753.1	13842	15254	-	NDP-hexose_2,3-dehydratase
+QBF51754.1	QBF51754.1	15620	28261	+	type_I_polyketide_synthase
+QBF51755.1	QBF51755.1	28308	43157	+	type_I_polyketide_synthase
+QBF51756.1	QBF51756.1	43483	55263	+	type_I_polyketide_synthase
+QBF51757.1	QBF51757.1	55319	71188	+	type_I_polyketide_synthase
+QBF51758.1	QBF51758.1	71238	96572	+	type_I_polyketide_synthase
+QBF51759.1	QBF51759.1	96615	112340	+	type_I_polyketide_synthase
+QBF51760.1	QBF51760.1	112387	123315	+	type_I_polyketide_synthase
+QBF51761.1	QBF51761.1	123499	123702	+	ferredoxin
+QBF51762.1	QBF51762.1	123732	124946	-	cytochrome_P450
+QBF51763.1	QBF51763.1	125364	126620	+	glycosyltransferase
+QBF51764.1	QBF51764.1	126678	127754	+	glucose-1-phosphate_thymidyltransferase
+QBF51765.1	QBF51765.1	127856	128857	+	NDP-glucose-4,6-dehydratase
+QBF51766.1	QBF51766.1	128893	129864	+	NAD(P)H-dependent_ketoreductase
+QBF51767.1	QBF51767.1	129967	131193	+	glycosyltransferase
+QBF51768.1	QBF51768.1	131283	132584	-	PMP-dependent_NDP-4-keto-hexose_3-dehydratase
+QBF51769.1	QBF51769.1	133114	140286	+	type_I_polyketide_synthase
+QBF51770.1	QBF51770.1	140321	141352	+	3-oxoacyl-ACP_synthase
+QBF51771.1	QBF51771.1	141448	141885	+	cold-shock_domain-containing_protein
+QBF51772.1	QBF51772.1	142323	143174	-	ABC_transporter_permease_component
+QBF51773.1	QBF51773.1	143201	143983	-	ABC_transporter_permease_component
+QBF51774.1	QBF51774.1	144167	145147	-	NAD(P)H-dependent_ketoreductase
+QBF51775.1	QBF51775.1	145140	145760	-	dTDP-4-keto-2,6-dideoxy-3,5-epimerase
+QBF51776.1	QBF51776.1	146066	147298	-	NDP-hexose-3-C-methyltransferase
+QBF51777.1	QBF51777.1	147727	148458	+	hypothetical_protein
+QBF51778.1	QBF51778.1	148720	150009	+	sulfotransferase
+QBF51779.1	QBF51779.1	150011	150616	+	adenylyl-sulfate_kinase
+QBF51780.1	QBF51780.1	150674	150844	+	truncated_flavin-dependent_oxidoreductase
+QBF51781.1	QBF51781.1	150895	151689	+	flavin-dependent_oxidoreductase
+QBF51782.1	QBF51782.1	152120	152332	-	truncated_IS481_family_transposase
+QBF51783.1	QBF51783.1	152379	153557	-	efflux_permease,_MFS_family
+QBF51784.1	QBF51784.1	153825	154376	-	acetyltransferase
+QBF51785.1	QBF51785.1	154446	155492	+	LD-carboxypeptidase
+QBF51786.1	QBF51786.1	155569	158616	-	Nrps
+QBF51787.1	QBF51787.1	158814	168908	-	IPT/TIG_domain-containing_protein
+QBF51788.1	QBF51788.1	169321	170304	-	hypothetical_protein
+QBF51789.1	QBF51789.1	170301	170702	-	hypothetical_protein
+QBF51790.1	QBF51790.1	171023	171793	+	thioesterase
+QBF51791.1	QBF51791.1	171841	172746	+	menaquinone_biosynthesis
+QBF51792.1	QBF51792.1	172748	174016	+	menaquinone_biosynthesis
+QBF51793.1	QBF51793.1	174253	174558	-	ferredoxin
+QBF51794.1	QBF51794.1	174619	175788	-	menaquinone_biosynthesis
+QBF51795.1	QBF51795.1	175848	176930	-	putative_arylcarboxylate_reductase
+QBF51796.1	QBF51796.1	177175	178038	+	menaquinone_biosynthesis
+QBF51797.1	QBF51797.1	178099	178674	-	TetR_family_transcriptional_regulator
+QBF51798.1	QBF51798.1	178769	179215	+	hypothetical_protein
+QBF51799.1	QBF51799.1	179338	180417	-	NDP-hexose-3-ketoreductase
+QBF51800.1	QBF51800.1	180530	181747	-	cytochrome_P450
+QBF51801.1	QBF51801.1	182281	183870	-	carboxyl-transferase
+QBF51802.1	QBF51802.1	183926	185251	-	ATP-dependent_acyl-CoA_synthetase
+QBF51803.1	QBF51803.1	185641	186549	+	putative_carboxylesterase
+QBF51804.1	QBF51804.1	186504	186689	-	hypothetical_protein
+QBF51805.1	QBF51805.1	186707	186922	-	hypothetical_protein
+
+Table of Blast hits (query gene, subject gene, %identity, blast score, %coverage, e-value):
+SSMG_00020	QBF51797.1	66	222	100.0	6.3e-58
+SSMG_00021	QBF51798.1	54	161	99.32432432432432	1e-39
+
+
+
+>>
+5. BGC0001483
+Source: 5-isoprenylindole-3-carboxylate β-D-glycosyl ester
+Type: Other
+Number of proteins with BLAST hits to this cluster: 2
+Cumulative BLAST score: 775
+
+Table of genes, locations, strands and annotations of subject cluster:
+ANA09434.1	ANA09434.1	1	2544	+	hypothetical_protein
+ANA09433.1	ANA09433.1	2627	3976	-	hypothetical_protein
+ANA09432.1	ANA09432.1	4139	5524	-	hypothetical_protein
+ANA09431.1	ANA09431.1	5902	6843	-	hypothetical_protein
+ANA09430.1	ANA09430.1	6858	7463	-	hypothetical_protein
+ANA09442.1	ANA09442.1	7533	8012	-	hypothetical_protein
+ANA09449.1	ANA09449.1	8159	9475	-	PriG
+ANA09448.1	ANA09448.1	9962	10696	-	PriF
+ANA09447.1	ANA09447.1	11108	12205	-	PriE
+ANA09446.1	ANA09446.1	12289	13665	-	PriD
+ANA09441.1	ANA09441.1	13760	13981	+	hypothetical_protein
+ANA09440.1	ANA09440.1	14313	15443	+	hypothetical_protein
+ANA09439.1	ANA09439.1	15461	15841	+	hypothetical_protein
+ANA09438.1	ANA09438.1	16157	16774	+	hypothetical_protein
+ANA09445.1	ANA09445.1	16784	18130	+	PriC
+ANA09444.1	ANA09444.1	18469	19626	+	PriB
+ANA09443.1	ANA09443.1	19675	21048	+	PriA
+ANA09429.1	ANA09429.1	21322	21741	-	hypothetical_protein
+ANA09435.1	ANA09435.1	21870	22886	-	hypothetical_protein
+ANA09436.1	ANA09436.1	22901	23518	-	hypothetical_protein
+ANA09437.1	ANA09437.1	23678	25255	-	hypothetical_protein
+
+Table of Blast hits (query gene, subject gene, %identity, blast score, %coverage, e-value):
+SSMG_00026	ANA09443.1	66	592	98.47161572052401	5.5e-169
+SSMG_00027	ANA09438.1	52	183	89.74358974358975	3.3e-46
+

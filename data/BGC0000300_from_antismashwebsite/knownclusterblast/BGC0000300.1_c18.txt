@@ -1,0 +1,65 @@
+ClusterBlast scores for BGC0000300.1
+
+Table of genes, locations, strands and annotations of query cluster:
+SSMG_04365	4774714	4776169	-	aldehyde dehydrogenase	
+SSMG_04366	4776591	4777734	-	conserved hypothetical protein	
+SSMG_04367	4777738	4778998	-	glucarate dehydratase	
+SSMG_04368	4778994	4779927	-	5-dehydro-4-deoxyglucarate dehydratase	
+SSMG_04369	4780056	4780854	+	transcriptional regulator	
+SSMG_04370	4780902	4781727	+	NAD-dependent epimerase/dehydratase	
+SSMG_04371	4781768	4782650	+	predicted protein	
+SSMG_04372	4782744	4784670	+	maleylacetate reductase 1	
+SSMG_04373	4784656	4786387	+	chlorohydroquinone monooxygenase	
+SSMG_04374	4786388	4788677	-	conserved hypothetical protein	
+SSMG_04375	4788697	4791025	-	predicted protein	
+SSMG_04376	4791153	4791735	-	riboflavin biosynthesis protein RibD domain-containing protein	
+SSMG_04377	4791731	4792154	-	glyoxalase I/lactoylglutathione lyase	
+SSMG_04378	4792266	4793628	-	metallopeptidase	
+SSMG_04379	4793707	4797589	-	non-ribosomal peptide synthetase	
+SSMG_04380	4797868	4799350	-	ribosome-associated GTPase EngA	
+SSMG_04381	4799366	4800023	-	cytidylate kinase	
+SSMG_04382	4800019	4800766	-	cytidylate kinase	
+SSMG_04383	4800942	4801311	+	predicted protein	
+SSMG_04384	4801347	4801830	+	TrkA-C domain-containing protein	
+SSMG_04385	4801829	4803020	+	transmembrane transporter	
+SSMG_04386	4803098	4805000	-	X-prolyl-dipeptidyl aminopeptidase	
+SSMG_04387	4805088	4805841	-	pseudouridylate synthase ribosomal large subunit	
+SSMG_04388	4805830	4806568	-	segregation and condensation protein B	
+SSMG_04389	4806714	4807719	-	ScpA/B protein	
+SSMG_04390	4807718	4808135	-	cobyrinic acid ac-diamide synthase	
+SSMG_04391	4808131	4809181	-	partitioning or sporulation protein	
+SSMG_04392	4809313	4810246	-	tyrosine recombinase XerD	
+SSMG_04393	4810286	4810919	-	ADP-ribose pyrophosphatase	
+SSMG_04394	4810915	4812616	-	CTP synthase	
+SSMG_04395	4812704	4814000	+	3-phosphoshikimate 1-carboxyvinyltransferase	
+SSMG_04396	4813992	4814853	-	predicted protein	
+SSMG_04397	4814872	4815553	-	predicted protein	
+SSMG_04398	4815645	4817115	+	NCS1 nucleoside transporter	
+
+
+Significant hits: 
+1. BGC0001065	herboxidiene
+
+
+Details:
+
+>>
+1. BGC0001065
+Source: herboxidiene
+Type: Polyketide
+Number of proteins with BLAST hits to this cluster: 2
+Cumulative BLAST score: 797
+
+Table of genes, locations, strands and annotations of subject cluster:
+AEZ64508.1	AEZ64508.1	21446	22474	+	Hera
+AEZ64505.1	AEZ64505.1	23785	42969	+	Herb
+AEZ64504.1	AEZ64504.1	43111	64527	+	Herc
+AEZ64503.1	AEZ64503.1	64524	70616	+	Herd
+AEZ64506.1	AEZ64506.1	70746	72179	+	Here
+AEZ64598.1	AEZ64598.1	72176	73069	+	Herf
+AEZ64507.1	AEZ64507.1	73212	74480	+	Herg
+
+Table of Blast hits (query gene, subject gene, %identity, blast score, %coverage, e-value):
+SSMG_04367	sccontig008-48	60	521	99.76133651551312	1.1e-147
+SSMG_04368	sccontig008-47	49	276	97.09677419354838	4.5e-74
+

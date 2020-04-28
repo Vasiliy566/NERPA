@@ -1,0 +1,17 @@
+ClusterBlast scores for BGC0000300.1
+
+Table of genes, locations, strands and annotations of query cluster:
+SSMG_02169	2322950	2323643	+	chlorite dismutase	
+SSMG_02170	2323649	2325017	+	predicted protein	
+SSMG_02171	2325735	2326587	-	predicted protein	
+SSMG_02172	2326952	2327777	-	UPF0276 protein	
+SSMG_02173	2327748	2328579	-	predicted protein	
+SSMG_02174	2328603	2330091	-	predicted protein	
+SSMG_02175	2330625	2331054	-	methionine-R-sulfoxide reductase	
+SSMG_02176	2331073	2331379	-	predicted protein	
+
+
+Significant hits: 
+
+
+Details:

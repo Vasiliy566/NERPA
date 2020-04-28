@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+<meta charset="utf-8" />
+<link rel="stylesheet" type="text/css" href="../../css/style.css">
+
+<script type="text/javascript" src="../../js/jquery.js"></script>
+<script type="text/javascript" src="../../js/jquery.tablesorter.min.js"></script>
+
+<script type="text/javascript" >
+var counter = 1;
+function addInput(divName){
+     var newdiv = document.createElement('div');
+     newdiv.innerHTML = "<b>Locus " + (counter + 1) + "</b><br> GenBank accession: <input type='text' required name='myInputs[]'> Start nt: <input type='number' name='myStartCoords[]' placeholder='N/A'> End nt: <input type='number' name='myEndCoords[]' placeholder='N/A'> <br><br>";
+     document.getElementById(divName).appendChild(newdiv);
+     counter++;
+}
+</script>
+
+<script>
+$(document).ready(function()
+    {
+        $("#myTable").tablesorter();
+    }
+);
+
+</script>
+<style>
+table {
+    border-width: thin;
+    border-spacing: 2px;
+    border-style: none;
+    border-color: black;
+}
+</style>
+</head>
+<body>
+    <table id="myTable" class="tablesorter" border=1>
+    <thead>
+    <tr>
+        <th>MIBiG Protein</th>
+        <th>Description</th>
+        <th>MIBiG Cluster</th>
+        <th>MiBiG Product</th>
+        <th>% ID</th>
+        <th>% Coverage</th>
+        <th>BLAST Score</th>
+        <th>E-value</th>
+    </tr>
+    </thead>
+    <tbody>
+    
+          <tr>
+              <td>AQZ37122.1</td>
+              <td>putative_methyltransferase</td>
+              <td><a href="https://mibig.secondarymetabolites.org/go/BGC0001511/1">BGC0001511</a></td>
+              <td>Polyketide</td>
+              <td>35.0</td>
+              <td>61.9</td>
+              <td>73.0</td>
+              <td>4.6e-13</td>
+          </tr>
+    
+          <tr>
+              <td>ADC45587.1</td>
+              <td>C5-O-methyltransferase</td>
+              <td><a href="https://mibig.secondarymetabolites.org/go/BGC0000093/1">BGC0000093</a></td>
+              <td>Polyketide</td>
+              <td>39.0</td>
+              <td>44.3</td>
+              <td>67.0</td>
+              <td>3.3e-11</td>
+          </tr>
+    
+          <tr>
+              <td>BAC55213.1</td>
+              <td>methyltransferase</td>
+              <td><a href="https://mibig.secondarymetabolites.org/go/BGC0000825/1">BGC0000825</a></td>
+              <td>Alkaloid</td>
+              <td>37.0</td>
+              <td>62.7</td>
+              <td>66.0</td>
+              <td>7.3e-11</td>
+          </tr>
+    
+          <tr>
+              <td>ARS01486.1</td>
+              <td>ubiquinone_biosynthesis_methyltransferase_UbiE</td>
+              <td><a href="https://mibig.secondarymetabolites.org/go/BGC0001702/1">BGC0001702</a></td>
+              <td>NRP + Polyketide</td>
+              <td>44.0</td>
+              <td>44.3</td>
+              <td>64.0</td>
+              <td>2.8e-10</td>
+          </tr>
+    
+          <tr>
+              <td>WP_050499948.1</td>
+              <td>class_I_SAM-dependent_methyltransferase</td>
+              <td><a href="https://mibig.secondarymetabolites.org/go/BGC0001753/1">BGC0001753</a></td>
+              <td>RiPP</td>
+              <td>39.0</td>
+              <td>41.8</td>
+              <td>62.0</td>
+              <td>8.1e-10</td>
+          </tr>
+    
+          <tr>
+              <td>ABM63537.1</td>
+              <td>BryA</td>
+              <td><a href="https://mibig.secondarymetabolites.org/go/BGC0000174/1">BGC0000174</a></td>
+              <td>Polyketide</td>
+              <td>29.0</td>
+              <td>61.9</td>
+              <td>62.0</td>
+              <td>1.1e-09</td>
+          </tr>
+    
+          <tr>
+              <td>ABM63527.1</td>
+              <td>BryB</td>
+              <td><a href="https://mibig.secondarymetabolites.org/go/BGC0000174/1">BGC0000174</a></td>
+              <td>Polyketide</td>
+              <td>34.0</td>
+              <td>43.9</td>
+              <td>61.0</td>
+              <td>3.1e-09</td>
+          </tr>
+    
+          <tr>
+              <td>AET98907.1</td>
+              <td>putative_SAM-dependent_methyltransferase</td>
+              <td><a href="https://mibig.secondarymetabolites.org/go/BGC0000415/1">BGC0000415</a></td>
+              <td>NRP</td>
+              <td>36.0</td>
+              <td>48.4</td>
+              <td>53.0</td>
+              <td>6.4e-07</td>
+          </tr>
+    
+          <tr>
+              <td>EFE73313.1</td>
+              <td>nonribosomal_peptide_synthetase</td>
+              <td><a href="https://mibig.secondarymetabolites.org/go/BGC0000431/1">BGC0000431</a></td>
+              <td>NRP:Cyclic depsipeptide</td>
+              <td>31.0</td>
+              <td>64.3</td>
+              <td>53.0</td>
+              <td>6.4e-07</td>
+          </tr>
+    
+          <tr>
+              <td>BAH04163.1</td>
+              <td>putative_SAM-dependent_methyltransferase</td>
+              <td><a href="https://mibig.secondarymetabolites.org/go/BGC0000450/1">BGC0000450</a></td>
+              <td>NRP</td>
+              <td>36.0</td>
+              <td>48.4</td>
+              <td>52.0</td>
+              <td>8.4e-07</td>
+          </tr>
+    
+          <tr>
+              <td>ABX71139.1</td>
+              <td>Lct56</td>
+              <td><a href="https://mibig.secondarymetabolites.org/go/BGC0000238/1">BGC0000238</a></td>
+              <td>Polyketide</td>
+              <td>39.0</td>
+              <td>44.7</td>
+              <td>50.0</td>
+              <td>4.2e-06</td>
+          </tr>
+    
+    </tbody>
+  </table>
+</body>

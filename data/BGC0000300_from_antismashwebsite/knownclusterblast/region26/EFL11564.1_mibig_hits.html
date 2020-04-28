@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+<meta charset="utf-8" />
+<link rel="stylesheet" type="text/css" href="../../css/style.css">
+
+<script type="text/javascript" src="../../js/jquery.js"></script>
+<script type="text/javascript" src="../../js/jquery.tablesorter.min.js"></script>
+
+<script type="text/javascript" >
+var counter = 1;
+function addInput(divName){
+     var newdiv = document.createElement('div');
+     newdiv.innerHTML = "<b>Locus " + (counter + 1) + "</b><br> GenBank accession: <input type='text' required name='myInputs[]'> Start nt: <input type='number' name='myStartCoords[]' placeholder='N/A'> End nt: <input type='number' name='myEndCoords[]' placeholder='N/A'> <br><br>";
+     document.getElementById(divName).appendChild(newdiv);
+     counter++;
+}
+</script>
+
+<script>
+$(document).ready(function()
+    {
+        $("#myTable").tablesorter();
+    }
+);
+
+</script>
+<style>
+table {
+    border-width: thin;
+    border-spacing: 2px;
+    border-style: none;
+    border-color: black;
+}
+</style>
+</head>
+<body>
+    <table id="myTable" class="tablesorter" border=1>
+    <thead>
+    <tr>
+        <th>MIBiG Protein</th>
+        <th>Description</th>
+        <th>MIBiG Cluster</th>
+        <th>MiBiG Product</th>
+        <th>% ID</th>
+        <th>% Coverage</th>
+        <th>BLAST Score</th>
+        <th>E-value</th>
+    </tr>
+    </thead>
+    <tbody>
+    
+          <tr>
+              <td>WP_030625041.1</td>
+              <td>alpha/beta_fold_hydrolase</td>
+              <td><a href="https://mibig.secondarymetabolites.org/go/BGC0001771/1">BGC0001771</a></td>
+              <td>NRP</td>
+              <td>45.0</td>
+              <td>96.2</td>
+              <td>180.0</td>
+              <td>3.4e-45</td>
+          </tr>
+    
+          <tr>
+              <td>AAY37647.1</td>
+              <td>Amino_acid_adenylation</td>
+              <td><a href="https://mibig.secondarymetabolites.org/go/BGC0000437/1">BGC0000437</a></td>
+              <td>NRP</td>
+              <td>37.0</td>
+              <td>55.6</td>
+              <td>64.0</td>
+              <td>2.1e-10</td>
+          </tr>
+    
+          <tr>
+              <td>RLV71192.1</td>
+              <td>non-ribosomal_peptide_synthetase</td>
+              <td><a href="https://mibig.secondarymetabolites.org/go/BGC0001846/1">BGC0001846</a></td>
+              <td>NRP + Saccharide:Hybrid/tailoring</td>
+              <td>37.0</td>
+              <td>48.5</td>
+              <td>59.0</td>
+              <td>8.8e-09</td>
+          </tr>
+    
+          <tr>
+              <td>AAG05690.1</td>
+              <td>AmbE</td>
+              <td><a href="https://mibig.secondarymetabolites.org/go/BGC0000287/1">BGC0000287</a></td>
+              <td>NRP</td>
+              <td>28.0</td>
+              <td>91.2</td>
+              <td>55.0</td>
+              <td>1.3e-07</td>
+          </tr>
+    
+    </tbody>
+  </table>
+</body>

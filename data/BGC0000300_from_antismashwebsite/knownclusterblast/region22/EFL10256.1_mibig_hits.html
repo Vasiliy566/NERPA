@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+<meta charset="utf-8" />
+<link rel="stylesheet" type="text/css" href="../../css/style.css">
+
+<script type="text/javascript" src="../../js/jquery.js"></script>
+<script type="text/javascript" src="../../js/jquery.tablesorter.min.js"></script>
+
+<script type="text/javascript" >
+var counter = 1;
+function addInput(divName){
+     var newdiv = document.createElement('div');
+     newdiv.innerHTML = "<b>Locus " + (counter + 1) + "</b><br> GenBank accession: <input type='text' required name='myInputs[]'> Start nt: <input type='number' name='myStartCoords[]' placeholder='N/A'> End nt: <input type='number' name='myEndCoords[]' placeholder='N/A'> <br><br>";
+     document.getElementById(divName).appendChild(newdiv);
+     counter++;
+}
+</script>
+
+<script>
+$(document).ready(function()
+    {
+        $("#myTable").tablesorter();
+    }
+);
+
+</script>
+<style>
+table {
+    border-width: thin;
+    border-spacing: 2px;
+    border-style: none;
+    border-color: black;
+}
+</style>
+</head>
+<body>
+    <table id="myTable" class="tablesorter" border=1>
+    <thead>
+    <tr>
+        <th>MIBiG Protein</th>
+        <th>Description</th>
+        <th>MIBiG Cluster</th>
+        <th>MiBiG Product</th>
+        <th>% ID</th>
+        <th>% Coverage</th>
+        <th>BLAST Score</th>
+        <th>E-value</th>
+    </tr>
+    </thead>
+    <tbody>
+    
+          <tr>
+              <td>ADG27366.1</td>
+              <td>TetR_family_transcriptional_regulator</td>
+              <td><a href="https://mibig.secondarymetabolites.org/go/BGC0000296/1">BGC0000296</a></td>
+              <td>NRP</td>
+              <td>35.0</td>
+              <td>64.8</td>
+              <td>77.0</td>
+              <td>3.1e-14</td>
+          </tr>
+    
+          <tr>
+              <td>BBA21086.1</td>
+              <td>putative_TetR-family_transcriptional_regulator</td>
+              <td><a href="https://mibig.secondarymetabolites.org/go/BGC0001740/1">BGC0001740</a></td>
+              <td>NRP + Polyketide</td>
+              <td>29.0</td>
+              <td>95.3</td>
+              <td>63.0</td>
+              <td>4.6e-10</td>
+          </tr>
+    
+          <tr>
+              <td>CAH10121.1</td>
+              <td>putative_tetR-family_regulatory_protein</td>
+              <td><a href="https://mibig.secondarymetabolites.org/go/BGC0000268/1">BGC0000268</a></td>
+              <td>Polyketide</td>
+              <td>29.0</td>
+              <td>101.7</td>
+              <td>62.0</td>
+              <td>1e-09</td>
+          </tr>
+    
+          <tr>
+              <td>AAL15594.1</td>
+              <td>Sim16</td>
+              <td><a href="https://mibig.secondarymetabolites.org/go/BGC0000270/1">BGC0000270</a></td>
+              <td>Polyketide</td>
+              <td>29.0</td>
+              <td>98.3</td>
+              <td>60.0</td>
+              <td>3.9e-09</td>
+          </tr>
+    
+          <tr>
+              <td>AAK06798.1</td>
+              <td>transcriptional_repressor_of_transporter_SimX</td>
+              <td><a href="https://mibig.secondarymetabolites.org/go/BGC0001072/1">BGC0001072</a></td>
+              <td>Saccharide + Polyketide:Modular type I + Polyketide:Type II + Other:Aminocoumarin</td>
+              <td>29.0</td>
+              <td>98.3</td>
+              <td>60.0</td>
+              <td>3.9e-09</td>
+          </tr>
+    
+          <tr>
+              <td>AXI91567.1</td>
+              <td>FunR8</td>
+              <td><a href="https://mibig.secondarymetabolites.org/go/BGC0001944/1">BGC0001944</a></td>
+              <td>Polyketide</td>
+              <td>32.0</td>
+              <td>64.8</td>
+              <td>57.0</td>
+              <td>3.3e-08</td>
+          </tr>
+    
+          <tr>
+              <td>ARE67861.1</td>
+              <td>AbC1</td>
+              <td><a href="https://mibig.secondarymetabolites.org/go/BGC0001492/1">BGC0001492</a></td>
+              <td>Polyketide</td>
+              <td>28.0</td>
+              <td>89.4</td>
+              <td>52.0</td>
+              <td>8.1e-07</td>
+          </tr>
+    
+    </tbody>
+  </table>
+</body>

@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+<meta charset="utf-8" />
+<link rel="stylesheet" type="text/css" href="../../css/style.css">
+
+<script type="text/javascript" src="../../js/jquery.js"></script>
+<script type="text/javascript" src="../../js/jquery.tablesorter.min.js"></script>
+
+<script type="text/javascript" >
+var counter = 1;
+function addInput(divName){
+     var newdiv = document.createElement('div');
+     newdiv.innerHTML = "<b>Locus " + (counter + 1) + "</b><br> GenBank accession: <input type='text' required name='myInputs[]'> Start nt: <input type='number' name='myStartCoords[]' placeholder='N/A'> End nt: <input type='number' name='myEndCoords[]' placeholder='N/A'> <br><br>";
+     document.getElementById(divName).appendChild(newdiv);
+     counter++;
+}
+</script>
+
+<script>
+$(document).ready(function()
+    {
+        $("#myTable").tablesorter();
+    }
+);
+
+</script>
+<style>
+table {
+    border-width: thin;
+    border-spacing: 2px;
+    border-style: none;
+    border-color: black;
+}
+</style>
+</head>
+<body>
+    <table id="myTable" class="tablesorter" border=1>
+    <thead>
+    <tr>
+        <th>MIBiG Protein</th>
+        <th>Description</th>
+        <th>MIBiG Cluster</th>
+        <th>MiBiG Product</th>
+        <th>% ID</th>
+        <th>% Coverage</th>
+        <th>BLAST Score</th>
+        <th>E-value</th>
+    </tr>
+    </thead>
+    <tbody>
+    
+          <tr>
+              <td>AMX23313.1</td>
+              <td>transcriptional_regulatory_protein_LuxR</td>
+              <td><a href="https://mibig.secondarymetabolites.org/go/BGC0001500/1">BGC0001500</a></td>
+              <td>Polyketide</td>
+              <td>28.0</td>
+              <td>72.2</td>
+              <td>100.0</td>
+              <td>1.7e-20</td>
+          </tr>
+    
+          <tr>
+              <td>ANZ22990.1</td>
+              <td>ZinR1</td>
+              <td><a href="https://mibig.secondarymetabolites.org/go/BGC0001828/1">BGC0001828</a></td>
+              <td>Polyketide</td>
+              <td>25.0</td>
+              <td>72.7</td>
+              <td>84.0</td>
+              <td>1.3e-15</td>
+          </tr>
+    
+          <tr>
+              <td>AZS52677.1</td>
+              <td>LuxR_family_transcriptional_regulator</td>
+              <td><a href="https://mibig.secondarymetabolites.org/go/BGC0001973/1">BGC0001973</a></td>
+              <td>Other</td>
+              <td>25.0</td>
+              <td>83.5</td>
+              <td>82.0</td>
+              <td>6.2e-15</td>
+          </tr>
+    
+          <tr>
+              <td>TXD00039.1</td>
+              <td>AAA_family_ATPase</td>
+              <td><a href="https://mibig.secondarymetabolites.org/go/BGC0001877/1">BGC0001877</a></td>
+              <td>Polyketide</td>
+              <td>24.0</td>
+              <td>91.1</td>
+              <td>64.0</td>
+              <td>1.8e-09</td>
+          </tr>
+    
+          <tr>
+              <td>QBF51748.1</td>
+              <td>LuxR_family_transcriptional_regulator</td>
+              <td><a href="https://mibig.secondarymetabolites.org/go/BGC0001856/1">BGC0001856</a></td>
+              <td>Polyketide:Modular type I</td>
+              <td>26.0</td>
+              <td>81.9</td>
+              <td>63.0</td>
+              <td>3e-09</td>
+          </tr>
+    
+          <tr>
+              <td>AKA59105.1</td>
+              <td>LuxR-family_transcriptional_regulator</td>
+              <td><a href="https://mibig.secondarymetabolites.org/go/BGC0001619/1">BGC0001619</a></td>
+              <td>Polyketide</td>
+              <td>27.0</td>
+              <td>42.8</td>
+              <td>56.0</td>
+              <td>3.7e-07</td>
+          </tr>
+    
+    </tbody>
+  </table>
+</body>

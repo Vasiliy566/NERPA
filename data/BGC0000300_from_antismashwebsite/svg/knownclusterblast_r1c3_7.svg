@@ -1,0 +1,89 @@
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg" height="230" width="800" xmlns:xlink="http://www.w3.org/1999/xlink" preserveAspectRatio="none" x="0" y="0" viewBox="0 0 800 230"  >
+<g label="Query sequence" class="clusterblast-cluster"  >
+<text class="clusterblast-acc" y="20" x="5"  >
+Query sequence</text>
+<line x1="10" x2="778.0" y2="35" style="stroke-width:1; stroke:grey; " y1="35"  />
+<polygon locus_tag="SSMG_00995" description="&lt;b&gt;SSMG_00995&lt;/b&gt;&lt;br&gt;predicted protein&lt;br&gt;Location: 1052056 - 1052755" points="322,40 326,35 322,30 322,40 " style="stroke-width:1; stroke:black; fill:white; " id="dummy-3_q0_0_all" class="clusterblast-orf"  />
+<polygon locus_tag="SSMG_00996" description="&lt;b&gt;SSMG_00996&lt;/b&gt;&lt;br&gt;cytochrome P450 hydroxylase&lt;br&gt;Location: 1052894 - 1054115" points="327,40 330,40 335,35 330,30 327,30 327,40 " style="stroke-width:1; stroke:black; fill:#d81515; " id="dummy-3_q1_0_all" class="clusterblast-orf"  />
+<polygon locus_tag="SSMG_00997" description="&lt;b&gt;SSMG_00997&lt;/b&gt;&lt;br&gt;transposase IS116/IS110/IS902 family protein&lt;br&gt;Location: 1054138 - 1055371" points="335,35 340,30 343,30 343,40 340,40 335,35 " style="stroke-width:1; stroke:black; fill:white; " id="dummy-3_q2_0_all" class="clusterblast-orf"  />
+<polygon locus_tag="SSMG_00998" description="&lt;b&gt;SSMG_00998&lt;/b&gt;&lt;br&gt;predicted protein&lt;br&gt;Location: 1055392 - 1055722" points="344,40 346,35 344,30 344,40 " style="stroke-width:1; stroke:black; fill:white; " id="dummy-3_q3_0_all" class="clusterblast-orf"  />
+<polygon locus_tag="SSMG_00999" description="&lt;b&gt;SSMG_00999&lt;/b&gt;&lt;br&gt;predicted protein&lt;br&gt;Location: 1055732 - 1055927" points="346,40 347,35 346,30 346,40 " style="stroke-width:1; stroke:black; fill:#15d863; " id="dummy-3_q4_0_all" class="clusterblast-orf"  />
+<polygon locus_tag="SSMG_01000" description="&lt;b&gt;SSMG_01000&lt;/b&gt;&lt;br&gt;transcriptional regulator&lt;br&gt;Location: 1055976 - 1056777" points="347,40 348,40 353,35 348,30 347,30 347,40 " style="stroke-width:1; stroke:black; fill:white; " id="dummy-3_q5_0_all" class="clusterblast-orf"  />
+<polygon locus_tag="SSMG_01001" description="&lt;b&gt;SSMG_01001&lt;/b&gt;&lt;br&gt;methyltransferase type 11&lt;br&gt;Location: 1056742 - 1057531" points="352,35 357,30 358,30 358,40 357,40 352,35 " style="stroke-width:1; stroke:black; fill:white; " id="dummy-3_q6_0_all" class="clusterblast-orf"  />
+<polygon locus_tag="SSMG_01002" description="&lt;b&gt;SSMG_01002&lt;/b&gt;&lt;br&gt;predicted protein&lt;br&gt;Location: 1057505 - 1057736" points="357,35 359,30 359,40 357,35 " style="stroke-width:1; stroke:black; fill:white; " id="dummy-3_q7_0_all" class="clusterblast-orf"  />
+<polygon locus_tag="SSMG_01003" description="&lt;b&gt;SSMG_01003&lt;/b&gt;&lt;br&gt;glutaredoxin&lt;br&gt;Location: 1057732 - 1057972" points="359,35 360,30 360,40 359,35 " style="stroke-width:1; stroke:black; fill:white; " id="dummy-3_q8_0_all" class="clusterblast-orf"  />
+<polygon locus_tag="SSMG_01004" description="&lt;b&gt;SSMG_01004&lt;/b&gt;&lt;br&gt;predicted protein&lt;br&gt;Location: 1057968 - 1060089" points="360,35 365,30 374,30 374,40 365,40 360,35 " style="stroke-width:1; stroke:black; fill:#1563d8; " id="dummy-3_q9_0_all" class="clusterblast-orf"  />
+<polygon locus_tag="SSMG_01005" description="&lt;b&gt;SSMG_01005&lt;/b&gt;&lt;br&gt;predicted protein&lt;br&gt;Location: 1060085 - 1060751" points="374,35 379,30 379,30 379,40 379,40 374,35 " style="stroke-width:1; stroke:black; fill:white; " id="dummy-3_q10_0_all" class="clusterblast-orf"  />
+<polygon locus_tag="SSMG_01006" description="&lt;b&gt;SSMG_01006&lt;/b&gt;&lt;br&gt;predicted protein&lt;br&gt;Location: 1060669 - 1061392" points="378,35 383,30 383,30 383,40 383,40 378,35 " style="stroke-width:1; stroke:black; fill:#b115d8; " id="dummy-3_q11_0_all" class="clusterblast-orf"  />
+<polygon locus_tag="SSMG_01007" description="&lt;b&gt;SSMG_01007&lt;/b&gt;&lt;br&gt;terpene synthase&lt;br&gt;Location: 1061718 - 1063962" points="385,35 390,30 400,30 400,40 390,40 385,35 " style="stroke-width:1; stroke:black; fill:#b1d815; " id="dummy-3_q12_0_all" class="clusterblast-orf"  />
+<polygon locus_tag="SSMG_01008" description="&lt;b&gt;SSMG_01008&lt;/b&gt;&lt;br&gt;conserved hypothetical protein&lt;br&gt;Location: 1064394 - 1065990" points="402,40 408,40 413,35 408,30 402,30 402,40 " style="stroke-width:1; stroke:black; fill:white; " id="dummy-3_q13_0_all" class="clusterblast-orf"  />
+<polygon locus_tag="SSMG_01009" description="&lt;b&gt;SSMG_01009&lt;/b&gt;&lt;br&gt;hydrolase&lt;br&gt;Location: 1066040 - 1068095" points="413,35 418,30 427,30 427,40 418,40 413,35 " style="stroke-width:1; stroke:black; fill:white; " id="dummy-3_q14_0_all" class="clusterblast-orf"  />
+<polygon locus_tag="SSMG_01010" description="&lt;b&gt;SSMG_01010&lt;/b&gt;&lt;br&gt;sugar transport integral membrane protein&lt;br&gt;Location: 1068101 - 1068971" points="427,35 432,30 432,30 432,40 432,40 427,35 " style="stroke-width:1; stroke:black; fill:white; " id="dummy-3_q15_0_all" class="clusterblast-orf"  />
+<polygon locus_tag="SSMG_01011" description="&lt;b&gt;SSMG_01011&lt;/b&gt;&lt;br&gt;sugar transport integral membrane protein&lt;br&gt;Location: 1068972 - 1069923" points="432,35 437,30 439,30 439,40 437,40 432,35 " style="stroke-width:1; stroke:black; fill:white; " id="dummy-3_q16_0_all" class="clusterblast-orf"  />
+<polygon locus_tag="SSMG_01012" description="&lt;b&gt;SSMG_01012&lt;/b&gt;&lt;br&gt;sugar transport sugar binding protein&lt;br&gt;Location: 1069919 - 1071305" points="439,35 444,30 448,30 448,40 444,40 439,35 " style="stroke-width:1; stroke:black; fill:white; " id="dummy-3_q17_0_all" class="clusterblast-orf"  />
+<polygon locus_tag="SSMG_01013" description="&lt;b&gt;SSMG_01013&lt;/b&gt;&lt;br&gt;catabolite control protein A&lt;br&gt;Location: 1071441 - 1072476" points="449,40 450,40 455,35 450,30 449,30 449,40 " style="stroke-width:1; stroke:black; fill:white; " id="dummy-3_q18_0_all" class="clusterblast-orf"  />
+<polygon locus_tag="SSMG_01014" description="&lt;b&gt;SSMG_01014&lt;/b&gt;&lt;br&gt;predicted protein&lt;br&gt;Location: 1072468 - 1072789" points="455,40 457,35 455,30 455,40 " style="stroke-width:1; stroke:black; fill:white; " id="dummy-3_q19_0_all" class="clusterblast-orf"  />
+</g>
+<g label="BGC0001709" description="BGC0001709_c1: nystatin (10% of genes show similarity), Polyketide" class="clusterblast-cluster"  >
+<text class="clusterblast-acc" y="70" x="5"  >
+<a xlink:href="https://mibig.secondarymetabolites.org/go/BGC0001709/1" target="_blank">BGC0001709</a>:                                                                         nystatin (10% of genes show similarity), Polyketide</text>
+<line x1="10" x2="778.0" y2="85" style="stroke-width:1; stroke:grey; " y1="85"  />
+</g>
+<g id="a3_000"  >
+<polygon locus_tag="AVX51112.1" description="&lt;b&gt;AVX51112.1&lt;/b&gt;&lt;br&gt;nysRIII&lt;br&gt;Location: 119206 - 116423" points="0,85 5,80 18,80 18,90 5,90 0,85 " style="stroke-width:1; stroke:black; fill:white; " id="dummy-3_h3_7_0" class="clusterblast-orf"  />
+</g>
+<g id="a3_001"  >
+<polygon locus_tag="AVX51111.1" description="&lt;b&gt;AVX51111.1&lt;/b&gt;&lt;br&gt;nysRII&lt;br&gt;Location: 116433 - 113575" points="18,85 23,80 36,80 36,90 23,90 18,85 " style="stroke-width:1; stroke:black; fill:white; " id="dummy-3_h3_7_1" class="clusterblast-orf"  />
+</g>
+<g id="a3_002"  >
+<polygon locus_tag="AVX51110.1" description="&lt;b&gt;AVX51110.1&lt;/b&gt;&lt;br&gt;nysRI&lt;br&gt;Location: 113551 - 110654" points="37,85 42,80 55,80 55,90 42,90 37,85 " style="stroke-width:1; stroke:black; fill:white; " id="dummy-3_h3_7_2" class="clusterblast-orf"  />
+</g>
+<g id="a3_003"  >
+<polygon locus_tag="AVX51109.1" description="&lt;b&gt;AVX51109.1&lt;/b&gt;&lt;br&gt;nysE&lt;br&gt;Location: 110243 - 109494" points="58,85 63,80 63,80 63,90 63,90 58,85 " style="stroke-width:1; stroke:black; fill:white; " id="dummy-3_h3_7_3" class="clusterblast-orf"  />
+</g>
+<g id="a3_004"  >
+<polygon locus_tag="AVX51108.1" description="&lt;b&gt;AVX51108.1&lt;/b&gt;&lt;br&gt;nysC&lt;br&gt;Location: 109190 - 75951" points="65,85 70,80 283,80 283,90 70,90 65,85 " style="stroke-width:1; stroke:black; fill:white; " id="dummy-3_h3_7_4" class="clusterblast-orf"  />
+</g>
+<g id="a3_005"  >
+<polygon locus_tag="AVX51107.1" description="&lt;b&gt;AVX51107.1&lt;/b&gt;&lt;br&gt;nysB&lt;br&gt;Location: 75931 - 66353" points="283,85 288,80 345,80 345,90 288,90 283,85 " style="stroke-width:1; stroke:black; fill:white; " id="dummy-3_h3_7_5" class="clusterblast-orf"  />
+</g>
+<g id="a3_006"  >
+<polygon locus_tag="AVX51106.1" description="&lt;b&gt;AVX51106.1&lt;/b&gt;&lt;br&gt;nysA&lt;br&gt;Location: 66307 - 62177" points="346,85 351,80 373,80 373,90 351,90 346,85 " style="stroke-width:1; stroke:black; fill:white; " id="dummy-3_h3_7_6" class="clusterblast-orf"  />
+</g>
+<g id="a3_007"  >
+<polygon locus_tag="AVX51105.1" description="&lt;b&gt;AVX51105.1&lt;/b&gt;&lt;br&gt;nysDI&lt;br&gt;Location: 61820 - 60429" points="375,90 379,90 384,85 379,80 375,80 375,90 " style="stroke-width:1; stroke:black; fill:white; " id="dummy-3_h3_7_7" class="clusterblast-orf"  />
+</g>
+<g id="a3_008"  >
+<polygon locus_tag="AVX51104.1" description="&lt;b&gt;AVX51104.1&lt;/b&gt;&lt;br&gt;nysDII&lt;br&gt;Location: 60410 - 59352" points="384,90 386,90 391,85 386,80 384,80 384,90 " style="stroke-width:1; stroke:black; fill:white; " id="dummy-3_h3_7_8" class="clusterblast-orf"  />
+</g>
+<g id="a3_009"  >
+<polygon locus_tag="AVX51103.1" description="&lt;b&gt;AVX51103.1&lt;/b&gt;&lt;br&gt;nysN&lt;br&gt;Location: 59355 - 58159&lt;br&gt;&lt;br&gt;&lt;b&gt;BlastP hit with SSMG_00996&lt;/b&gt;&lt;br&gt;Percentage identity: 49&lt;br&gt;Percentage coverage: 97&lt;br&gt;BLAST bit score: 354&lt;br&gt;E-value: 2.9e-97" points="391,90 394,90 399,85 394,80 391,80 391,90 " style="stroke-width:1; stroke:black; fill:#d81515; " id="dummy-3_h3_7_9" class="clusterblast-orf"  />
+</g>
+<g id="a3_0010"  >
+<polygon locus_tag="AVX51102.1" description="&lt;b&gt;AVX51102.1&lt;/b&gt;&lt;br&gt;nysM&lt;br&gt;Location: 58109 - 57918&lt;br&gt;&lt;br&gt;&lt;b&gt;BlastP hit with SSMG_00999&lt;/b&gt;&lt;br&gt;Percentage identity: 59&lt;br&gt;Percentage coverage: 98&lt;br&gt;BLAST bit score: 66&lt;br&gt;E-value: 1.5e-11" points="399,90 401,85 399,80 399,90 " style="stroke-width:1; stroke:black; fill:#15d863; " id="dummy-3_h3_7_10" class="clusterblast-orf"  />
+</g>
+<g id="a3_0011"  >
+<polygon locus_tag="AVX51101.1" description="&lt;b&gt;AVX51101.1&lt;/b&gt;&lt;br&gt;nysL&lt;br&gt;Location: 57833 - 56649" points="401,85 406,80 409,80 409,90 406,90 401,85 " style="stroke-width:1; stroke:black; fill:white; " id="dummy-3_h3_7_11" class="clusterblast-orf"  />
+</g>
+<g id="a3_0012"  >
+<polygon locus_tag="AVX51100.1" description="&lt;b&gt;AVX51100.1&lt;/b&gt;&lt;br&gt;nysK&lt;br&gt;Location: 56501 - 50331" points="410,85 415,80 450,80 450,90 415,90 410,85 " style="stroke-width:1; stroke:black; fill:white; " id="dummy-3_h3_7_12" class="clusterblast-orf"  />
+</g>
+<g id="a3_0013"  >
+<polygon locus_tag="AVX51099.1" description="&lt;b&gt;AVX51099.1&lt;/b&gt;&lt;br&gt;NysJ&lt;br&gt;Location: 50275 - 33995" points="451,85 456,80 557,80 557,90 456,90 451,85 " style="stroke-width:1; stroke:black; fill:white; " id="dummy-3_h3_7_13" class="clusterblast-orf"  />
+</g>
+<g id="a3_0014"  >
+<polygon locus_tag="AVX51098.1" description="&lt;b&gt;AVX51098.1&lt;/b&gt;&lt;br&gt;nysI&lt;br&gt;Location: 33974 - 5463" points="557,85 562,80 744,80 744,90 562,90 557,85 " style="stroke-width:1; stroke:black; fill:white; " id="dummy-3_h3_7_14" class="clusterblast-orf"  />
+</g>
+<g id="a3_0015"  >
+<polygon locus_tag="AVX51097.1" description="&lt;b&gt;AVX51097.1&lt;/b&gt;&lt;br&gt;nysDIII&lt;br&gt;Location: 5284 - 4250" points="745,85 750,80 752,80 752,90 750,90 745,85 " style="stroke-width:1; stroke:black; fill:white; " id="dummy-3_h3_7_15" class="clusterblast-orf"  />
+</g>
+<g id="a3_0016"  >
+<polygon locus_tag="AVX51096.1" description="&lt;b&gt;AVX51096.1&lt;/b&gt;&lt;br&gt;nysH&lt;br&gt;Location: 3948 - 2194" points="754,90 760,90 765,85 760,80 754,80 754,90 " style="stroke-width:1; stroke:black; fill:white; " id="dummy-3_h3_7_16" class="clusterblast-orf"  />
+</g>
+<g id="a3_0017"  >
+<polygon locus_tag="AVX51095.1" description="&lt;b&gt;AVX51095.1&lt;/b&gt;&lt;br&gt;nysG&lt;br&gt;Location: 2216 - 396" points="765,90 772,90 777,85 772,80 765,80 765,90 " style="stroke-width:1; stroke:black; fill:white; " id="dummy-3_h3_7_17" class="clusterblast-orf"  />
+</g>
+<g id="a3_0018"  >
+<polygon locus_tag="AVX51094.1" description="&lt;b&gt;AVX51094.1&lt;/b&gt;&lt;br&gt;nysF&lt;br&gt;Location: 228 - 1" points="778,90 780,85 778,80 778,90 " style="stroke-width:1; stroke:black; fill:white; " id="dummy-3_h3_7_18" class="clusterblast-orf"  />
+</g>
+</svg>

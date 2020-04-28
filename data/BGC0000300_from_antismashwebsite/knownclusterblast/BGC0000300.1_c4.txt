@@ -1,0 +1,129 @@
+ClusterBlast scores for BGC0000300.1
+
+Table of genes, locations, strands and annotations of query cluster:
+SSMG_01128	1181167	1181626	-	predicted protein	
+SSMG_01129	1181683	1181992	+	predicted protein	
+SSMG_01130	1182516	1183398	+	predicted protein	
+SSMG_01131	1183322	1185011	+	predicted protein	
+SSMG_01132	1185053	1186277	-	predicted protein	
+SSMG_01133	1186306	1187047	-	3-oxoacyl-[acyl-carrier-protein] reductase	
+SSMG_01134	1187390	1188587	+	predicted protein	
+SSMG_01135	1188621	1189476	+	predicted protein	
+SSMG_01136	1189508	1190717	+	hypothetical protein	
+SSMG_01137	1190703	1192098	+	predicted protein	
+SSMG_01138	1192102	1192804	-	predicted protein	
+SSMG_01139	1192803	1194534	-	predicted protein	
+SSMG_01140	1194538	1196152	-	predicted protein	
+SSMG_01141	1196148	1196550	-	predicted protein	
+SSMG_01142	1196546	1196816	-	predicted protein	
+SSMG_01143	1196812	1198531	-	hypothetical protein	
+SSMG_01144	1198527	1199619	-	hypothetical protein	
+SSMG_01145	1199615	1200734	-	phosphonopyruvate decarboxylase	
+SSMG_01146	1200730	1201795	-	phosphoenolpyruvate phosphomutase	
+SSMG_01147	1201793	1202558	+	1-acyl-sn-glycerol-3-phosphate acyltransferase	
+SSMG_01148	1202667	1218009	+	modular polyketide synthase	
+SSMG_01149	1218030	1219026	+	predicted protein	
+SSMG_01150	1219221	1219599	+	predicted protein	
+SSMG_01151	1220258	1221827	-	hypothetical protein	
+SSMG_01152	1223516	1225721	+	secreted protein	
+SSMG_01153	1225751	1227482	+	thioredoxin reductase	
+SSMG_01154	1227478	1228906	+	two-component sensor histidine kinase	
+SSMG_01155	1229198	1229696	-	predicted protein	
+SSMG_01156	1229698	1230031	-	predicted protein	
+SSMG_01157	1230579	1231830	-	transposase	
+SSMG_01158	1232257	1232881	+	pentapeptide repeat-containing protein	
+SSMG_01159	1232929	1233529	+	oxidoreductase molybdopterin binding protein	
+SSMG_01160	1233462	1234242	+	oxidoreductase FAD-binding region	
+SSMG_01161	1234255	1236640	-	predicted protein	
+SSMG_01162	1236876	1238043	-	predicted protein	
+
+
+Significant hits: 
+1. BGC0002036	dehydrofosmidomycin
+2. BGC0001898	thioplatensimycin / thioplatencin
+
+
+Details:
+
+>>
+1. BGC0002036
+Source: dehydrofosmidomycin
+Type: Other
+Number of proteins with BLAST hits to this cluster: 2
+Cumulative BLAST score: 500
+
+Table of genes, locations, strands and annotations of subject cluster:
+ctg2_1	ctg2_1	1	375	-	
+ctg2_2	ctg2_2	1661	2482	+	
+ctg2_3	ctg2_3	2591	3403	+	
+ctg2_4	ctg2_4	3414	4547	+	
+ctg2_5	ctg2_5	4675	5838	+	
+ctg2_6	ctg2_6	5835	6617	+	
+ctg2_7	ctg2_7	6753	7970	+	
+ctg2_8	ctg2_8	7967	9832	+	
+ctg2_9	ctg2_9	10011	10928	+	
+ctg2_10	ctg2_10	10921	11880	+	
+ctg2_11	ctg2_11	12152	13756	+	
+ctg2_12	ctg2_12	13753	14871	+	
+ctg2_13	ctg2_13	14868	15983	+	
+
+Table of Blast hits (query gene, subject gene, %identity, blast score, %coverage, e-value):
+SSMG_01145	ctg2_12	47	257	94.08602150537635	2.6e-68
+SSMG_01146	ctg2_11	47	243	76.55367231638418	6.4e-64
+
+
+
+>>
+2. BGC0001898
+Source: thioplatensimycin / thioplatencin
+Type: Terpene
+Number of proteins with BLAST hits to this cluster: 2
+Cumulative BLAST score: 556
+
+Table of genes, locations, strands and annotations of subject cluster:
+ACO31261.1	ACO31261.1	759	1895	-	unknown
+ACO31262.1	ACO31262.1	1892	2911	-	unknown
+ACO31263.1	ACO31263.1	2927	3829	-	unknown
+ACO31264.1	ACO31264.1	3848	4531	-	unknown
+ACO31265.1	ACO31265.1	4628	5392	-	Ptm01
+ACO31266.1	ACO31266.1	5389	5943	-	PtmU1
+ACO31267.1	ACO31267.1	6030	7334	+	PtmA1
+ACO31268.1	ACO31268.1	7331	8041	+	PtmU2
+ACO31269.1	ACO31269.1	8087	8488	-	PtmR2
+ACO31270.1	ACO31270.1	8488	9645	-	PtmD
+ACO31271.1	ACO31271.1	9647	11215	-	PtmA2
+ACO31272.1	ACO31272.1	11244	12326	-	PtmU3
+ACO31273.1	ACO31273.1	12408	13262	-	PtmH
+ACO31274.1	ACO31274.1	13327	14253	-	PtmT1
+ACO31275.1	ACO31275.1	14250	15572	-	PtmO2
+ACO31276.1	ACO31276.1	15572	17173	-	PtmT2
+ACO31277.1	ACO31277.1	17311	18168	+	PtmO3
+ACO31278.1	ACO31278.1	18168	19334	+	PtmO4
+ACO31279.1	ACO31279.1	19331	20260	+	PtmT3
+ACO31280.1	ACO31280.1	20301	21593	+	PtmO5
+ACO31281.1	ACO31281.1	21590	22657	+	PtmR3
+ACO31282.1	ACO31282.1	22745	23587	+	PtmO6
+ACO31283.1	ACO31283.1	23644	24690	+	PtmT4
+ACO31284.1	ACO31284.1	24690	26036	+	PtmM1
+ACO31285.1	ACO31285.1	26044	27144	+	PtmM2
+ACO31286.1	ACO31286.1	27131	28894	+	PtmM3
+ACO31287.1	ACO31287.1	28972	29805	+	PtmB1
+ACO31288.1	ACO31288.1	29857	30963	+	PtmB2
+ACO31289.1	ACO31289.1	30969	32159	+	PtmB3
+ACO31290.1	ACO31290.1	32218	33093	+	PtmC
+ACO31291.1	ACO31291.1	33179	34603	-	PtmP1
+ACO31292.1	ACO31292.1	34675	35919	+	PtmP2
+ACO31293.1	ACO31293.1	35934	36839	+	PtmO7
+ACO31294.1	ACO31294.1	36872	37588	-	PtmR1
+ACO31295.1	ACO31295.1	37880	38716	+	PtmO8
+ACO31296.1	ACO31296.1	38713	40503	+	PtmU4
+ACO31297.1	ACO31297.1	40542	42125	+	PtmA3
+ACS13710.1	ACS13710.1	42293	43507	+	PtmP3
+ACS13711.1	ACS13711.1	43625	45247	+	PtmP4
+ACS13712.1	ACS13712.1	45271	45606	+	PtmO9
+ACS13713.1	ACS13713.1	45738	46907	-	unknown
+
+Table of Blast hits (query gene, subject gene, %identity, blast score, %coverage, e-value):
+SSMG_01135	ACO31263.1	52	309	96.83098591549296	7.6e-84
+SSMG_01146	ACO31262.1	47	247	79.37853107344633	3.4e-65
+

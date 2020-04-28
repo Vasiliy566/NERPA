@@ -1,0 +1,20 @@
+ClusterBlast scores for BGC0000300.1
+
+Table of genes, locations, strands and annotations of query cluster:
+SSMG_04642	5091933	5092719	-	RNA polymerase sigma-B factor	
+SSMG_04643	5092929	5093190	-	predicted protein	
+SSMG_04644	5093111	5093606	-	predicted protein	
+SSMG_04645	5093801	5095244	-	predicted protein	
+SSMG_04646	5095256	5096381	-	malate dehydrogenase	
+SSMG_04647	5096561	5097374	-	Linocin_M18 bacteriocin protein	
+SSMG_04648	5097389	5097947	-	predicted protein	
+SSMG_04649	5098024	5098642	+	DNA polymerase	
+SSMG_04650	5098677	5099868	+	formaldehyde dehydrogenase, glutathione-independent	
+SSMG_04651	5099899	5100847	-	predicted protein	
+SSMG_04652	5100843	5101674	-	formate dehydrogenase, beta subunit	
+
+
+Significant hits: 
+
+
+Details:

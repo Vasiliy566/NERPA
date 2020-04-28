@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+<meta charset="utf-8" />
+<link rel="stylesheet" type="text/css" href="../../css/style.css">
+
+<script type="text/javascript" src="../../js/jquery.js"></script>
+<script type="text/javascript" src="../../js/jquery.tablesorter.min.js"></script>
+
+<script type="text/javascript" >
+var counter = 1;
+function addInput(divName){
+     var newdiv = document.createElement('div');
+     newdiv.innerHTML = "<b>Locus " + (counter + 1) + "</b><br> GenBank accession: <input type='text' required name='myInputs[]'> Start nt: <input type='number' name='myStartCoords[]' placeholder='N/A'> End nt: <input type='number' name='myEndCoords[]' placeholder='N/A'> <br><br>";
+     document.getElementById(divName).appendChild(newdiv);
+     counter++;
+}
+</script>
+
+<script>
+$(document).ready(function()
+    {
+        $("#myTable").tablesorter();
+    }
+);
+
+</script>
+<style>
+table {
+    border-width: thin;
+    border-spacing: 2px;
+    border-style: none;
+    border-color: black;
+}
+</style>
+</head>
+<body>
+    <table id="myTable" class="tablesorter" border=1>
+    <thead>
+    <tr>
+        <th>MIBiG Protein</th>
+        <th>Description</th>
+        <th>MIBiG Cluster</th>
+        <th>MiBiG Product</th>
+        <th>% ID</th>
+        <th>% Coverage</th>
+        <th>BLAST Score</th>
+        <th>E-value</th>
+    </tr>
+    </thead>
+    <tbody>
+    
+          <tr>
+              <td>AAU34204.1</td>
+              <td>alpha/beta_hydrolase_MppK</td>
+              <td><a href="https://mibig.secondarymetabolites.org/go/BGC0000388/1">BGC0000388</a></td>
+              <td>NRP</td>
+              <td>45.0</td>
+              <td>102.8</td>
+              <td>292.0</td>
+              <td>8.5e-79</td>
+          </tr>
+    
+          <tr>
+              <td>AJW76712.1</td>
+              <td>DsaJ</td>
+              <td><a href="https://mibig.secondarymetabolites.org/go/BGC0001196/1">BGC0001196</a></td>
+              <td>NRP</td>
+              <td>43.0</td>
+              <td>91.2</td>
+              <td>248.0</td>
+              <td>1.8e-65</td>
+          </tr>
+    
+          <tr>
+              <td>WP_003948921.1</td>
+              <td>serine_hydrolase</td>
+              <td><a href="https://mibig.secondarymetabolites.org/go/BGC0001792/1">BGC0001792</a></td>
+              <td>NRP</td>
+              <td>39.0</td>
+              <td>105.3</td>
+              <td>237.0</td>
+              <td>3.3e-62</td>
+          </tr>
+    
+          <tr>
+              <td>ANZ15841.1</td>
+              <td>penicillin-binding_protein,_beta-lactamase_class_C</td>
+              <td><a href="https://mibig.secondarymetabolites.org/go/BGC0001569/1">BGC0001569</a></td>
+              <td>NRP</td>
+              <td>39.0</td>
+              <td>102.3</td>
+              <td>230.0</td>
+              <td>6.8e-60</td>
+          </tr>
+    
+          <tr>
+              <td>ATU31793.1</td>
+              <td>beta-lactamase</td>
+              <td><a href="https://mibig.secondarymetabolites.org/go/BGC0001814/1">BGC0001814</a></td>
+              <td>NRP</td>
+              <td>38.0</td>
+              <td>91.2</td>
+              <td>188.0</td>
+              <td>1.7e-47</td>
+          </tr>
+    
+          <tr>
+              <td>EHN79411.1</td>
+              <td>beta-lactamase_ScatT</td>
+              <td><a href="https://mibig.secondarymetabolites.org/go/BGC0000804/1">BGC0000804</a></td>
+              <td>Saccharide</td>
+              <td>29.0</td>
+              <td>99.3</td>
+              <td>100.0</td>
+              <td>6.2e-21</td>
+          </tr>
+    
+    </tbody>
+  </table>
+</body>

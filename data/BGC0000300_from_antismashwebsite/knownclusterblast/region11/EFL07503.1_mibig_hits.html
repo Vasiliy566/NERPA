@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+<meta charset="utf-8" />
+<link rel="stylesheet" type="text/css" href="../../css/style.css">
+
+<script type="text/javascript" src="../../js/jquery.js"></script>
+<script type="text/javascript" src="../../js/jquery.tablesorter.min.js"></script>
+
+<script type="text/javascript" >
+var counter = 1;
+function addInput(divName){
+     var newdiv = document.createElement('div');
+     newdiv.innerHTML = "<b>Locus " + (counter + 1) + "</b><br> GenBank accession: <input type='text' required name='myInputs[]'> Start nt: <input type='number' name='myStartCoords[]' placeholder='N/A'> End nt: <input type='number' name='myEndCoords[]' placeholder='N/A'> <br><br>";
+     document.getElementById(divName).appendChild(newdiv);
+     counter++;
+}
+</script>
+
+<script>
+$(document).ready(function()
+    {
+        $("#myTable").tablesorter();
+    }
+);
+
+</script>
+<style>
+table {
+    border-width: thin;
+    border-spacing: 2px;
+    border-style: none;
+    border-color: black;
+}
+</style>
+</head>
+<body>
+    <table id="myTable" class="tablesorter" border=1>
+    <thead>
+    <tr>
+        <th>MIBiG Protein</th>
+        <th>Description</th>
+        <th>MIBiG Cluster</th>
+        <th>MiBiG Product</th>
+        <th>% ID</th>
+        <th>% Coverage</th>
+        <th>BLAST Score</th>
+        <th>E-value</th>
+    </tr>
+    </thead>
+    <tbody>
+    
+          <tr>
+              <td>AFJ52719.1</td>
+              <td>response_regulator</td>
+              <td><a href="https://mibig.secondarymetabolites.org/go/BGC0001073/1">BGC0001073</a></td>
+              <td>NRP + Polyketide</td>
+              <td>44.0</td>
+              <td>105.6</td>
+              <td>136.0</td>
+              <td>4.6e-32</td>
+          </tr>
+    
+          <tr>
+              <td>AAS79478.1</td>
+              <td>putative_response_regulator</td>
+              <td><a href="https://mibig.secondarymetabolites.org/go/BGC0000035/1">BGC0000035</a></td>
+              <td>Polyketide</td>
+              <td>41.0</td>
+              <td>106.2</td>
+              <td>115.0</td>
+              <td>1.1e-25</td>
+          </tr>
+    
+          <tr>
+              <td>ARE72421.1</td>
+              <td>LuxR_family_transcriptional_regulator</td>
+              <td><a href="https://mibig.secondarymetabolites.org/go/BGC0001510/1">BGC0001510</a></td>
+              <td>Other</td>
+              <td>38.0</td>
+              <td>106.2</td>
+              <td>104.0</td>
+              <td>1.5e-22</td>
+          </tr>
+    
+          <tr>
+              <td>AAQ84141.1</td>
+              <td>PlmR3</td>
+              <td><a href="https://mibig.secondarymetabolites.org/go/BGC0000123/1">BGC0000123</a></td>
+              <td>Polyketide</td>
+              <td>38.0</td>
+              <td>106.7</td>
+              <td>96.0</td>
+              <td>6.9e-20</td>
+          </tr>
+    
+          <tr>
+              <td>CCH63730.1</td>
+              <td>XiaD_protein</td>
+              <td><a href="https://mibig.secondarymetabolites.org/go/BGC0000665/1">BGC0000665</a></td>
+              <td>Terpene + Alkaloid</td>
+              <td>34.0</td>
+              <td>105.6</td>
+              <td>81.0</td>
+              <td>2.3e-15</td>
+          </tr>
+    
+          <tr>
+              <td>AFK78073.1</td>
+              <td>XiaG</td>
+              <td><a href="https://mibig.secondarymetabolites.org/go/BGC0000666/1">BGC0000666</a></td>
+              <td>Terpene</td>
+              <td>33.0</td>
+              <td>105.6</td>
+              <td>80.0</td>
+              <td>3.9e-15</td>
+          </tr>
+    
+    </tbody>
+  </table>
+</body>

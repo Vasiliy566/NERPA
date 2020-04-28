@@ -1,0 +1,118 @@
+ClusterBlast scores for BGC0000300.1
+
+Table of genes, locations, strands and annotations of query cluster:
+SSMG_07027	7715160	7717953	-	predicted protein	
+SSMG_07028	7718276	7719179	-	ectoine hydroxylase	
+SSMG_07029	7719245	7719638	-	ectoine synthase	
+SSMG_07030	7719669	7720920	-	diaminobutyrate-2-oxoglutarate aminotransferase	
+SSMG_07031	7720961	7721456	-	L-2,4-diaminobutyric acid acetyltransferase	
+
+
+Significant hits: 
+1. BGC0000853	ectoine
+2. BGC0000855	ectoine
+3. BGC0000859	ectoine
+4. BGC0000860	ectoine
+5. BGC0000854	ectoine
+
+
+Details:
+
+>>
+1. BGC0000853
+Source: ectoine
+Type: Other
+Number of proteins with BLAST hits to this cluster: 4
+Cumulative BLAST score: 1284
+
+Table of genes, locations, strands and annotations of subject cluster:
+AAS02094.1	AAS02094.1	9	539	+	ThpA
+AAS02095.1	AAS02095.1	698	1960	+	ThpB
+AAS02096.1	AAS02096.1	2047	2445	+	ThpC
+AAS02097.1	AAS02097.1	2452	3345	+	ThpD
+
+Table of Blast hits (query gene, subject gene, %identity, blast score, %coverage, e-value):
+SSMG_07028	AAS02097.1	57	337	99.0	2.1e-92
+SSMG_07029	AAS02096.1	61	182	101.53846153846153	3.7e-46
+SSMG_07030	AAS02095.1	68	588	98.79807692307693	7.2e-168
+SSMG_07031	AAS02094.1	59	177	95.73170731707317	2e-44
+
+
+
+>>
+2. BGC0000855
+Source: ectoine
+Type: Other
+Number of proteins with BLAST hits to this cluster: 2
+Cumulative BLAST score: 630
+
+Table of genes, locations, strands and annotations of subject cluster:
+ABB30170.1	ABB30170.1	246	740	+	L-2,4-diaminobutyric_acid_acetyl_transferase
+ABB30171.1	ABB30171.1	788	2098	+	L-2,4-diaminobutyric_acid_acetyl_transferase
+ABB30172.1	ABB30172.1	2269	2673	+	ectoine_synthase
+ABB30173.1	ABB30173.1	3000	3455	+	hypothetical_protein
+
+Table of Blast hits (query gene, subject gene, %identity, blast score, %coverage, e-value):
+SSMG_07029	ABB30172.1	48	133	100.0	2e-31
+SSMG_07030	ABB30171.1	57	497	99.51923076923077	2.2e-140
+
+
+
+>>
+3. BGC0000859
+Source: ectoine
+Type: Other
+Number of proteins with BLAST hits to this cluster: 2
+Cumulative BLAST score: 612
+
+Table of genes, locations, strands and annotations of subject cluster:
+ACB30330.1	ACB30330.1	259	777	+	L-2,4-diaminobutyric_acid_acetyltransferase
+ACB30331.1	ACB30331.1	820	2151	+	L-2,4-diaminobutyric_acid_aminotransferase
+ACB30332.1	ACB30332.1	2203	2607	+	ectoine_synthase
+ACB30333.1	ACB30333.1	2667	3305	+	aspartokinase
+
+Table of Blast hits (query gene, subject gene, %identity, blast score, %coverage, e-value):
+SSMG_07029	ACB30332.1	46	132	100.0	5.8e-31
+SSMG_07030	ACB30331.1	56	480	99.51923076923077	2.8e-135
+
+
+
+>>
+4. BGC0000860
+Source: ectoine
+Type: Other
+Number of proteins with BLAST hits to this cluster: 2
+Cumulative BLAST score: 553
+
+Table of genes, locations, strands and annotations of subject cluster:
+ADA71973.1	ADA71973.1	711	1265	-	MarR_family_transcriptional_regulator
+ADA71974.1	ADA71974.1	1441	1986	+	L-2,4-diaminobutyric_acid_acetyltransferase
+ADA71975.1	ADA71975.1	2042	3334	+	L-2,4-diaminobutyrate_transaminase
+ADA71976.1	ADA71976.1	3342	3737	+	L-ectoine_synthase
+ADA71977.1	ADA71977.1	3740	5134	+	aspartokinase
+
+Table of Blast hits (query gene, subject gene, %identity, blast score, %coverage, e-value):
+SSMG_07029	ADA71976.1	51	146	98.46153846153847	3.9e-35
+SSMG_07030	ADA71975.1	47	407	99.75961538461539	2.3e-113
+
+
+
+>>
+5. BGC0000854
+Source: ectoine
+Type: Other
+Number of proteins with BLAST hits to this cluster: 2
+Cumulative BLAST score: 759
+
+Table of genes, locations, strands and annotations of subject cluster:
+ACP19701.1	ACP19701.1	839	1381	-	transcriptional_regulator_MarR_family
+AAY96770.1	AAY96770.1	1709	2227	+	L-2,4-diaminobutyrat_acetyltransferase
+AAY96771.1	AAY96771.1	2270	3601	+	L-2,4-diaminobutyrat_transaminase
+AAY96772.1	AAY96772.1	3652	4056	+	ectoine_synthase
+AAY96773.1	AAY96773.1	4117	5559	+	aspartokinase
+AAY96769.2	AAY96769.2	5920	6879	+	putative_ectoine_hydroxylase
+
+Table of Blast hits (query gene, subject gene, %identity, blast score, %coverage, e-value):
+SSMG_07028	AAY96769.2	47	282	96.0	1e-75
+SSMG_07030	AAY96771.1	55	477	99.51923076923077	1.8e-134
+

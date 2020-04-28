@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+<meta charset="utf-8" />
+<link rel="stylesheet" type="text/css" href="../../css/style.css">
+
+<script type="text/javascript" src="../../js/jquery.js"></script>
+<script type="text/javascript" src="../../js/jquery.tablesorter.min.js"></script>
+
+<script type="text/javascript" >
+var counter = 1;
+function addInput(divName){
+     var newdiv = document.createElement('div');
+     newdiv.innerHTML = "<b>Locus " + (counter + 1) + "</b><br> GenBank accession: <input type='text' required name='myInputs[]'> Start nt: <input type='number' name='myStartCoords[]' placeholder='N/A'> End nt: <input type='number' name='myEndCoords[]' placeholder='N/A'> <br><br>";
+     document.getElementById(divName).appendChild(newdiv);
+     counter++;
+}
+</script>
+
+<script>
+$(document).ready(function()
+    {
+        $("#myTable").tablesorter();
+    }
+);
+
+</script>
+<style>
+table {
+    border-width: thin;
+    border-spacing: 2px;
+    border-style: none;
+    border-color: black;
+}
+</style>
+</head>
+<body>
+    <table id="myTable" class="tablesorter" border=1>
+    <thead>
+    <tr>
+        <th>MIBiG Protein</th>
+        <th>Description</th>
+        <th>MIBiG Cluster</th>
+        <th>MiBiG Product</th>
+        <th>% ID</th>
+        <th>% Coverage</th>
+        <th>BLAST Score</th>
+        <th>E-value</th>
+    </tr>
+    </thead>
+    <tbody>
+    
+          <tr>
+              <td>CAB39697.1</td>
+              <td>putative_squalene-hopene_cyclase</td>
+              <td><a href="https://mibig.secondarymetabolites.org/go/BGC0000663/1">BGC0000663</a></td>
+              <td>Terpene</td>
+              <td>61.0</td>
+              <td>99.8</td>
+              <td>736.0</td>
+              <td>4.3e-212</td>
+          </tr>
+    
+          <tr>
+              <td>AXA20105.1</td>
+              <td>squalene--hopene_cyclase</td>
+              <td><a href="https://mibig.secondarymetabolites.org/go/BGC0001946/1">BGC0001946</a></td>
+              <td>NRP + Polyketide</td>
+              <td>36.0</td>
+              <td>99.4</td>
+              <td>379.0</td>
+              <td>7.8e-105</td>
+          </tr>
+    
+          <tr>
+              <td>EAL89318.1</td>
+              <td>squalene-hopene-cyclase,_putative</td>
+              <td><a href="https://mibig.secondarymetabolites.org/go/BGC0000686/1">BGC0000686</a></td>
+              <td>Terpene</td>
+              <td>26.0</td>
+              <td>107.5</td>
+              <td>130.0</td>
+              <td>8.3e-30</td>
+          </tr>
+    
+    </tbody>
+  </table>
+</body>

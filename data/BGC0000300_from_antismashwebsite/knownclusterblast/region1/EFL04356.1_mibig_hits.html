@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+<meta charset="utf-8" />
+<link rel="stylesheet" type="text/css" href="../../css/style.css">
+
+<script type="text/javascript" src="../../js/jquery.js"></script>
+<script type="text/javascript" src="../../js/jquery.tablesorter.min.js"></script>
+
+<script type="text/javascript" >
+var counter = 1;
+function addInput(divName){
+     var newdiv = document.createElement('div');
+     newdiv.innerHTML = "<b>Locus " + (counter + 1) + "</b><br> GenBank accession: <input type='text' required name='myInputs[]'> Start nt: <input type='number' name='myStartCoords[]' placeholder='N/A'> End nt: <input type='number' name='myEndCoords[]' placeholder='N/A'> <br><br>";
+     document.getElementById(divName).appendChild(newdiv);
+     counter++;
+}
+</script>
+
+<script>
+$(document).ready(function()
+    {
+        $("#myTable").tablesorter();
+    }
+);
+
+</script>
+<style>
+table {
+    border-width: thin;
+    border-spacing: 2px;
+    border-style: none;
+    border-color: black;
+}
+</style>
+</head>
+<body>
+    <table id="myTable" class="tablesorter" border=1>
+    <thead>
+    <tr>
+        <th>MIBiG Protein</th>
+        <th>Description</th>
+        <th>MIBiG Cluster</th>
+        <th>MiBiG Product</th>
+        <th>% ID</th>
+        <th>% Coverage</th>
+        <th>BLAST Score</th>
+        <th>E-value</th>
+    </tr>
+    </thead>
+    <tbody>
+    
+          <tr>
+              <td>CAG38669.1</td>
+              <td>putative_GTPase</td>
+              <td><a href="https://mibig.secondarymetabolites.org/go/BGC0000695/1">BGC0000695</a></td>
+              <td>Saccharide</td>
+              <td>69.0</td>
+              <td>88.7</td>
+              <td>242.0</td>
+              <td>6e-64</td>
+          </tr>
+    
+          <tr>
+              <td>ABW11819.1</td>
+              <td>protein_of_unknown_function_ATP_binding</td>
+              <td><a href="https://mibig.secondarymetabolites.org/go/BGC0001197/1">BGC0001197</a></td>
+              <td>Polyketide</td>
+              <td>61.0</td>
+              <td>96.4</td>
+              <td>231.0</td>
+              <td>1.4e-60</td>
+          </tr>
+    
+          <tr>
+              <td>ANA09438.1</td>
+              <td>hypothetical_protein</td>
+              <td><a href="https://mibig.secondarymetabolites.org/go/BGC0001483/1">BGC0001483</a></td>
+              <td>Other</td>
+              <td>52.0</td>
+              <td>89.7</td>
+              <td>183.0</td>
+              <td>3.3e-46</td>
+          </tr>
+    
+          <tr>
+              <td>BAR97448.1</td>
+              <td>ATP/GTP-binding_protein</td>
+              <td><a href="https://mibig.secondarymetabolites.org/go/BGC0001910/1">BGC0001910</a></td>
+              <td>Terpene</td>
+              <td>55.0</td>
+              <td>89.2</td>
+              <td>179.0</td>
+              <td>4.8e-45</td>
+          </tr>
+    
+          <tr>
+              <td>BAR97458.1</td>
+              <td>ATP/GTP-binding_protein</td>
+              <td><a href="https://mibig.secondarymetabolites.org/go/BGC0001911/1">BGC0001911</a></td>
+              <td>Terpene</td>
+              <td>51.0</td>
+              <td>89.7</td>
+              <td>178.0</td>
+              <td>1.4e-44</td>
+          </tr>
+    
+    </tbody>
+  </table>
+</body>

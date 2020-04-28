@@ -1,0 +1,342 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+<meta charset="utf-8" />
+<link rel="stylesheet" type="text/css" href="../../css/style.css">
+
+<script type="text/javascript" src="../../js/jquery.js"></script>
+<script type="text/javascript" src="../../js/jquery.tablesorter.min.js"></script>
+
+<script type="text/javascript" >
+var counter = 1;
+function addInput(divName){
+     var newdiv = document.createElement('div');
+     newdiv.innerHTML = "<b>Locus " + (counter + 1) + "</b><br> GenBank accession: <input type='text' required name='myInputs[]'> Start nt: <input type='number' name='myStartCoords[]' placeholder='N/A'> End nt: <input type='number' name='myEndCoords[]' placeholder='N/A'> <br><br>";
+     document.getElementById(divName).appendChild(newdiv);
+     counter++;
+}
+</script>
+
+<script>
+$(document).ready(function()
+    {
+        $("#myTable").tablesorter();
+    }
+);
+
+</script>
+<style>
+table {
+    border-width: thin;
+    border-spacing: 2px;
+    border-style: none;
+    border-color: black;
+}
+</style>
+</head>
+<body>
+    <table id="myTable" class="tablesorter" border=1>
+    <thead>
+    <tr>
+        <th>MIBiG Protein</th>
+        <th>Description</th>
+        <th>MIBiG Cluster</th>
+        <th>MiBiG Product</th>
+        <th>% ID</th>
+        <th>% Coverage</th>
+        <th>BLAST Score</th>
+        <th>E-value</th>
+    </tr>
+    </thead>
+    <tbody>
+    
+          <tr>
+              <td>EFL06869.1</td>
+              <td>LipE_protein</td>
+              <td><a href="https://mibig.secondarymetabolites.org/go/BGC0000300/1">BGC0000300</a></td>
+              <td>NRP</td>
+              <td>100.0</td>
+              <td>100.0</td>
+              <td>537.0</td>
+              <td>1.6e-152</td>
+          </tr>
+    
+          <tr>
+              <td>WP_003948914.1</td>
+              <td>alpha/beta_hydrolase</td>
+              <td><a href="https://mibig.secondarymetabolites.org/go/BGC0001792/1">BGC0001792</a></td>
+              <td>NRP</td>
+              <td>61.0</td>
+              <td>99.3</td>
+              <td>324.0</td>
+              <td>1.3e-88</td>
+          </tr>
+    
+          <tr>
+              <td>AEF16028.1</td>
+              <td>LipE-like_protein</td>
+              <td><a href="https://mibig.secondarymetabolites.org/go/BGC0000379/1">BGC0000379</a></td>
+              <td>NRP</td>
+              <td>61.0</td>
+              <td>100.0</td>
+              <td>309.0</td>
+              <td>4.2e-84</td>
+          </tr>
+    
+          <tr>
+              <td>QBC75014.1</td>
+              <td>alpha/beta_hydrolase</td>
+              <td><a href="https://mibig.secondarymetabolites.org/go/BGC0001968/1">BGC0001968</a></td>
+              <td>NRP</td>
+              <td>59.0</td>
+              <td>98.5</td>
+              <td>300.0</td>
+              <td>1.9e-81</td>
+          </tr>
+    
+          <tr>
+              <td>CAM56773.1</td>
+              <td>LipE</td>
+              <td><a href="https://mibig.secondarymetabolites.org/go/BGC0000354/1">BGC0000354</a></td>
+              <td>NRP</td>
+              <td>57.0</td>
+              <td>99.6</td>
+              <td>287.0</td>
+              <td>2.9e-77</td>
+          </tr>
+    
+          <tr>
+              <td>ALK27909.1</td>
+              <td>putative_alpha/beta_hydrolase</td>
+              <td><a href="https://mibig.secondarymetabolites.org/go/BGC0001233/1">BGC0001233</a></td>
+              <td>NRP</td>
+              <td>55.0</td>
+              <td>99.3</td>
+              <td>285.0</td>
+              <td>6.5e-77</td>
+          </tr>
+    
+          <tr>
+              <td>CAB38877.1</td>
+              <td>putative_type_II_thioesterase</td>
+              <td><a href="https://mibig.secondarymetabolites.org/go/BGC0000315/1">BGC0000315</a></td>
+              <td>NRP:Ca+-dependent lipopeptide</td>
+              <td>54.0</td>
+              <td>100.7</td>
+              <td>273.0</td>
+              <td>4.3e-73</td>
+          </tr>
+    
+          <tr>
+              <td>ALV82377.1</td>
+              <td>hydrolase</td>
+              <td><a href="https://mibig.secondarymetabolites.org/go/BGC0001370/1">BGC0001370</a></td>
+              <td>NRP</td>
+              <td>54.0</td>
+              <td>100.7</td>
+              <td>270.0</td>
+              <td>2.8e-72</td>
+          </tr>
+    
+          <tr>
+              <td>AKC91861.1</td>
+              <td>alpha/beta_hydrolase</td>
+              <td><a href="https://mibig.secondarymetabolites.org/go/BGC0001414/1">BGC0001414</a></td>
+              <td>NRP</td>
+              <td>51.0</td>
+              <td>99.6</td>
+              <td>270.0</td>
+              <td>2.8e-72</td>
+          </tr>
+    
+          <tr>
+              <td>ALV86872.1</td>
+              <td>Tlo26</td>
+              <td><a href="https://mibig.secondarymetabolites.org/go/BGC0001406/1">BGC0001406</a></td>
+              <td>NRP</td>
+              <td>53.0</td>
+              <td>98.9</td>
+              <td>270.0</td>
+              <td>3.7e-72</td>
+          </tr>
+    
+          <tr>
+              <td>AAX31561.1</td>
+              <td>putative_hydrolase</td>
+              <td><a href="https://mibig.secondarymetabolites.org/go/BGC0000336/1">BGC0000336</a></td>
+              <td>NRP</td>
+              <td>54.0</td>
+              <td>97.0</td>
+              <td>259.0</td>
+              <td>8.5e-69</td>
+          </tr>
+    
+          <tr>
+              <td>AAZ23080.1</td>
+              <td>possible_thioesterase</td>
+              <td><a href="https://mibig.secondarymetabolites.org/go/BGC0000291/1">BGC0000291</a></td>
+              <td>NRP</td>
+              <td>51.0</td>
+              <td>98.5</td>
+              <td>255.0</td>
+              <td>7.2e-68</td>
+          </tr>
+    
+          <tr>
+              <td>CAC48368.1</td>
+              <td>putative_hydrolase</td>
+              <td><a href="https://mibig.secondarymetabolites.org/go/BGC0000311/1">BGC0000311</a></td>
+              <td>NRP</td>
+              <td>51.0</td>
+              <td>98.5</td>
+              <td>255.0</td>
+              <td>9.4e-68</td>
+          </tr>
+    
+          <tr>
+              <td>AEI58878.1</td>
+              <td>hydrolase</td>
+              <td><a href="https://mibig.secondarymetabolites.org/go/BGC0000455/1">BGC0000455</a></td>
+              <td>NRP</td>
+              <td>51.0</td>
+              <td>98.5</td>
+              <td>251.0</td>
+              <td>1.8e-66</td>
+          </tr>
+    
+          <tr>
+              <td>EME52975.1</td>
+              <td>alpha/beta_hydrolase_fold_containing_protein</td>
+              <td><a href="https://mibig.secondarymetabolites.org/go/BGC0001460/1">BGC0001460</a></td>
+              <td>NRP:Glycopeptide</td>
+              <td>50.0</td>
+              <td>98.5</td>
+              <td>248.0</td>
+              <td>1.5e-65</td>
+          </tr>
+    
+          <tr>
+              <td>AIE77075.1</td>
+              <td>alpha/beta_hydrolase</td>
+              <td><a href="https://mibig.secondarymetabolites.org/go/BGC0000418/1">BGC0000418</a></td>
+              <td>NRP</td>
+              <td>50.0</td>
+              <td>100.0</td>
+              <td>247.0</td>
+              <td>2e-65</td>
+          </tr>
+    
+          <tr>
+              <td>AIG79225.1</td>
+              <td>Hydrolase</td>
+              <td><a href="https://mibig.secondarymetabolites.org/go/BGC0000419/1">BGC0000419</a></td>
+              <td>Saccharide + NRP:Glycopeptide</td>
+              <td>50.0</td>
+              <td>96.3</td>
+              <td>245.0</td>
+              <td>7.4e-65</td>
+          </tr>
+    
+          <tr>
+              <td>OLZ50898.1</td>
+              <td>alpha/beta_hydrolase</td>
+              <td><a href="https://mibig.secondarymetabolites.org/go/BGC0001461/1">BGC0001461</a></td>
+              <td>NRP:Glycopeptide</td>
+              <td>49.0</td>
+              <td>98.5</td>
+              <td>245.0</td>
+              <td>7.4e-65</td>
+          </tr>
+    
+          <tr>
+              <td>AYA22319.1</td>
+              <td>Kph</td>
+              <td><a href="https://mibig.secondarymetabolites.org/go/BGC0001955/1">BGC0001955</a></td>
+              <td>Other</td>
+              <td>49.0</td>
+              <td>98.5</td>
+              <td>245.0</td>
+              <td>7.4e-65</td>
+          </tr>
+    
+          <tr>
+              <td>ABP73650.1</td>
+              <td>SalF</td>
+              <td><a href="https://mibig.secondarymetabolites.org/go/BGC0000145/1">BGC0000145</a></td>
+              <td>Polyketide</td>
+              <td>49.0</td>
+              <td>99.3</td>
+              <td>242.0</td>
+              <td>1.1e-63</td>
+          </tr>
+    
+          <tr>
+              <td>ABP53493.1</td>
+              <td>alpha/beta_hydrolase_fold</td>
+              <td><a href="https://mibig.secondarymetabolites.org/go/BGC0001041/1">BGC0001041</a></td>
+              <td>NRP + Polyketide</td>
+              <td>49.0</td>
+              <td>99.3</td>
+              <td>242.0</td>
+              <td>1.1e-63</td>
+          </tr>
+    
+          <tr>
+              <td>CBW54675.1</td>
+              <td>thioesterase</td>
+              <td><a href="https://mibig.secondarymetabolites.org/go/BGC0000971/1">BGC0000971</a></td>
+              <td>NRP + Polyketide:Modular type I</td>
+              <td>49.0</td>
+              <td>96.6</td>
+              <td>235.0</td>
+              <td>1.3e-61</td>
+          </tr>
+    
+          <tr>
+              <td>AJV88374.1</td>
+              <td>MfnB</td>
+              <td><a href="https://mibig.secondarymetabolites.org/go/BGC0001214/1">BGC0001214</a></td>
+              <td>NRP</td>
+              <td>55.0</td>
+              <td>84.0</td>
+              <td>235.0</td>
+              <td>1.3e-61</td>
+          </tr>
+    
+          <tr>
+              <td>ABD65954.1</td>
+              <td>type_II_thioesterase</td>
+              <td><a href="https://mibig.secondarymetabolites.org/go/BGC0000341/1">BGC0000341</a></td>
+              <td>NRP</td>
+              <td>46.0</td>
+              <td>97.8</td>
+              <td>227.0</td>
+              <td>3.6e-59</td>
+          </tr>
+    
+          <tr>
+              <td>BAU50926.1</td>
+              <td>hydrolase</td>
+              <td><a href="https://mibig.secondarymetabolites.org/go/BGC0001379/1">BGC0001379</a></td>
+              <td>NRP</td>
+              <td>44.0</td>
+              <td>98.9</td>
+              <td>207.0</td>
+              <td>2.9e-53</td>
+          </tr>
+    
+          <tr>
+              <td>BAL15716.1</td>
+              <td>hydrolase</td>
+              <td><a href="https://mibig.secondarymetabolites.org/go/BGC0000432/1">BGC0000432</a></td>
+              <td>NRP</td>
+              <td>44.0</td>
+              <td>97.8</td>
+              <td>200.0</td>
+              <td>2.7e-51</td>
+          </tr>
+    
+    </tbody>
+  </table>
+</body>

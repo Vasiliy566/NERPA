@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+<meta charset="utf-8" />
+<link rel="stylesheet" type="text/css" href="../../css/style.css">
+
+<script type="text/javascript" src="../../js/jquery.js"></script>
+<script type="text/javascript" src="../../js/jquery.tablesorter.min.js"></script>
+
+<script type="text/javascript" >
+var counter = 1;
+function addInput(divName){
+     var newdiv = document.createElement('div');
+     newdiv.innerHTML = "<b>Locus " + (counter + 1) + "</b><br> GenBank accession: <input type='text' required name='myInputs[]'> Start nt: <input type='number' name='myStartCoords[]' placeholder='N/A'> End nt: <input type='number' name='myEndCoords[]' placeholder='N/A'> <br><br>";
+     document.getElementById(divName).appendChild(newdiv);
+     counter++;
+}
+</script>
+
+<script>
+$(document).ready(function()
+    {
+        $("#myTable").tablesorter();
+    }
+);
+
+</script>
+<style>
+table {
+    border-width: thin;
+    border-spacing: 2px;
+    border-style: none;
+    border-color: black;
+}
+</style>
+</head>
+<body>
+    <table id="myTable" class="tablesorter" border=1>
+    <thead>
+    <tr>
+        <th>MIBiG Protein</th>
+        <th>Description</th>
+        <th>MIBiG Cluster</th>
+        <th>MiBiG Product</th>
+        <th>% ID</th>
+        <th>% Coverage</th>
+        <th>BLAST Score</th>
+        <th>E-value</th>
+    </tr>
+    </thead>
+    <tbody>
+    
+          <tr>
+              <td>AHW57767.1</td>
+              <td>PgaW1</td>
+              <td><a href="https://mibig.secondarymetabolites.org/go/BGC0000262/1">BGC0000262</a></td>
+              <td>Polyketide:Type II + Saccharide:Hybrid/tailoring</td>
+              <td>42.0</td>
+              <td>91.9</td>
+              <td>200.0</td>
+              <td>3.3e-51</td>
+          </tr>
+    
+          <tr>
+              <td>AGH68922.1</td>
+              <td>AfsA-like_gamma-butyrolactone_synthase</td>
+              <td><a href="https://mibig.secondarymetabolites.org/go/BGC0001083/1">BGC0001083</a></td>
+              <td>Terpene + Polyketide:Type III</td>
+              <td>40.0</td>
+              <td>85.7</td>
+              <td>198.0</td>
+              <td>1.3e-50</td>
+          </tr>
+    
+          <tr>
+              <td>AGN74905.1</td>
+              <td>AfsA-like_gamma-butyrolactone_biosynthetic_protein</td>
+              <td><a href="https://mibig.secondarymetabolites.org/go/BGC0000459/1">BGC0000459</a></td>
+              <td>NRP:Cyclic depsipeptide + Polyketide:Trans-AT type I</td>
+              <td>39.0</td>
+              <td>94.1</td>
+              <td>197.0</td>
+              <td>3.6e-50</td>
+          </tr>
+    
+          <tr>
+              <td>ABX71092.1</td>
+              <td>Lct9</td>
+              <td><a href="https://mibig.secondarymetabolites.org/go/BGC0000238/1">BGC0000238</a></td>
+              <td>Polyketide</td>
+              <td>37.0</td>
+              <td>93.2</td>
+              <td>193.0</td>
+              <td>6.9e-49</td>
+          </tr>
+    
+          <tr>
+              <td>AAM78023.1</td>
+              <td>transcriptional_regulator</td>
+              <td><a href="https://mibig.secondarymetabolites.org/go/BGC0000112/1">BGC0000112</a></td>
+              <td>Polyketide:Iterative type I + Polyketide:Enediyne type I</td>
+              <td>36.0</td>
+              <td>93.8</td>
+              <td>183.0</td>
+              <td>7.1e-46</td>
+          </tr>
+    
+          <tr>
+              <td>CAB60185.1</td>
+              <td>ScbA_protein</td>
+              <td><a href="https://mibig.secondarymetabolites.org/go/BGC0000849/1">BGC0000849</a></td>
+              <td>Other:Butyrolactone</td>
+              <td>36.0</td>
+              <td>87.0</td>
+              <td>178.0</td>
+              <td>1.7e-44</td>
+          </tr>
+    
+          <tr>
+              <td>BAG23718.1</td>
+              <td>A-factor_biosynthesis_enzyme</td>
+              <td><a href="https://mibig.secondarymetabolites.org/go/BGC0000848/1">BGC0000848</a></td>
+              <td>Other</td>
+              <td>36.0</td>
+              <td>90.1</td>
+              <td>170.0</td>
+              <td>3.6e-42</td>
+          </tr>
+    
+          <tr>
+              <td>ACO51012.1</td>
+              <td>SabA</td>
+              <td><a href="https://mibig.secondarymetabolites.org/go/BGC0000850/1">BGC0000850</a></td>
+              <td>Other</td>
+              <td>36.0</td>
+              <td>88.8</td>
+              <td>160.0</td>
+              <td>3.8e-39</td>
+          </tr>
+    
+          <tr>
+              <td>WP_078889005.1</td>
+              <td>hypothetical_protein</td>
+              <td><a href="https://mibig.secondarymetabolites.org/go/BGC0001771/1">BGC0001771</a></td>
+              <td>NRP</td>
+              <td>33.0</td>
+              <td>96.9</td>
+              <td>151.0</td>
+              <td>3e-36</td>
+          </tr>
+    
+          <tr>
+              <td>TXD00008.1</td>
+              <td>A-factor_biosynthesis_protein</td>
+              <td><a href="https://mibig.secondarymetabolites.org/go/BGC0001877/1">BGC0001877</a></td>
+              <td>Polyketide</td>
+              <td>31.0</td>
+              <td>96.9</td>
+              <td>141.0</td>
+              <td>2.4e-33</td>
+          </tr>
+    
+    </tbody>
+  </table>
+</body>

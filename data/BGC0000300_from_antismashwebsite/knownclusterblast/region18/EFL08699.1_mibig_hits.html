@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+<meta charset="utf-8" />
+<link rel="stylesheet" type="text/css" href="../../css/style.css">
+
+<script type="text/javascript" src="../../js/jquery.js"></script>
+<script type="text/javascript" src="../../js/jquery.tablesorter.min.js"></script>
+
+<script type="text/javascript" >
+var counter = 1;
+function addInput(divName){
+     var newdiv = document.createElement('div');
+     newdiv.innerHTML = "<b>Locus " + (counter + 1) + "</b><br> GenBank accession: <input type='text' required name='myInputs[]'> Start nt: <input type='number' name='myStartCoords[]' placeholder='N/A'> End nt: <input type='number' name='myEndCoords[]' placeholder='N/A'> <br><br>";
+     document.getElementById(divName).appendChild(newdiv);
+     counter++;
+}
+</script>
+
+<script>
+$(document).ready(function()
+    {
+        $("#myTable").tablesorter();
+    }
+);
+
+</script>
+<style>
+table {
+    border-width: thin;
+    border-spacing: 2px;
+    border-style: none;
+    border-color: black;
+}
+</style>
+</head>
+<body>
+    <table id="myTable" class="tablesorter" border=1>
+    <thead>
+    <tr>
+        <th>MIBiG Protein</th>
+        <th>Description</th>
+        <th>MIBiG Cluster</th>
+        <th>MiBiG Product</th>
+        <th>% ID</th>
+        <th>% Coverage</th>
+        <th>BLAST Score</th>
+        <th>E-value</th>
+    </tr>
+    </thead>
+    <tbody>
+    
+          <tr>
+              <td>AGC09479.1</td>
+              <td>LobD5</td>
+              <td><a href="https://mibig.secondarymetabolites.org/go/BGC0001183/1">BGC0001183</a></td>
+              <td>Polyketide</td>
+              <td>28.0</td>
+              <td>88.0</td>
+              <td>71.0</td>
+              <td>2.6e-12</td>
+          </tr>
+    
+          <tr>
+              <td>AOZ61196.1</td>
+              <td>dTDP-glucose_4,6_dehydratase</td>
+              <td><a href="https://mibig.secondarymetabolites.org/go/BGC0001762/1">BGC0001762</a></td>
+              <td>Alkaloid</td>
+              <td>26.0</td>
+              <td>88.0</td>
+              <td>70.0</td>
+              <td>5.7e-12</td>
+          </tr>
+    
+          <tr>
+              <td>AGI99502.1</td>
+              <td>sugar_4,6-dehydratase</td>
+              <td><a href="https://mibig.secondarymetabolites.org/go/BGC0001004/1">BGC0001004</a></td>
+              <td>Polyketide:Modular type I</td>
+              <td>27.0</td>
+              <td>88.0</td>
+              <td>68.0</td>
+              <td>1.7e-11</td>
+          </tr>
+    
+          <tr>
+              <td>ABF89140.1</td>
+              <td>NAD_dependent_epimerase/dehydratase_family_protein</td>
+              <td><a href="https://mibig.secondarymetabolites.org/go/BGC0000871/1">BGC0000871</a></td>
+              <td>Other:Nucleoside</td>
+              <td>28.0</td>
+              <td>60.2</td>
+              <td>66.0</td>
+              <td>1.1e-10</td>
+          </tr>
+    
+          <tr>
+              <td>AEW22543.1</td>
+              <td>NAD_dependent_epimerase/dehydratase_family_protein</td>
+              <td><a href="https://mibig.secondarymetabolites.org/go/BGC0001651/1">BGC0001651</a></td>
+              <td>Other</td>
+              <td>27.0</td>
+              <td>63.9</td>
+              <td>63.0</td>
+              <td>7e-10</td>
+          </tr>
+    
+          <tr>
+              <td>AAP42865.1</td>
+              <td>NanG2</td>
+              <td><a href="https://mibig.secondarymetabolites.org/go/BGC0000105/1">BGC0000105</a></td>
+              <td>Polyketide</td>
+              <td>27.0</td>
+              <td>88.0</td>
+              <td>58.0</td>
+              <td>2.2e-08</td>
+          </tr>
+    
+          <tr>
+              <td>ABB05098.1</td>
+              <td>LipDig2</td>
+              <td><a href="https://mibig.secondarymetabolites.org/go/BGC0001003/1">BGC0001003</a></td>
+              <td>NRP:Lipopeptide + Polyketide:Modular type I + Saccharide:Hybrid/tailoring</td>
+              <td>27.0</td>
+              <td>66.1</td>
+              <td>56.0</td>
+              <td>6.5e-08</td>
+          </tr>
+    
+          <tr>
+              <td>BAC57041.1</td>
+              <td>dTDP-glucose-4,6-dehydratase</td>
+              <td><a href="https://mibig.secondarymetabolites.org/go/BGC0000102/1">BGC0000102</a></td>
+              <td>Polyketide</td>
+              <td>27.0</td>
+              <td>66.1</td>
+              <td>53.0</td>
+              <td>5.5e-07</td>
+          </tr>
+    
+    </tbody>
+  </table>
+</body>

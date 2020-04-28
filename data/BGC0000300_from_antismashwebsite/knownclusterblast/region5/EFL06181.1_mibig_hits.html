@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+<meta charset="utf-8" />
+<link rel="stylesheet" type="text/css" href="../../css/style.css">
+
+<script type="text/javascript" src="../../js/jquery.js"></script>
+<script type="text/javascript" src="../../js/jquery.tablesorter.min.js"></script>
+
+<script type="text/javascript" >
+var counter = 1;
+function addInput(divName){
+     var newdiv = document.createElement('div');
+     newdiv.innerHTML = "<b>Locus " + (counter + 1) + "</b><br> GenBank accession: <input type='text' required name='myInputs[]'> Start nt: <input type='number' name='myStartCoords[]' placeholder='N/A'> End nt: <input type='number' name='myEndCoords[]' placeholder='N/A'> <br><br>";
+     document.getElementById(divName).appendChild(newdiv);
+     counter++;
+}
+</script>
+
+<script>
+$(document).ready(function()
+    {
+        $("#myTable").tablesorter();
+    }
+);
+
+</script>
+<style>
+table {
+    border-width: thin;
+    border-spacing: 2px;
+    border-style: none;
+    border-color: black;
+}
+</style>
+</head>
+<body>
+    <table id="myTable" class="tablesorter" border=1>
+    <thead>
+    <tr>
+        <th>MIBiG Protein</th>
+        <th>Description</th>
+        <th>MIBiG Cluster</th>
+        <th>MiBiG Product</th>
+        <th>% ID</th>
+        <th>% Coverage</th>
+        <th>BLAST Score</th>
+        <th>E-value</th>
+    </tr>
+    </thead>
+    <tbody>
+    
+          <tr>
+              <td>AAN85549.1</td>
+              <td>5,10-methylenetetrahydrofolate_reductase</td>
+              <td><a href="https://mibig.secondarymetabolites.org/go/BGC0001101/1">BGC0001101</a></td>
+              <td>NRP + Polyketide:Modular type I + Polyketide:Trans-AT type I</td>
+              <td>56.0</td>
+              <td>95.9</td>
+              <td>333.0</td>
+              <td>3.9e-91</td>
+          </tr>
+    
+          <tr>
+              <td>ABI22141.1</td>
+              <td>N5,_N10-methylen-tetrahydrofolate_reductase</td>
+              <td><a href="https://mibig.secondarymetabolites.org/go/BGC0000422/1">BGC0000422</a></td>
+              <td>NRP</td>
+              <td>54.0</td>
+              <td>96.9</td>
+              <td>332.0</td>
+              <td>8.7e-91</td>
+          </tr>
+    
+          <tr>
+              <td>AGH68886.1</td>
+              <td>methylenetetrahydrofolate_reductase</td>
+              <td><a href="https://mibig.secondarymetabolites.org/go/BGC0001083/1">BGC0001083</a></td>
+              <td>Terpene + Polyketide:Type III</td>
+              <td>58.0</td>
+              <td>91.2</td>
+              <td>323.0</td>
+              <td>3.1e-88</td>
+          </tr>
+    
+          <tr>
+              <td>AHL46705.1</td>
+              <td>N5,N10-methylene_etrahydrofolate_reductase</td>
+              <td><a href="https://mibig.secondarymetabolites.org/go/BGC0001177/1">BGC0001177</a></td>
+              <td>Polyketide:Type II</td>
+              <td>55.0</td>
+              <td>95.9</td>
+              <td>315.0</td>
+              <td>1.1e-85</td>
+          </tr>
+    
+          <tr>
+              <td>ADE22276.1</td>
+              <td>5,10-methylenetetrahydrofolate_reductase</td>
+              <td><a href="https://mibig.secondarymetabolites.org/go/BGC0000279/1">BGC0000279</a></td>
+              <td>Polyketide</td>
+              <td>55.0</td>
+              <td>91.5</td>
+              <td>314.0</td>
+              <td>2.4e-85</td>
+          </tr>
+    
+          <tr>
+              <td>BAC76506.1</td>
+              <td>probable_5,10-methylenetetrahydrofolate_reductase</td>
+              <td><a href="https://mibig.secondarymetabolites.org/go/BGC0000085/1">BGC0000085</a></td>
+              <td>Polyketide</td>
+              <td>55.0</td>
+              <td>91.2</td>
+              <td>311.0</td>
+              <td>2.1e-84</td>
+          </tr>
+    
+          <tr>
+              <td>ABX71102.1</td>
+              <td>Lct19</td>
+              <td><a href="https://mibig.secondarymetabolites.org/go/BGC0000238/1">BGC0000238</a></td>
+              <td>Polyketide</td>
+              <td>55.0</td>
+              <td>91.2</td>
+              <td>309.0</td>
+              <td>4.6e-84</td>
+          </tr>
+    
+          <tr>
+              <td>QDG00819.1</td>
+              <td>methylenetetrahydrofolate_reductase</td>
+              <td><a href="https://mibig.secondarymetabolites.org/go/BGC0002028/1">BGC0002028</a></td>
+              <td>Polyketide</td>
+              <td>54.0</td>
+              <td>91.2</td>
+              <td>304.0</td>
+              <td>1.9e-82</td>
+          </tr>
+    
+          <tr>
+              <td>AKC91622.1</td>
+              <td>5,10-methylenetetrahydrofolate_reductase</td>
+              <td><a href="https://mibig.secondarymetabolites.org/go/BGC0001302/1">BGC0001302</a></td>
+              <td>Other</td>
+              <td>53.0</td>
+              <td>91.5</td>
+              <td>302.0</td>
+              <td>7.4e-82</td>
+          </tr>
+    
+          <tr>
+              <td>CAK50772.1</td>
+              <td>AdoMet_synthetase_and_MTHF_reductase_fusion</td>
+              <td><a href="https://mibig.secondarymetabolites.org/go/BGC0000247/1">BGC0000247</a></td>
+              <td>Polyketide:Type II + Saccharide:Oligosaccharide</td>
+              <td>51.0</td>
+              <td>94.9</td>
+              <td>275.0</td>
+              <td>7.4e-74</td>
+          </tr>
+    
+    </tbody>
+  </table>
+</body>

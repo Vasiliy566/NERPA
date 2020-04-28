@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+<meta charset="utf-8" />
+<link rel="stylesheet" type="text/css" href="../../css/style.css">
+
+<script type="text/javascript" src="../../js/jquery.js"></script>
+<script type="text/javascript" src="../../js/jquery.tablesorter.min.js"></script>
+
+<script type="text/javascript" >
+var counter = 1;
+function addInput(divName){
+     var newdiv = document.createElement('div');
+     newdiv.innerHTML = "<b>Locus " + (counter + 1) + "</b><br> GenBank accession: <input type='text' required name='myInputs[]'> Start nt: <input type='number' name='myStartCoords[]' placeholder='N/A'> End nt: <input type='number' name='myEndCoords[]' placeholder='N/A'> <br><br>";
+     document.getElementById(divName).appendChild(newdiv);
+     counter++;
+}
+</script>
+
+<script>
+$(document).ready(function()
+    {
+        $("#myTable").tablesorter();
+    }
+);
+
+</script>
+<style>
+table {
+    border-width: thin;
+    border-spacing: 2px;
+    border-style: none;
+    border-color: black;
+}
+</style>
+</head>
+<body>
+    <table id="myTable" class="tablesorter" border=1>
+    <thead>
+    <tr>
+        <th>MIBiG Protein</th>
+        <th>Description</th>
+        <th>MIBiG Cluster</th>
+        <th>MiBiG Product</th>
+        <th>% ID</th>
+        <th>% Coverage</th>
+        <th>BLAST Score</th>
+        <th>E-value</th>
+    </tr>
+    </thead>
+    <tbody>
+    
+          <tr>
+              <td>ACU36661.1</td>
+              <td>isochorismate_synthase</td>
+              <td><a href="https://mibig.secondarymetabolites.org/go/BGC0000392/1">BGC0000392</a></td>
+              <td>NRP</td>
+              <td>69.0</td>
+              <td>71.1</td>
+              <td>364.0</td>
+              <td>1.6e-100</td>
+          </tr>
+    
+          <tr>
+              <td>CAB15189.2</td>
+              <td>isochorismate_synthase_(siderophore-specific)</td>
+              <td><a href="https://mibig.secondarymetabolites.org/go/BGC0000309/1">BGC0000309</a></td>
+              <td>NRP</td>
+              <td>54.0</td>
+              <td>69.9</td>
+              <td>293.0</td>
+              <td>4.7e-79</td>
+          </tr>
+    
+          <tr>
+              <td>AAZ55905.1</td>
+              <td>isochorismate_synthase</td>
+              <td><a href="https://mibig.secondarymetabolites.org/go/BGC0000359/1">BGC0000359</a></td>
+              <td>NRP</td>
+              <td>53.0</td>
+              <td>75.6</td>
+              <td>289.0</td>
+              <td>6.7e-78</td>
+          </tr>
+    
+          <tr>
+              <td>AEI70242.1</td>
+              <td>isochorismate_synthase</td>
+              <td><a href="https://mibig.secondarymetabolites.org/go/BGC0000401/1">BGC0000401</a></td>
+              <td>NRP</td>
+              <td>47.0</td>
+              <td>99.3</td>
+              <td>286.0</td>
+              <td>5.7e-77</td>
+          </tr>
+    
+          <tr>
+              <td>CBA63662.1</td>
+              <td>isochorismate_synthase</td>
+              <td><a href="https://mibig.secondarymetabolites.org/go/BGC0000368/1">BGC0000368</a></td>
+              <td>NRP</td>
+              <td>54.0</td>
+              <td>69.7</td>
+              <td>281.0</td>
+              <td>2.4e-75</td>
+          </tr>
+    
+          <tr>
+              <td>AAG31127.1</td>
+              <td>MxcD</td>
+              <td><a href="https://mibig.secondarymetabolites.org/go/BGC0001345/1">BGC0001345</a></td>
+              <td>NRP</td>
+              <td>52.0</td>
+              <td>70.9</td>
+              <td>281.0</td>
+              <td>2.4e-75</td>
+          </tr>
+    
+          <tr>
+              <td>ABS75235.1</td>
+              <td>DhbC</td>
+              <td><a href="https://mibig.secondarymetabolites.org/go/BGC0001185/1">BGC0001185</a></td>
+              <td>NRP:NRP siderophore</td>
+              <td>50.0</td>
+              <td>72.1</td>
+              <td>275.0</td>
+              <td>1.7e-73</td>
+          </tr>
+    
+          <tr>
+              <td>BAH33403.1</td>
+              <td>isochorismate_synthase</td>
+              <td><a href="https://mibig.secondarymetabolites.org/go/BGC0000371/1">BGC0000371</a></td>
+              <td>NRP</td>
+              <td>49.0</td>
+              <td>68.2</td>
+              <td>245.0</td>
+              <td>1.5e-64</td>
+          </tr>
+    
+          <tr>
+              <td>ABU70374.1</td>
+              <td>hypothetical_protein</td>
+              <td><a href="https://mibig.secondarymetabolites.org/go/BGC0001890/1">BGC0001890</a></td>
+              <td>NRP</td>
+              <td>48.0</td>
+              <td>69.9</td>
+              <td>234.0</td>
+              <td>2.6e-61</td>
+          </tr>
+    
+          <tr>
+              <td>YP_856993.1</td>
+              <td>isochorismate_synthase</td>
+              <td><a href="https://mibig.secondarymetabolites.org/go/BGC0001502/1">BGC0001502</a></td>
+              <td>NRP</td>
+              <td>44.0</td>
+              <td>72.4</td>
+              <td>226.0</td>
+              <td>7e-59</td>
+          </tr>
+    
+          <tr>
+              <td>AAO07758.1</td>
+              <td>Isochorismate_synthase</td>
+              <td><a href="https://mibig.secondarymetabolites.org/go/BGC0000460/1">BGC0000460</a></td>
+              <td>NRP</td>
+              <td>45.0</td>
+              <td>69.2</td>
+              <td>224.0</td>
+              <td>3.5e-58</td>
+          </tr>
+    
+          <tr>
+              <td>CAJ45635.1</td>
+              <td>isochorismate_synthase</td>
+              <td><a href="https://mibig.secondarymetabolites.org/go/BGC0000454/1">BGC0000454</a></td>
+              <td>NRP</td>
+              <td>43.0</td>
+              <td>73.6</td>
+              <td>223.0</td>
+              <td>4.5e-58</td>
+          </tr>
+    
+          <tr>
+              <td>ACR13729.1</td>
+              <td>isochorismate_synthase_DhbC</td>
+              <td><a href="https://mibig.secondarymetabolites.org/go/BGC0000451/1">BGC0000451</a></td>
+              <td>NRP</td>
+              <td>45.0</td>
+              <td>67.4</td>
+              <td>218.0</td>
+              <td>1.5e-56</td>
+          </tr>
+    
+          <tr>
+              <td>CAG69520.1</td>
+              <td>isochorismate_synthetase</td>
+              <td><a href="https://mibig.secondarymetabolites.org/go/BGC0000352/1">BGC0000352</a></td>
+              <td>NRP:NRP siderophore</td>
+              <td>44.0</td>
+              <td>66.7</td>
+              <td>203.0</td>
+              <td>4.9e-52</td>
+          </tr>
+    
+          <tr>
+              <td>BAC87913.1</td>
+              <td>probable_acinetobactin_biosynthesis_protein</td>
+              <td><a href="https://mibig.secondarymetabolites.org/go/BGC0000294/1">BGC0000294</a></td>
+              <td>NRP</td>
+              <td>43.0</td>
+              <td>66.2</td>
+              <td>198.0</td>
+              <td>1.6e-50</td>
+          </tr>
+    
+          <tr>
+              <td>BAF98626.1</td>
+              <td>putative_isochorismate_synthase</td>
+              <td><a href="https://mibig.secondarymetabolites.org/go/BGC0000651/1">BGC0000651</a></td>
+              <td>Terpene</td>
+              <td>42.0</td>
+              <td>67.2</td>
+              <td>167.0</td>
+              <td>5e-41</td>
+          </tr>
+    
+          <tr>
+              <td>ADQ74616.1</td>
+              <td>isochorismate_synthase</td>
+              <td><a href="https://mibig.secondarymetabolites.org/go/BGC0000921/1">BGC0000921</a></td>
+              <td>Polyketide + NRP + Other:Shikimate-derived</td>
+              <td>37.0</td>
+              <td>67.4</td>
+              <td>146.0</td>
+              <td>7e-35</td>
+          </tr>
+    
+          <tr>
+              <td>ACD75091.1</td>
+              <td>MenF</td>
+              <td><a href="https://mibig.secondarymetabolites.org/go/BGC0000913/1">BGC0000913</a></td>
+              <td>Other</td>
+              <td>33.0</td>
+              <td>65.9</td>
+              <td>107.0</td>
+              <td>6.2e-23</td>
+          </tr>
+    
+    </tbody>
+  </table>
+</body>

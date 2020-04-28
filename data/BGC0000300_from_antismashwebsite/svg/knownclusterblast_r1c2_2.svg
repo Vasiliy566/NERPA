@@ -1,0 +1,211 @@
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg" height="230" width="800" xmlns:xlink="http://www.w3.org/1999/xlink" preserveAspectRatio="none" x="0" y="0" viewBox="0 0 800 230"  >
+<g label="Query sequence" class="clusterblast-cluster"  >
+<text class="clusterblast-acc" y="20" x="5"  >
+Query sequence</text>
+<line x1="10" x2="778.0" y2="35" style="stroke-width:1; stroke:grey; " y1="35"  />
+<polygon locus_tag="SSMG_00940" description="&lt;b&gt;SSMG_00940&lt;/b&gt;&lt;br&gt;cell division ATP-binding protein FtsE&lt;br&gt;Location: 992900 - 993590" points="327,40 327,40 332,35 327,30 327,30 327,40 " style="stroke-width:1; stroke:black; fill:white; " id="dummy-2_q0_0_all" class="clusterblast-orf"  />
+<polygon locus_tag="SSMG_00941" description="&lt;b&gt;SSMG_00941&lt;/b&gt;&lt;br&gt;conserved hypothetical protein&lt;br&gt;Location: 993641 - 994535" points="332,40 333,40 338,35 333,30 332,30 332,40 " style="stroke-width:1; stroke:black; fill:white; " id="dummy-2_q1_0_all" class="clusterblast-orf"  />
+<polygon locus_tag="SSMG_00942" description="&lt;b&gt;SSMG_00942&lt;/b&gt;&lt;br&gt;SsrA-binding protein&lt;br&gt;Location: 994586 - 995069" points="338,40 341,35 338,30 338,40 " style="stroke-width:1; stroke:black; fill:white; " id="dummy-2_q2_0_all" class="clusterblast-orf"  />
+<polygon locus_tag="SSMG_00943" description="&lt;b&gt;SSMG_00943&lt;/b&gt;&lt;br&gt;amidohydrolase 2&lt;br&gt;Location: 995065 - 995962" points="341,40 341,40 346,35 341,30 341,30 341,40 " style="stroke-width:1; stroke:black; fill:white; " id="dummy-2_q3_0_all" class="clusterblast-orf"  />
+<polygon locus_tag="SSMG_00944" description="&lt;b&gt;SSMG_00944&lt;/b&gt;&lt;br&gt;predicted protein&lt;br&gt;Location: 995951 - 997283" points="346,35 351,30 354,30 354,40 351,40 346,35 " style="stroke-width:1; stroke:black; fill:white; " id="dummy-2_q4_0_all" class="clusterblast-orf"  />
+<polygon locus_tag="SSMG_00945" description="&lt;b&gt;SSMG_00945&lt;/b&gt;&lt;br&gt;conserved hypothetical protein&lt;br&gt;Location: 997392 - 997611" points="355,35 356,30 356,40 355,35 " style="stroke-width:1; stroke:black; fill:white; " id="dummy-2_q5_0_all" class="clusterblast-orf"  />
+<polygon locus_tag="SSMG_00946" description="&lt;b&gt;SSMG_00946&lt;/b&gt;&lt;br&gt;two component transcriptional regulator&lt;br&gt;Location: 997699 - 998341" points="357,35 361,30 361,40 357,35 " style="stroke-width:1; stroke:black; fill:#d81515; " id="dummy-2_q6_0_all" class="clusterblast-orf"  />
+<polygon locus_tag="SSMG_00947" description="&lt;b&gt;SSMG_00947&lt;/b&gt;&lt;br&gt;predicted protein&lt;br&gt;Location: 998398 - 999532" points="361,35 366,30 368,30 368,40 366,40 361,35 " style="stroke-width:1; stroke:black; fill:#15d863; " id="dummy-2_q7_0_all" class="clusterblast-orf"  />
+<polygon locus_tag="SSMG_00948" description="&lt;b&gt;SSMG_00948&lt;/b&gt;&lt;br&gt;predicted protein&lt;br&gt;Location: 999528 - 1000221" points="368,35 373,30 373,30 373,40 373,40 368,35 " style="stroke-width:1; stroke:black; fill:white; " id="dummy-2_q8_0_all" class="clusterblast-orf"  />
+<polygon locus_tag="SSMG_00949" description="&lt;b&gt;SSMG_00949&lt;/b&gt;&lt;br&gt;predicted protein&lt;br&gt;Location: 1001154 - 1001457" points="378,35 380,30 380,40 378,35 " style="stroke-width:1; stroke:black; fill:white; " id="dummy-2_q9_0_all" class="clusterblast-orf"  />
+<polygon locus_tag="SSMG_00950" description="&lt;b&gt;SSMG_00950&lt;/b&gt;&lt;br&gt;predicted protein&lt;br&gt;Location: 1001760 - 1002501" points="382,35 387,30 387,30 387,40 387,40 382,35 " style="stroke-width:1; stroke:black; fill:white; " id="dummy-2_q10_0_all" class="clusterblast-orf"  />
+<polygon locus_tag="SSMG_00951" description="&lt;b&gt;SSMG_00951&lt;/b&gt;&lt;br&gt;predicted protein&lt;br&gt;Location: 1002516 - 1003194" points="387,35 391,30 391,40 387,35 " style="stroke-width:1; stroke:black; fill:white; " id="dummy-2_q11_0_all" class="clusterblast-orf"  />
+<polygon locus_tag="SSMG_00952" description="&lt;b&gt;SSMG_00952&lt;/b&gt;&lt;br&gt;predicted protein&lt;br&gt;Location: 1003190 - 1004774" points="391,35 396,30 401,30 401,40 396,40 391,35 " style="stroke-width:1; stroke:black; fill:white; " id="dummy-2_q12_0_all" class="clusterblast-orf"  />
+<polygon locus_tag="SSMG_00953" description="&lt;b&gt;SSMG_00953&lt;/b&gt;&lt;br&gt;IclR-type transcriptional regulator&lt;br&gt;Location: 1005293 - 1006079" points="404,35 409,30 409,30 409,40 409,40 404,35 " style="stroke-width:1; stroke:black; fill:#1563d8; " id="dummy-2_q13_0_all" class="clusterblast-orf"  />
+<polygon locus_tag="SSMG_00954" description="&lt;b&gt;SSMG_00954&lt;/b&gt;&lt;br&gt;histidine ammonia-lyase&lt;br&gt;Location: 1006259 - 1007786" points="410,40 414,40 419,35 414,30 410,30 410,40 " style="stroke-width:1; stroke:black; fill:#b115d8; " id="dummy-2_q14_0_all" class="clusterblast-orf"  />
+<polygon locus_tag="SSMG_00955" description="&lt;b&gt;SSMG_00955&lt;/b&gt;&lt;br&gt;urocanate hydratase&lt;br&gt;Location: 1007789 - 1009451" points="419,40 424,40 429,35 424,30 419,30 419,40 " style="stroke-width:1; stroke:black; fill:#b1d815; " id="dummy-2_q15_0_all" class="clusterblast-orf"  />
+<polygon locus_tag="SSMG_00956" description="&lt;b&gt;SSMG_00956&lt;/b&gt;&lt;br&gt;allantoate amidohydrolase&lt;br&gt;Location: 1009447 - 1010644" points="429,40 432,40 437,35 432,30 429,30 429,40 " style="stroke-width:1; stroke:black; fill:white; " id="dummy-2_q16_0_all" class="clusterblast-orf"  />
+<polygon locus_tag="SSMG_00957" description="&lt;b&gt;SSMG_00957&lt;/b&gt;&lt;br&gt;formiminoglutamate deiminase&lt;br&gt;Location: 1010640 - 1011945" points="437,40 440,40 445,35 440,30 437,30 437,40 " style="stroke-width:1; stroke:black; fill:white; " id="dummy-2_q17_0_all" class="clusterblast-orf"  />
+<polygon locus_tag="SSMG_00958" description="&lt;b&gt;SSMG_00958&lt;/b&gt;&lt;br&gt;imidazolonepropionase&lt;br&gt;Location: 1011932 - 1013078" points="445,40 447,40 452,35 447,30 445,30 445,40 " style="stroke-width:1; stroke:black; fill:white; " id="dummy-2_q18_0_all" class="clusterblast-orf"  />
+</g>
+<g label="BGC0000291" description="BGC0000291_c1: A54145 (3% of genes show similarity), NRP" class="clusterblast-cluster"  >
+<text class="clusterblast-acc" y="70" x="5"  >
+<a xlink:href="https://mibig.secondarymetabolites.org/go/BGC0000291/1" target="_blank">BGC0000291</a>:                                                                           A54145 (3% of genes show similarity), NRP</text>
+<line x1="10" x2="778.0" y2="85" style="stroke-width:1; stroke:grey; " y1="85"  />
+</g>
+<g id="a2_000"  >
+<polygon locus_tag="AAZ23103.1" description="&lt;b&gt;AAZ23103.1&lt;/b&gt;&lt;br&gt;hypothetical protein&lt;br&gt;Location: 126729 - 125782" points="0,85 5,80 5,80 5,90 5,90 0,85 " style="stroke-width:1; stroke:black; fill:white; " id="dummy-2_h2_2_0" class="clusterblast-orf"  />
+</g>
+<g id="a2_001"  >
+<polygon locus_tag="AAZ23102.1" description="&lt;b&gt;AAZ23102.1&lt;/b&gt;&lt;br&gt;possible transposase&lt;br&gt;Location: 124752 - 124378" points="12,85 14,80 14,90 12,85 " style="stroke-width:1; stroke:black; fill:white; " id="dummy-2_h2_2_1" class="clusterblast-orf"  />
+</g>
+<g id="a2_002"  >
+<polygon locus_tag="AAZ23101.1" description="&lt;b&gt;AAZ23101.1&lt;/b&gt;&lt;br&gt;possible transposase&lt;br&gt;Location: 124387 - 123917" points="14,85 17,80 17,90 14,85 " style="stroke-width:1; stroke:black; fill:white; " id="dummy-2_h2_2_2" class="clusterblast-orf"  />
+</g>
+<g id="a2_003"  >
+<polygon locus_tag="AAZ23100.1" description="&lt;b&gt;AAZ23100.1&lt;/b&gt;&lt;br&gt;hypothetical protein&lt;br&gt;Location: 123673 - 123359" points="18,85 20,80 20,90 18,85 " style="stroke-width:1; stroke:black; fill:white; " id="dummy-2_h2_2_3" class="clusterblast-orf"  />
+</g>
+<g id="a2_004"  >
+<polygon locus_tag="AAZ23099.1" description="&lt;b&gt;AAZ23099.1&lt;/b&gt;&lt;br&gt;probable transposase&lt;br&gt;Location: 123214 - 122339" points="21,90 22,90 27,85 22,80 21,80 21,90 " style="stroke-width:1; stroke:black; fill:white; " id="dummy-2_h2_2_4" class="clusterblast-orf"  />
+</g>
+<g id="a2_005"  >
+<polygon locus_tag="AAZ23098.1" description="&lt;b&gt;AAZ23098.1&lt;/b&gt;&lt;br&gt;hypothetical protein&lt;br&gt;Location: 121971 - 121573" points="29,85 31,80 31,90 29,85 " style="stroke-width:1; stroke:black; fill:white; " id="dummy-2_h2_2_5" class="clusterblast-orf"  />
+</g>
+<g id="a2_006"  >
+<polygon locus_tag="AAZ23097.1" description="&lt;b&gt;AAZ23097.1&lt;/b&gt;&lt;br&gt;hypothetical protein&lt;br&gt;Location: 120731 - 120066" points="36,90 36,90 41,85 36,80 36,80 36,90 " style="stroke-width:1; stroke:black; fill:white; " id="dummy-2_h2_2_6" class="clusterblast-orf"  />
+</g>
+<g id="a2_007"  >
+<polygon locus_tag="AAZ23096.1" description="&lt;b&gt;AAZ23096.1&lt;/b&gt;&lt;br&gt;hypothetical protein&lt;br&gt;Location: 120017 - 118989" points="41,90 42,90 47,85 42,80 41,80 41,90 " style="stroke-width:1; stroke:black; fill:white; " id="dummy-2_h2_2_7" class="clusterblast-orf"  />
+</g>
+<g id="a2_008"  >
+<polygon locus_tag="AAZ23095.1" description="&lt;b&gt;AAZ23095.1&lt;/b&gt;&lt;br&gt;possible DNA helicase&lt;br&gt;Location: 119465 - 118101" points="44,85 49,80 53,80 53,90 49,90 44,85 " style="stroke-width:1; stroke:black; fill:white; " id="dummy-2_h2_2_8" class="clusterblast-orf"  />
+</g>
+<g id="a2_009"  >
+<polygon locus_tag="AAZ23094.1" description="&lt;b&gt;AAZ23094.1&lt;/b&gt;&lt;br&gt;possible transposase&lt;br&gt;Location: 114662 - 113931" points="74,90 78,85 74,80 74,90 " style="stroke-width:1; stroke:black; fill:white; " id="dummy-2_h2_2_9" class="clusterblast-orf"  />
+</g>
+<g id="a2_0010"  >
+<polygon locus_tag="AAZ23093.1" description="&lt;b&gt;AAZ23093.1&lt;/b&gt;&lt;br&gt;hypothetical protein&lt;br&gt;Location: 113243 - 112824" points="83,90 85,85 83,80 83,90 " style="stroke-width:1; stroke:black; fill:white; " id="dummy-2_h2_2_10" class="clusterblast-orf"  />
+</g>
+<g id="a2_0011"  >
+<polygon locus_tag="AAZ23092.1" description="&lt;b&gt;AAZ23092.1&lt;/b&gt;&lt;br&gt;possible protein kinase&lt;br&gt;Location: 112812 - 110701" points="85,90 93,90 98,85 93,80 85,80 85,90 " style="stroke-width:1; stroke:black; fill:white; " id="dummy-2_h2_2_11" class="clusterblast-orf"  />
+</g>
+<g id="a2_0012"  >
+<polygon locus_tag="AAZ23091.1" description="&lt;b&gt;AAZ23091.1&lt;/b&gt;&lt;br&gt;possible transposase&lt;br&gt;Location: 107252 - 106395" points="119,90 120,90 125,85 120,80 119,80 119,90 " style="stroke-width:1; stroke:black; fill:white; " id="dummy-2_h2_2_12" class="clusterblast-orf"  />
+</g>
+<g id="a2_0013"  >
+<polygon locus_tag="AAZ23090.1" description="&lt;b&gt;AAZ23090.1&lt;/b&gt;&lt;br&gt;hypothetical protein&lt;br&gt;Location: 105879 - 105694" points="128,90 129,85 128,80 128,90 " style="stroke-width:1; stroke:black; fill:white; " id="dummy-2_h2_2_13" class="clusterblast-orf"  />
+</g>
+<g id="a2_0014"  >
+<polygon locus_tag="AAZ23089.1" description="&lt;b&gt;AAZ23089.1&lt;/b&gt;&lt;br&gt;hypothetical protein&lt;br&gt;Location: 105697 - 105287" points="129,85 131,80 131,90 129,85 " style="stroke-width:1; stroke:black; fill:white; " id="dummy-2_h2_2_14" class="clusterblast-orf"  />
+</g>
+<g id="a2_0015"  >
+<polygon locus_tag="AAZ23088.1" description="&lt;b&gt;AAZ23088.1&lt;/b&gt;&lt;br&gt;possible regulator&lt;br&gt;Location: 105123 - 104185" points="132,85 137,80 138,80 138,90 137,90 132,85 " style="stroke-width:1; stroke:black; fill:white; " id="dummy-2_h2_2_15" class="clusterblast-orf"  />
+</g>
+<g id="a2_0016"  >
+<polygon locus_tag="AAZ23087.1" description="&lt;b&gt;AAZ23087.1&lt;/b&gt;&lt;br&gt;possible methyltransferase&lt;br&gt;Location: 102537 - 101479" points="148,85 153,80 155,80 155,90 153,90 148,85 " style="stroke-width:1; stroke:black; fill:white; " id="dummy-2_h2_2_16" class="clusterblast-orf"  />
+</g>
+<g id="a2_0017"  >
+<polygon locus_tag="AAZ23086.1" description="&lt;b&gt;AAZ23086.1&lt;/b&gt;&lt;br&gt;hypothetical protein&lt;br&gt;Location: 100649 - 100029" points="160,90 164,85 160,80 160,90 " style="stroke-width:1; stroke:black; fill:white; " id="dummy-2_h2_2_17" class="clusterblast-orf"  />
+</g>
+<g id="a2_0018"  >
+<polygon locus_tag="AAZ23085.1" description="&lt;b&gt;AAZ23085.1&lt;/b&gt;&lt;br&gt;possible ABC transporter permease&lt;br&gt;Location: 99964 - 99116" points="164,85 169,80 169,80 169,90 169,90 164,85 " style="stroke-width:1; stroke:black; fill:white; " id="dummy-2_h2_2_18" class="clusterblast-orf"  />
+</g>
+<g id="a2_0019"  >
+<polygon locus_tag="AAZ23084.1" description="&lt;b&gt;AAZ23084.1&lt;/b&gt;&lt;br&gt;possible ABC transporter&lt;br&gt;Location: 99119 - 98058" points="169,85 174,80 176,80 176,90 174,90 169,85 " style="stroke-width:1; stroke:black; fill:white; " id="dummy-2_h2_2_19" class="clusterblast-orf"  />
+</g>
+<g id="a2_0020"  >
+<polygon locus_tag="AAZ23083.1" description="&lt;b&gt;AAZ23083.1&lt;/b&gt;&lt;br&gt;possible hydrolase&lt;br&gt;Location: 98058 - 97099" points="176,85 181,80 182,80 182,90 181,90 176,85 " style="stroke-width:1; stroke:black; fill:white; " id="dummy-2_h2_2_20" class="clusterblast-orf"  />
+</g>
+<g id="a2_0021"  >
+<polygon locus_tag="AAZ23082.1" description="&lt;b&gt;AAZ23082.1&lt;/b&gt;&lt;br&gt;possible O-methyltransferase&lt;br&gt;Location: 97029 - 96241" points="182,85 187,80 187,80 187,90 187,90 182,85 " style="stroke-width:1; stroke:black; fill:white; " id="dummy-2_h2_2_21" class="clusterblast-orf"  />
+</g>
+<g id="a2_0022"  >
+<polygon locus_tag="AAZ23081.1" description="&lt;b&gt;AAZ23081.1&lt;/b&gt;&lt;br&gt;hypothetical protein&lt;br&gt;Location: 96244 - 95249" points="187,85 192,80 193,80 193,90 192,90 187,85 " style="stroke-width:1; stroke:black; fill:white; " id="dummy-2_h2_2_22" class="clusterblast-orf"  />
+</g>
+<g id="a2_0023"  >
+<polygon locus_tag="AAZ23080.1" description="&lt;b&gt;AAZ23080.1&lt;/b&gt;&lt;br&gt;possible thioesterase&lt;br&gt;Location: 95237 - 94443" points="193,85 198,80 198,80 198,90 198,90 193,85 " style="stroke-width:1; stroke:black; fill:white; " id="dummy-2_h2_2_23" class="clusterblast-orf"  />
+</g>
+<g id="a2_0024"  >
+<polygon locus_tag="AAZ23079.1" description="&lt;b&gt;AAZ23079.1&lt;/b&gt;&lt;br&gt;hypothetical protein&lt;br&gt;Location: 94360 - 94118" points="199,85 200,80 200,90 199,85 " style="stroke-width:1; stroke:black; fill:white; " id="dummy-2_h2_2_24" class="clusterblast-orf"  />
+</g>
+<g id="a2_0025"  >
+<polygon locus_tag="AAZ23078.1" description="&lt;b&gt;AAZ23078.1&lt;/b&gt;&lt;br&gt;peptide synthetase&lt;br&gt;Location: 94121 - 86967" points="200,85 205,80 244,80 244,90 205,90 200,85 " style="stroke-width:1; stroke:black; fill:white; " id="dummy-2_h2_2_25" class="clusterblast-orf"  />
+</g>
+<g id="a2_0026"  >
+<polygon locus_tag="AAZ23077.1" description="&lt;b&gt;AAZ23077.1&lt;/b&gt;&lt;br&gt;peptide synthetase&lt;br&gt;Location: 86967 - 71227" points="244,85 249,80 341,80 341,90 249,90 244,85 " style="stroke-width:1; stroke:black; fill:white; " id="dummy-2_h2_2_26" class="clusterblast-orf"  />
+</g>
+<g id="a2_0027"  >
+<polygon locus_tag="AAZ23076.1" description="&lt;b&gt;AAZ23076.1&lt;/b&gt;&lt;br&gt;peptide synthetase&lt;br&gt;Location: 71230 - 64799" points="341,85 346,80 381,80 381,90 346,90 341,85 " style="stroke-width:1; stroke:black; fill:white; " id="dummy-2_h2_2_27" class="clusterblast-orf"  />
+</g>
+<g id="a2_0028"  >
+<polygon locus_tag="AAZ23075.1" description="&lt;b&gt;AAZ23075.1&lt;/b&gt;&lt;br&gt;peptide synthetase&lt;br&gt;Location: 64802 - 45924" points="381,85 386,80 497,80 497,90 386,90 381,85 " style="stroke-width:1; stroke:black; fill:white; " id="dummy-2_h2_2_28" class="clusterblast-orf"  />
+</g>
+<g id="a2_0029"  >
+<polygon locus_tag="AAZ23074.1" description="&lt;b&gt;AAZ23074.1&lt;/b&gt;&lt;br&gt;acyl-CoA ligase&lt;br&gt;Location: 45814 - 43616" points="498,85 503,80 511,80 511,90 503,90 498,85 " style="stroke-width:1; stroke:black; fill:white; " id="dummy-2_h2_2_29" class="clusterblast-orf"  />
+</g>
+<g id="a2_0030"  >
+<polygon locus_tag="AAZ23073.1" description="&lt;b&gt;AAZ23073.1&lt;/b&gt;&lt;br&gt;hypothetical protein&lt;br&gt;Location: 42957 - 40648" points="515,85 520,80 529,80 529,90 520,90 515,85 " style="stroke-width:1; stroke:black; fill:white; " id="dummy-2_h2_2_30" class="clusterblast-orf"  />
+</g>
+<g id="a2_0031"  >
+<polygon locus_tag="AAZ23072.1" description="&lt;b&gt;AAZ23072.1&lt;/b&gt;&lt;br&gt;hypothetical protein&lt;br&gt;Location: 40651 - 39941" points="529,85 534,80 534,80 534,90 534,90 529,85 " style="stroke-width:1; stroke:black; fill:white; " id="dummy-2_h2_2_31" class="clusterblast-orf"  />
+</g>
+<g id="a2_0032"  >
+<polygon locus_tag="AAZ23071.1" description="&lt;b&gt;AAZ23071.1&lt;/b&gt;&lt;br&gt;possible sensor kinase&lt;br&gt;Location: 39803 - 38955" points="535,90 535,90 540,85 535,80 535,80 535,90 " style="stroke-width:1; stroke:black; fill:white; " id="dummy-2_h2_2_32" class="clusterblast-orf"  />
+</g>
+<g id="a2_0033"  >
+<polygon locus_tag="AAZ23070.1" description="&lt;b&gt;AAZ23070.1&lt;/b&gt;&lt;br&gt;possible response regulator&lt;br&gt;Location: 38958 - 38233" points="540,90 544,85 540,80 540,90 " style="stroke-width:1; stroke:black; fill:white; " id="dummy-2_h2_2_33" class="clusterblast-orf"  />
+</g>
+<g id="a2_0034"  >
+<polygon locus_tag="AAZ23069.1" description="&lt;b&gt;AAZ23069.1&lt;/b&gt;&lt;br&gt;hypothetical protein&lt;br&gt;Location: 38181 - 37360" points="545,85 550,80 550,80 550,90 550,90 545,85 " style="stroke-width:1; stroke:black; fill:white; " id="dummy-2_h2_2_34" class="clusterblast-orf"  />
+</g>
+<g id="a2_0035"  >
+<polygon locus_tag="AAZ23068.1" description="&lt;b&gt;AAZ23068.1&lt;/b&gt;&lt;br&gt;hypothetical protein&lt;br&gt;Location: 36931 - 35510" points="552,90 556,90 561,85 556,80 552,80 552,90 " style="stroke-width:1; stroke:black; fill:white; " id="dummy-2_h2_2_35" class="clusterblast-orf"  />
+</g>
+<g id="a2_0036"  >
+<polygon locus_tag="AAZ23067.1" description="&lt;b&gt;AAZ23067.1&lt;/b&gt;&lt;br&gt;hypothetical protein&lt;br&gt;Location: 35426 - 34950" points="561,85 564,80 564,90 561,85 " style="stroke-width:1; stroke:black; fill:white; " id="dummy-2_h2_2_36" class="clusterblast-orf"  />
+</g>
+<g id="a2_0037"  >
+<polygon locus_tag="AAZ23066.1" description="&lt;b&gt;AAZ23066.1&lt;/b&gt;&lt;br&gt;hypothetical protein&lt;br&gt;Location: 35001 - 34423" points="564,85 568,80 568,90 564,85 " style="stroke-width:1; stroke:black; fill:white; " id="dummy-2_h2_2_37" class="clusterblast-orf"  />
+</g>
+<g id="a2_0038"  >
+<polygon locus_tag="AAZ23065.1" description="&lt;b&gt;AAZ23065.1&lt;/b&gt;&lt;br&gt;hypothetical protein&lt;br&gt;Location: 34419 - 33118" points="568,90 571,90 576,85 571,80 568,80 568,90 " style="stroke-width:1; stroke:black; fill:white; " id="dummy-2_h2_2_38" class="clusterblast-orf"  />
+</g>
+<g id="a2_0039"  >
+<polygon locus_tag="AAZ23064.1" description="&lt;b&gt;AAZ23064.1&lt;/b&gt;&lt;br&gt;possible DNA-binding protein&lt;br&gt;Location: 33018 - 31333" points="576,90 582,90 587,85 582,80 576,80 576,90 " style="stroke-width:1; stroke:black; fill:white; " id="dummy-2_h2_2_39" class="clusterblast-orf"  />
+</g>
+<g id="a2_0040"  >
+<polygon locus_tag="AAZ23063.1" description="&lt;b&gt;AAZ23063.1&lt;/b&gt;&lt;br&gt;probable decarboxylase&lt;br&gt;Location: 31207 - 29795" points="587,90 591,90 596,85 591,80 587,80 587,90 " style="stroke-width:1; stroke:black; fill:white; " id="dummy-2_h2_2_40" class="clusterblast-orf"  />
+</g>
+<g id="a2_0041"  >
+<polygon locus_tag="AAZ23062.1" description="&lt;b&gt;AAZ23062.1&lt;/b&gt;&lt;br&gt;possible permease&lt;br&gt;Location: 29798 - 28359" points="596,90 600,90 605,85 600,80 596,80 596,90 " style="stroke-width:1; stroke:black; fill:white; " id="dummy-2_h2_2_41" class="clusterblast-orf"  />
+</g>
+<g id="a2_0042"  >
+<polygon locus_tag="AAZ23061.1" description="&lt;b&gt;AAZ23061.1&lt;/b&gt;&lt;br&gt;probable D-aminoacylase&lt;br&gt;Location: 28321 - 26669" points="605,90 610,90 615,85 610,80 605,80 605,90 " style="stroke-width:1; stroke:black; fill:white; " id="dummy-2_h2_2_42" class="clusterblast-orf"  />
+</g>
+<g id="a2_0043"  >
+<polygon locus_tag="AAZ23060.1" description="&lt;b&gt;AAZ23060.1&lt;/b&gt;&lt;br&gt;probable sensor kinase&lt;br&gt;Location: 26619 - 25222" points="616,90 619,90 624,85 619,80 616,80 616,90 " style="stroke-width:1; stroke:black; fill:white; " id="dummy-2_h2_2_43" class="clusterblast-orf"  />
+</g>
+<g id="a2_0044"  >
+<polygon locus_tag="AAZ23059.1" description="&lt;b&gt;AAZ23059.1&lt;/b&gt;&lt;br&gt;probable putative response regulator&lt;br&gt;Location: 25225 - 24542" points="624,90 628,85 624,80 624,90 " style="stroke-width:1; stroke:black; fill:white; " id="dummy-2_h2_2_44" class="clusterblast-orf"  />
+</g>
+<g id="a2_0045"  >
+<polygon locus_tag="AAZ23058.1" description="&lt;b&gt;AAZ23058.1&lt;/b&gt;&lt;br&gt;probable secreted protein&lt;br&gt;Location: 24364 - 23207" points="630,90 632,90 637,85 632,80 630,80 630,90 " style="stroke-width:1; stroke:black; fill:white; " id="dummy-2_h2_2_45" class="clusterblast-orf"  />
+</g>
+<g id="a2_0046"  >
+<polygon locus_tag="AAZ23057.1" description="&lt;b&gt;AAZ23057.1&lt;/b&gt;&lt;br&gt;probable integral membrane protein&lt;br&gt;Location: 23210 - 21918" points="637,90 640,90 645,85 640,80 637,80 637,90 " style="stroke-width:1; stroke:black; fill:white; " id="dummy-2_h2_2_46" class="clusterblast-orf"  />
+</g>
+<g id="a2_0047"  >
+<polygon locus_tag="AAZ23056.1" description="&lt;b&gt;AAZ23056.1&lt;/b&gt;&lt;br&gt;hypothetical protein&lt;br&gt;Location: 21838 - 20753" points="645,90 647,90 652,85 647,80 645,80 645,90 " style="stroke-width:1; stroke:black; fill:white; " id="dummy-2_h2_2_47" class="clusterblast-orf"  />
+</g>
+<g id="a2_0048"  >
+<polygon locus_tag="AAZ23055.1" description="&lt;b&gt;AAZ23055.1&lt;/b&gt;&lt;br&gt;hypothetical protein&lt;br&gt;Location: 20366 - 19323" points="654,90 656,90 661,85 656,80 654,80 654,90 " style="stroke-width:1; stroke:black; fill:white; " id="dummy-2_h2_2_48" class="clusterblast-orf"  />
+</g>
+<g id="a2_0049"  >
+<polygon locus_tag="AAZ23054.1" description="&lt;b&gt;AAZ23054.1&lt;/b&gt;&lt;br&gt;hypothetical protein&lt;br&gt;Location: 19304 - 18507" points="661,85 666,80 666,80 666,90 666,90 661,85 " style="stroke-width:1; stroke:black; fill:white; " id="dummy-2_h2_2_49" class="clusterblast-orf"  />
+</g>
+<g id="a2_0050"  >
+<polygon locus_tag="AAZ23053.1" description="&lt;b&gt;AAZ23053.1&lt;/b&gt;&lt;br&gt;probable sugar isomerase&lt;br&gt;Location: 16359 - 15190" points="679,90 681,90 686,85 681,80 679,80 679,90 " style="stroke-width:1; stroke:black; fill:white; " id="dummy-2_h2_2_50" class="clusterblast-orf"  />
+</g>
+<g id="a2_0051"  >
+<polygon locus_tag="AAZ23052.1" description="&lt;b&gt;AAZ23052.1&lt;/b&gt;&lt;br&gt;probable dehydrogenase&lt;br&gt;Location: 15098 - 13059" points="687,90 694,90 699,85 694,80 687,80 687,90 " style="stroke-width:1; stroke:black; fill:white; " id="dummy-2_h2_2_51" class="clusterblast-orf"  />
+</g>
+<g id="a2_0052"  >
+<polygon locus_tag="AAZ23051.1" description="&lt;b&gt;AAZ23051.1&lt;/b&gt;&lt;br&gt;probable sugar kinase&lt;br&gt;Location: 12862 - 11363" points="700,90 705,90 710,85 705,80 700,80 700,90 " style="stroke-width:1; stroke:black; fill:white; " id="dummy-2_h2_2_52" class="clusterblast-orf"  />
+</g>
+<g id="a2_0053"  >
+<polygon locus_tag="AAZ23050.1" description="&lt;b&gt;AAZ23050.1&lt;/b&gt;&lt;br&gt;hypothetical protein&lt;br&gt;Location: 10467 - 10027" points="715,85 718,80 718,90 715,85 " style="stroke-width:1; stroke:black; fill:white; " id="dummy-2_h2_2_53" class="clusterblast-orf"  />
+</g>
+<g id="a2_0054"  >
+<polygon locus_tag="AAZ23049.1" description="&lt;b&gt;AAZ23049.1&lt;/b&gt;&lt;br&gt;possible oxidoreductase&lt;br&gt;Location: 10024 - 8966" points="718,85 723,80 724,80 724,90 723,90 718,85 " style="stroke-width:1; stroke:black; fill:white; " id="dummy-2_h2_2_54" class="clusterblast-orf"  />
+</g>
+<g id="a2_0055"  >
+<polygon locus_tag="AAZ23048.1" description="&lt;b&gt;AAZ23048.1&lt;/b&gt;&lt;br&gt;probable hydrolase&lt;br&gt;Location: 7635 - 6739" points="733,85 738,80 738,80 738,90 738,90 733,85 " style="stroke-width:1; stroke:black; fill:white; " id="dummy-2_h2_2_55" class="clusterblast-orf"  />
+</g>
+<g id="a2_0056"  >
+<polygon locus_tag="AAZ23047.1" description="&lt;b&gt;AAZ23047.1&lt;/b&gt;&lt;br&gt;transcriptional regulator&lt;br&gt;Location: 5815 - 5048&lt;br&gt;&lt;br&gt;&lt;b&gt;BlastP hit with SSMG_00953&lt;/b&gt;&lt;br&gt;Percentage identity: 54&lt;br&gt;Percentage coverage: 98&lt;br&gt;BLAST bit score: 247&lt;br&gt;E-value: 3.2e-65" points="744,85 748,80 748,90 744,85 " style="stroke-width:1; stroke:black; fill:#1563d8; " id="dummy-2_h2_2_56" class="clusterblast-orf"  />
+</g>
+<g id="a2_0057"  >
+<polygon locus_tag="AAZ23046.1" description="&lt;b&gt;AAZ23046.1&lt;/b&gt;&lt;br&gt;probable histidine ammonia-lyase&lt;br&gt;Location: 4900 - 3365&lt;br&gt;&lt;br&gt;&lt;b&gt;BlastP hit with SSMG_00954&lt;/b&gt;&lt;br&gt;Percentage identity: 74&lt;br&gt;Percentage coverage: 99&lt;br&gt;BLAST bit score: 675&lt;br&gt;E-value: 9.4e-194" points="749,90 754,90 759,85 754,80 749,80 749,90 " style="stroke-width:1; stroke:black; fill:#b115d8; " id="dummy-2_h2_2_57" class="clusterblast-orf"  />
+</g>
+<g id="a2_0058"  >
+<polygon locus_tag="AAZ23045.1" description="&lt;b&gt;AAZ23045.1&lt;/b&gt;&lt;br&gt;probable p-aminobenzoyl-glutamate transporter&lt;br&gt;Location: 2473 - 848" points="764,85 769,80 774,80 774,90 769,90 764,85 " style="stroke-width:1; stroke:black; fill:white; " id="dummy-2_h2_2_58" class="clusterblast-orf"  />
+</g>
+<g id="a2_0059"  >
+<polygon locus_tag="AAZ23044.1" description="&lt;b&gt;AAZ23044.1&lt;/b&gt;&lt;br&gt;hypothetical protein&lt;br&gt;Location: 851 - 1" points="774,85 779,80 780,80 780,90 779,90 774,85 " style="stroke-width:1; stroke:black; fill:white; " id="dummy-2_h2_2_59" class="clusterblast-orf"  />
+</g>
+</svg>

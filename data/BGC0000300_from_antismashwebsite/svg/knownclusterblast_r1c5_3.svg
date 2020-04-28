@@ -1,0 +1,66 @@
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg" height="230" width="800" xmlns:xlink="http://www.w3.org/1999/xlink" preserveAspectRatio="none" x="0" y="0" viewBox="0 0 800 230"  >
+<g label="Query sequence" class="clusterblast-cluster"  >
+<text class="clusterblast-acc" y="20" x="5"  >
+Query sequence</text>
+<line x1="10" x2="778.0" y2="35" style="stroke-width:1; stroke:grey; " y1="35"  />
+<polygon locus_tag="SSMG_01838" description="&lt;b&gt;SSMG_01838&lt;/b&gt;&lt;br&gt;3-deoxy-7-phosphoheptulonate synthase&lt;br&gt;Location: 1960872 - 1962264" points="0,40 50,40 55,35 50,30 0,30 0,40 " style="stroke-width:1; stroke:black; fill:white; " id="dummy-5_q0_0_all" class="clusterblast-orf"  />
+<polygon locus_tag="SSMG_01839" description="&lt;b&gt;SSMG_01839&lt;/b&gt;&lt;br&gt;predicted protein&lt;br&gt;Location: 1962301 - 1963582" points="56,35 61,30 107,30 107,40 61,40 56,35 " style="stroke-width:1; stroke:black; fill:white; " id="dummy-5_q1_0_all" class="clusterblast-orf"  />
+<polygon locus_tag="SSMG_01840" description="&lt;b&gt;SSMG_01840&lt;/b&gt;&lt;br&gt;predicted protein&lt;br&gt;Location: 1963699 - 1964383" points="112,35 117,30 139,30 139,40 117,40 112,35 " style="stroke-width:1; stroke:black; fill:white; " id="dummy-5_q2_0_all" class="clusterblast-orf"  />
+<polygon locus_tag="SSMG_01841" description="&lt;b&gt;SSMG_01841&lt;/b&gt;&lt;br&gt;band 7 protein&lt;br&gt;Location: 1964382 - 1965861" points="139,35 144,30 197,30 197,40 144,40 139,35 " style="stroke-width:1; stroke:black; fill:white; " id="dummy-5_q3_0_all" class="clusterblast-orf"  />
+<polygon locus_tag="SSMG_01842" description="&lt;b&gt;SSMG_01842&lt;/b&gt;&lt;br&gt;conserved hypothetical protein&lt;br&gt;Location: 1965927 - 1966137" points="200,35 205,30 208,30 208,40 205,40 200,35 " style="stroke-width:1; stroke:black; fill:white; " id="dummy-5_q4_0_all" class="clusterblast-orf"  />
+<polygon locus_tag="SSMG_01843" description="&lt;b&gt;SSMG_01843&lt;/b&gt;&lt;br&gt;predicted protein&lt;br&gt;Location: 1966133 - 1968149" points="208,35 213,30 288,30 288,40 213,40 208,35 " style="stroke-width:1; stroke:black; fill:white; " id="dummy-5_q5_0_all" class="clusterblast-orf"  />
+<polygon locus_tag="SSMG_01844" description="&lt;b&gt;SSMG_01844&lt;/b&gt;&lt;br&gt;transcriptional regulatory protein&lt;br&gt;Location: 1968241 - 1968610" points="291,40 301,40 306,35 301,30 291,30 291,40 " style="stroke-width:1; stroke:black; fill:white; " id="dummy-5_q6_0_all" class="clusterblast-orf"  />
+<polygon locus_tag="SSMG_01845" description="&lt;b&gt;SSMG_01845&lt;/b&gt;&lt;br&gt;predicted protein&lt;br&gt;Location: 1968668 - 1969172" points="308,35 313,30 328,30 328,40 313,40 308,35 " style="stroke-width:1; stroke:black; fill:white; " id="dummy-5_q7_0_all" class="clusterblast-orf"  />
+<polygon locus_tag="SSMG_01846" description="&lt;b&gt;SSMG_01846&lt;/b&gt;&lt;br&gt;predicted protein&lt;br&gt;Location: 1969132 - 1969843" points="327,35 332,30 355,30 355,40 332,40 327,35 " style="stroke-width:1; stroke:black; fill:white; " id="dummy-5_q8_0_all" class="clusterblast-orf"  />
+<polygon locus_tag="SSMG_01847" description="&lt;b&gt;SSMG_01847&lt;/b&gt;&lt;br&gt;predicted protein&lt;br&gt;Location: 1969826 - 1970390" points="354,40 372,40 377,35 372,30 354,30 354,40 " style="stroke-width:1; stroke:black; fill:white; " id="dummy-5_q9_0_all" class="clusterblast-orf"  />
+<polygon locus_tag="SSMG_01848" description="&lt;b&gt;SSMG_01848&lt;/b&gt;&lt;br&gt;predicted protein&lt;br&gt;Location: 1970395 - 1970815" points="377,40 388,40 393,35 388,30 377,30 377,40 " style="stroke-width:1; stroke:black; fill:white; " id="dummy-5_q10_0_all" class="clusterblast-orf"  />
+<polygon locus_tag="SSMG_01849" description="&lt;b&gt;SSMG_01849&lt;/b&gt;&lt;br&gt;squalene synthase HpnD&lt;br&gt;Location: 1970786 - 1971788" points="392,35 397,30 432,30 432,40 397,40 392,35 " style="stroke-width:1; stroke:black; fill:#d81515; " id="dummy-5_q11_0_all" class="clusterblast-orf"  />
+<polygon locus_tag="SSMG_01850" description="&lt;b&gt;SSMG_01850&lt;/b&gt;&lt;br&gt;phytoene desaturase&lt;br&gt;Location: 1971706 - 1973182" points="429,35 434,30 487,30 487,40 434,40 429,35 " style="stroke-width:1; stroke:black; fill:#15d815; " id="dummy-5_q12_0_all" class="clusterblast-orf"  />
+<polygon locus_tag="SSMG_01851" description="&lt;b&gt;SSMG_01851&lt;/b&gt;&lt;br&gt;geranylgeranyl pyrophosphate synthase&lt;br&gt;Location: 1973181 - 1974309" points="487,35 492,30 532,30 532,40 492,40 487,35 " style="stroke-width:1; stroke:black; fill:#1515d8; " id="dummy-5_q13_0_all" class="clusterblast-orf"  />
+<polygon locus_tag="SSMG_01852" description="&lt;b&gt;SSMG_01852&lt;/b&gt;&lt;br&gt;predicted protein&lt;br&gt;Location: 1974344 - 1975094" points="533,35 538,30 563,30 563,40 538,40 533,35 " style="stroke-width:1; stroke:black; fill:white; " id="dummy-5_q14_0_all" class="clusterblast-orf"  />
+<polygon locus_tag="SSMG_01853" description="&lt;b&gt;SSMG_01853&lt;/b&gt;&lt;br&gt;5,10-methylenetetrahydrofolate reductase&lt;br&gt;Location: 1975092 - 1975980" points="563,40 593,40 598,35 593,30 563,30 563,40 " style="stroke-width:1; stroke:black; fill:white; " id="dummy-5_q15_0_all" class="clusterblast-orf"  />
+<polygon locus_tag="SSMG_01854" description="&lt;b&gt;SSMG_01854&lt;/b&gt;&lt;br&gt;conserved hypothetical protein&lt;br&gt;Location: 1976120 - 1977800" points="603,40 665,40 670,35 665,30 603,30 603,40 " style="stroke-width:1; stroke:black; fill:white; " id="dummy-5_q16_0_all" class="clusterblast-orf"  />
+<polygon locus_tag="SSMG_01855" description="&lt;b&gt;SSMG_01855&lt;/b&gt;&lt;br&gt;conserved hypothetical protein&lt;br&gt;Location: 1977849 - 1978359" points="672,40 687,40 692,35 687,30 672,30 672,40 " style="stroke-width:1; stroke:black; fill:white; " id="dummy-5_q17_0_all" class="clusterblast-orf"  />
+<polygon locus_tag="SSMG_01856" description="&lt;b&gt;SSMG_01856&lt;/b&gt;&lt;br&gt;predicted protein&lt;br&gt;Location: 1978563 - 1979460" points="700,40 730,40 735,35 730,30 700,30 700,40 " style="stroke-width:1; stroke:black; fill:white; " id="dummy-5_q18_0_all" class="clusterblast-orf"  />
+<polygon locus_tag="SSMG_01857" description="&lt;b&gt;SSMG_01857&lt;/b&gt;&lt;br&gt;acetyltransferase&lt;br&gt;Location: 1979521 - 1980109" points="738,35 743,30 761,30 761,40 743,40 738,35 " style="stroke-width:1; stroke:black; fill:white; " id="dummy-5_q19_0_all" class="clusterblast-orf"  />
+<polygon locus_tag="SSMG_01858" description="&lt;b&gt;SSMG_01858&lt;/b&gt;&lt;br&gt;YbaK/prolyl-tRNA synthetase associated region&lt;br&gt;Location: 1980105 - 1980585" points="761,35 766,30 780,30 780,40 766,40 761,35 " style="stroke-width:1; stroke:black; fill:white; " id="dummy-5_q20_0_all" class="clusterblast-orf"  />
+</g>
+<g label="BGC0000633" description="BGC0000633_c1: carotenoid (18% of genes show similarity), Terpene" class="clusterblast-cluster"  >
+<text class="clusterblast-acc" y="70" x="5"  >
+<a xlink:href="https://mibig.secondarymetabolites.org/go/BGC0000633/1" target="_blank">BGC0000633</a>:                                                                       carotenoid (18% of genes show similarity), Terpene</text>
+<line x1="10" x2="778.0" y2="85" style="stroke-width:1; stroke:grey; " y1="85"  />
+</g>
+<g id="a5_000"  >
+<polygon locus_tag="BAB69148.1" description="&lt;b&gt;BAB69148.1&lt;/b&gt;&lt;br&gt;beta-galactosidase&lt;br&gt;Location: 14284 - 12242" points="107,90 183,90 188,85 183,80 107,80 107,90 " style="stroke-width:1; stroke:black; fill:white; " id="dummy-5_h5_3_0" class="clusterblast-orf"  />
+</g>
+<g id="a5_001"  >
+<polygon locus_tag="BAB69147.1" description="&lt;b&gt;BAB69147.1&lt;/b&gt;&lt;br&gt;secreted protein&lt;br&gt;Location: 12159 - 10060" points="191,90 269,90 274,85 269,80 191,80 191,90 " style="stroke-width:1; stroke:black; fill:white; " id="dummy-5_h5_3_1" class="clusterblast-orf"  />
+</g>
+<g id="a5_002"  >
+<polygon locus_tag="BAB69146.1" description="&lt;b&gt;BAB69146.1&lt;/b&gt;&lt;br&gt;methyltransferase&lt;br&gt;Location: 9839 - 8760" points="283,85 288,80 325,80 325,90 288,90 283,85 " style="stroke-width:1; stroke:black; fill:white; " id="dummy-5_h5_3_2" class="clusterblast-orf"  />
+</g>
+<g id="a5_003"  >
+<polygon locus_tag="BAB69145.1" description="&lt;b&gt;BAB69145.1&lt;/b&gt;&lt;br&gt;phytoene synthase&lt;br&gt;Location: 8763 - 7735&lt;br&gt;&lt;br&gt;&lt;b&gt;BlastP hit with SSMG_01849&lt;/b&gt;&lt;br&gt;Percentage identity: 58&lt;br&gt;Percentage coverage: 92&lt;br&gt;BLAST bit score: 319&lt;br&gt;E-value: 6.6e-87" points="325,85 330,80 366,80 366,90 330,90 325,85 " style="stroke-width:1; stroke:black; fill:#d81515; " id="dummy-5_h5_3_3" class="clusterblast-orf"  />
+</g>
+<g id="a5_004"  >
+<polygon locus_tag="BAB69144.1" description="&lt;b&gt;BAB69144.1&lt;/b&gt;&lt;br&gt;phytoene synthase&lt;br&gt;Location: 7738 - 6197&lt;br&gt;&lt;br&gt;&lt;b&gt;BlastP hit with SSMG_01850&lt;/b&gt;&lt;br&gt;Percentage identity: 64&lt;br&gt;Percentage coverage: 100&lt;br&gt;BLAST bit score: 600&lt;br&gt;E-value: 2.8e-171" points="366,85 371,80 427,80 427,90 371,90 366,85 " style="stroke-width:1; stroke:black; fill:#15d815; " id="dummy-5_h5_3_4" class="clusterblast-orf"  />
+</g>
+<g id="a5_005"  >
+<polygon locus_tag="BAB69143.1" description="&lt;b&gt;BAB69143.1&lt;/b&gt;&lt;br&gt;geranylgeranyl pyrophosphase synthase&lt;br&gt;Location: 6200 - 5061" points="427,85 432,80 472,80 472,90 432,90 427,85 " style="stroke-width:1; stroke:black; fill:white; " id="dummy-5_h5_3_5" class="clusterblast-orf"  />
+</g>
+<g id="a5_006"  >
+<polygon locus_tag="BAB69142.1" description="&lt;b&gt;BAB69142.1&lt;/b&gt;&lt;br&gt;lycopene cyclase&lt;br&gt;Location: 4799 - 3453" points="482,90 530,90 535,85 530,80 482,80 482,90 " style="stroke-width:1; stroke:black; fill:white; " id="dummy-5_h5_3_6" class="clusterblast-orf"  />
+</g>
+<g id="a5_007"  >
+<polygon locus_tag="BAB69141.1" description="&lt;b&gt;BAB69141.1&lt;/b&gt;&lt;br&gt;methyltransferase&lt;br&gt;Location: 3409 - 2678" points="537,90 561,90 566,85 561,80 537,80 537,90 " style="stroke-width:1; stroke:black; fill:white; " id="dummy-5_h5_3_7" class="clusterblast-orf"  />
+</g>
+<g id="a5_008"  >
+<polygon locus_tag="BAB69140.1" description="&lt;b&gt;BAB69140.1&lt;/b&gt;&lt;br&gt;phytoene desaturase&lt;br&gt;Location: 2624 - 1122" points="568,90 623,90 628,85 623,80 568,80 568,90 " style="stroke-width:1; stroke:black; fill:white; " id="dummy-5_h5_3_8" class="clusterblast-orf"  />
+</g>
+<g id="a5_009"  >
+<polygon locus_tag="BAB69139.1" description="&lt;b&gt;BAB69139.1&lt;/b&gt;&lt;br&gt;integral membrane protein&lt;br&gt;Location: 967 - 419" points="634,90 651,90 656,85 651,80 634,80 634,90 " style="stroke-width:1; stroke:black; fill:white; " id="dummy-5_h5_3_9" class="clusterblast-orf"  />
+</g>
+<g id="a5_0010"  >
+<polygon locus_tag="BAB69138.1" description="&lt;b&gt;BAB69138.1&lt;/b&gt;&lt;br&gt;hypothetical protein&lt;br&gt;Location: 363 - 1" points="658,85 663,80 672,80 672,90 663,90 658,85 " style="stroke-width:1; stroke:black; fill:white; " id="dummy-5_h5_3_10" class="clusterblast-orf"  />
+</g>
+</svg>

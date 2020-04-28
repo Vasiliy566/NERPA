@@ -1,0 +1,77 @@
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg" height="230" width="800" xmlns:xlink="http://www.w3.org/1999/xlink" preserveAspectRatio="none" x="0" y="0" viewBox="0 0 800 230"  >
+<g label="Query sequence" class="clusterblast-cluster"  >
+<text class="clusterblast-acc" y="20" x="5"  >
+Query sequence</text>
+<line x1="10" x2="778.0" y2="35" style="stroke-width:1; stroke:grey; " y1="35"  />
+<polygon locus_tag="SSMG_00995" description="&lt;b&gt;SSMG_00995&lt;/b&gt;&lt;br&gt;predicted protein&lt;br&gt;Location: 1052056 - 1052755" points="0,40 21,40 26,35 21,30 0,30 0,40 " style="stroke-width:1; stroke:black; fill:white; " id="dummy-3_q0_0_all" class="clusterblast-orf"  />
+<polygon locus_tag="SSMG_00996" description="&lt;b&gt;SSMG_00996&lt;/b&gt;&lt;br&gt;cytochrome P450 hydroxylase&lt;br&gt;Location: 1052894 - 1054115" points="31,40 72,40 77,35 72,30 31,30 31,40 " style="stroke-width:1; stroke:black; fill:#d81515; " id="dummy-3_q1_0_all" class="clusterblast-orf"  />
+<polygon locus_tag="SSMG_00997" description="&lt;b&gt;SSMG_00997&lt;/b&gt;&lt;br&gt;transposase IS116/IS110/IS902 family protein&lt;br&gt;Location: 1054138 - 1055371" points="78,35 83,30 125,30 125,40 83,40 78,35 " style="stroke-width:1; stroke:black; fill:white; " id="dummy-3_q2_0_all" class="clusterblast-orf"  />
+<polygon locus_tag="SSMG_00998" description="&lt;b&gt;SSMG_00998&lt;/b&gt;&lt;br&gt;predicted protein&lt;br&gt;Location: 1055392 - 1055722" points="125,40 133,40 138,35 133,30 125,30 125,40 " style="stroke-width:1; stroke:black; fill:white; " id="dummy-3_q3_0_all" class="clusterblast-orf"  />
+<polygon locus_tag="SSMG_00999" description="&lt;b&gt;SSMG_00999&lt;/b&gt;&lt;br&gt;predicted protein&lt;br&gt;Location: 1055732 - 1055927" points="138,40 141,40 146,35 141,30 138,30 138,40 " style="stroke-width:1; stroke:black; fill:#15d863; " id="dummy-3_q4_0_all" class="clusterblast-orf"  />
+<polygon locus_tag="SSMG_01000" description="&lt;b&gt;SSMG_01000&lt;/b&gt;&lt;br&gt;transcriptional regulator&lt;br&gt;Location: 1055976 - 1056777" points="147,40 172,40 177,35 172,30 147,30 147,40 " style="stroke-width:1; stroke:black; fill:white; " id="dummy-3_q5_0_all" class="clusterblast-orf"  />
+<polygon locus_tag="SSMG_01001" description="&lt;b&gt;SSMG_01001&lt;/b&gt;&lt;br&gt;methyltransferase type 11&lt;br&gt;Location: 1056742 - 1057531" points="176,35 181,30 206,30 206,40 181,40 176,35 " style="stroke-width:1; stroke:black; fill:white; " id="dummy-3_q6_0_all" class="clusterblast-orf"  />
+<polygon locus_tag="SSMG_01002" description="&lt;b&gt;SSMG_01002&lt;/b&gt;&lt;br&gt;predicted protein&lt;br&gt;Location: 1057505 - 1057736" points="205,35 210,30 214,30 214,40 210,40 205,35 " style="stroke-width:1; stroke:black; fill:white; " id="dummy-3_q7_0_all" class="clusterblast-orf"  />
+<polygon locus_tag="SSMG_01003" description="&lt;b&gt;SSMG_01003&lt;/b&gt;&lt;br&gt;glutaredoxin&lt;br&gt;Location: 1057732 - 1057972" points="213,35 218,30 222,30 222,40 218,40 213,35 " style="stroke-width:1; stroke:black; fill:white; " id="dummy-3_q8_0_all" class="clusterblast-orf"  />
+<polygon locus_tag="SSMG_01004" description="&lt;b&gt;SSMG_01004&lt;/b&gt;&lt;br&gt;predicted protein&lt;br&gt;Location: 1057968 - 1060089" points="222,35 227,30 302,30 302,40 227,40 222,35 " style="stroke-width:1; stroke:black; fill:#1563d8; " id="dummy-3_q9_0_all" class="clusterblast-orf"  />
+<polygon locus_tag="SSMG_01005" description="&lt;b&gt;SSMG_01005&lt;/b&gt;&lt;br&gt;predicted protein&lt;br&gt;Location: 1060085 - 1060751" points="302,35 307,30 327,30 327,40 307,40 302,35 " style="stroke-width:1; stroke:black; fill:white; " id="dummy-3_q10_0_all" class="clusterblast-orf"  />
+<polygon locus_tag="SSMG_01006" description="&lt;b&gt;SSMG_01006&lt;/b&gt;&lt;br&gt;predicted protein&lt;br&gt;Location: 1060669 - 1061392" points="324,35 329,30 351,30 351,40 329,40 324,35 " style="stroke-width:1; stroke:black; fill:#b115d8; " id="dummy-3_q11_0_all" class="clusterblast-orf"  />
+<polygon locus_tag="SSMG_01007" description="&lt;b&gt;SSMG_01007&lt;/b&gt;&lt;br&gt;terpene synthase&lt;br&gt;Location: 1061718 - 1063962" points="363,35 368,30 448,30 448,40 368,40 363,35 " style="stroke-width:1; stroke:black; fill:#b1d815; " id="dummy-3_q12_0_all" class="clusterblast-orf"  />
+<polygon locus_tag="SSMG_01008" description="&lt;b&gt;SSMG_01008&lt;/b&gt;&lt;br&gt;conserved hypothetical protein&lt;br&gt;Location: 1064394 - 1065990" points="464,40 519,40 524,35 519,30 464,30 464,40 " style="stroke-width:1; stroke:black; fill:white; " id="dummy-3_q13_0_all" class="clusterblast-orf"  />
+<polygon locus_tag="SSMG_01009" description="&lt;b&gt;SSMG_01009&lt;/b&gt;&lt;br&gt;hydrolase&lt;br&gt;Location: 1066040 - 1068095" points="526,35 531,30 603,30 603,40 531,40 526,35 " style="stroke-width:1; stroke:black; fill:white; " id="dummy-3_q14_0_all" class="clusterblast-orf"  />
+<polygon locus_tag="SSMG_01010" description="&lt;b&gt;SSMG_01010&lt;/b&gt;&lt;br&gt;sugar transport integral membrane protein&lt;br&gt;Location: 1068101 - 1068971" points="604,35 609,30 636,30 636,40 609,40 604,35 " style="stroke-width:1; stroke:black; fill:white; " id="dummy-3_q15_0_all" class="clusterblast-orf"  />
+<polygon locus_tag="SSMG_01011" description="&lt;b&gt;SSMG_01011&lt;/b&gt;&lt;br&gt;sugar transport integral membrane protein&lt;br&gt;Location: 1068972 - 1069923" points="636,35 641,30 672,30 672,40 641,40 636,35 " style="stroke-width:1; stroke:black; fill:white; " id="dummy-3_q16_0_all" class="clusterblast-orf"  />
+<polygon locus_tag="SSMG_01012" description="&lt;b&gt;SSMG_01012&lt;/b&gt;&lt;br&gt;sugar transport sugar binding protein&lt;br&gt;Location: 1069919 - 1071305" points="672,35 677,30 724,30 724,40 677,40 672,35 " style="stroke-width:1; stroke:black; fill:white; " id="dummy-3_q17_0_all" class="clusterblast-orf"  />
+<polygon locus_tag="SSMG_01013" description="&lt;b&gt;SSMG_01013&lt;/b&gt;&lt;br&gt;catabolite control protein A&lt;br&gt;Location: 1071441 - 1072476" points="729,40 763,40 768,35 763,30 729,30 729,40 " style="stroke-width:1; stroke:black; fill:white; " id="dummy-3_q18_0_all" class="clusterblast-orf"  />
+<polygon locus_tag="SSMG_01014" description="&lt;b&gt;SSMG_01014&lt;/b&gt;&lt;br&gt;predicted protein&lt;br&gt;Location: 1072468 - 1072789" points="768,40 775,40 780,35 775,30 768,30 768,40 " style="stroke-width:1; stroke:black; fill:white; " id="dummy-3_q19_0_all" class="clusterblast-orf"  />
+</g>
+<g label="BGC0002000" description="BGC0002000_c1: setomimycin (13% of genes show similarity), Polyketide" class="clusterblast-cluster"  >
+<text class="clusterblast-acc" y="70" x="5"  >
+<a xlink:href="https://mibig.secondarymetabolites.org/go/BGC0002000/1" target="_blank">BGC0002000</a>:                                                                      setomimycin (13% of genes show similarity), Polyketide</text>
+<line x1="10" x2="778.0" y2="85" style="stroke-width:1; stroke:grey; " y1="85"  />
+</g>
+<g id="a3_000"  >
+<polygon locus_tag="STRAU_RS10340" description="&lt;b&gt;STRAU_RS10340&lt;/b&gt;&lt;br&gt;DHA2 family efflux MFS transporter permease subunit&lt;br&gt;Location: 1 - 1515" points="154,90 206,90 211,85 206,80 154,80 154,90 " style="stroke-width:1; stroke:black; fill:white; " id="dummy-3_h3_4_0" class="clusterblast-orf"  />
+</g>
+<g id="a3_001"  >
+<polygon locus_tag="STRAU_RS38955" description="&lt;b&gt;STRAU_RS38955&lt;/b&gt;&lt;br&gt;TcmI family type II polyketide cyclase&lt;br&gt;Location: 1547 - 2206" points="213,90 232,90 237,85 232,80 213,80 213,90 " style="stroke-width:1; stroke:black; fill:white; " id="dummy-3_h3_4_1" class="clusterblast-orf"  />
+</g>
+<g id="a3_002"  >
+<polygon locus_tag="STRAU_RS10350" description="&lt;b&gt;STRAU_RS10350&lt;/b&gt;&lt;br&gt;nuclear transport factor 2 family protein&lt;br&gt;Location: 2698 - 3126" points="256,90 267,90 272,85 267,80 256,80 256,90 " style="stroke-width:1; stroke:black; fill:white; " id="dummy-3_h3_4_2" class="clusterblast-orf"  />
+</g>
+<g id="a3_003"  >
+<polygon locus_tag="STRAU_RS10355" description="&lt;b&gt;STRAU_RS10355&lt;/b&gt;&lt;br&gt;response regulator transcription factor&lt;br&gt;Location: 3185 - 3994" points="274,90 300,90 305,85 300,80 274,80 274,90 " style="stroke-width:1; stroke:black; fill:white; " id="dummy-3_h3_4_3" class="clusterblast-orf"  />
+</g>
+<g id="a3_004"  >
+<polygon locus_tag="STRAU_RS10360" description="&lt;b&gt;STRAU_RS10360&lt;/b&gt;&lt;br&gt;cytochrome P450&lt;br&gt;Location: 4095 - 5315&lt;br&gt;&lt;br&gt;&lt;b&gt;BlastP hit with SSMG_00996&lt;/b&gt;&lt;br&gt;Percentage identity: 49&lt;br&gt;Percentage coverage: 97&lt;br&gt;BLAST bit score: 373&lt;br&gt;E-value: 6.1e-103" points="308,90 349,90 354,85 349,80 308,80 308,90 " style="stroke-width:1; stroke:black; fill:#d81515; " id="dummy-3_h3_4_4" class="clusterblast-orf"  />
+</g>
+<g id="a3_005"  >
+<polygon locus_tag="STRAU_RS10365" description="&lt;b&gt;STRAU_RS10365&lt;/b&gt;&lt;br&gt;ferredoxin&lt;br&gt;Location: 5327 - 5521&lt;br&gt;&lt;br&gt;&lt;b&gt;BlastP hit with SSMG_00999&lt;/b&gt;&lt;br&gt;Percentage identity: 48&lt;br&gt;Percentage coverage: 97&lt;br&gt;BLAST bit score: 59&lt;br&gt;E-value: 1.8e-09" points="355,90 357,90 362,85 357,80 355,80 355,90 " style="stroke-width:1; stroke:black; fill:#15d863; " id="dummy-3_h3_4_5" class="clusterblast-orf"  />
+</g>
+<g id="a3_006"  >
+<polygon locus_tag="STRAU_RS10370" description="&lt;b&gt;STRAU_RS10370&lt;/b&gt;&lt;br&gt;nuclear transport factor 2 family protein&lt;br&gt;Location: 5589 - 6059" points="365,85 370,80 382,80 382,90 370,90 365,85 " style="stroke-width:1; stroke:black; fill:white; " id="dummy-3_h3_4_6" class="clusterblast-orf"  />
+</g>
+<g id="a3_007"  >
+<polygon locus_tag="STRAU_RS41390" description="&lt;b&gt;STRAU_RS41390&lt;/b&gt;&lt;br&gt;TcmI family type II polyketide cyclase&lt;br&gt;Location: 6277 - 6564" points="390,90 396,90 401,85 396,80 390,80 390,90 " style="stroke-width:1; stroke:black; fill:white; " id="dummy-3_h3_4_7" class="clusterblast-orf"  />
+</g>
+<g id="a3_008"  >
+<polygon locus_tag="STRAU_RS41395" description="&lt;b&gt;STRAU_RS41395&lt;/b&gt;&lt;br&gt;TcmI family type II polyketide cyclase&lt;br&gt;Location: 6595 - 6927" points="402,90 410,90 415,85 410,80 402,80 402,90 " style="stroke-width:1; stroke:black; fill:white; " id="dummy-3_h3_4_8" class="clusterblast-orf"  />
+</g>
+<g id="a3_009"  >
+<polygon locus_tag="STRAU_RS10380" description="&lt;b&gt;STRAU_RS10380&lt;/b&gt;&lt;br&gt;beta-ketoacyl-[acyl-carrier-protein] synthase family protein&lt;br&gt;Location: 6924 - 8195" points="415,90 458,90 463,85 458,80 415,80 415,90 " style="stroke-width:1; stroke:black; fill:white; " id="dummy-3_h3_4_9" class="clusterblast-orf"  />
+</g>
+<g id="a3_0010"  >
+<polygon locus_tag="STRAU_RS10385" description="&lt;b&gt;STRAU_RS10385&lt;/b&gt;&lt;br&gt;ketosynthase chain-length factor&lt;br&gt;Location: 8192 - 9388" points="463,90 502,90 507,85 502,80 463,80 463,90 " style="stroke-width:1; stroke:black; fill:white; " id="dummy-3_h3_4_10" class="clusterblast-orf"  />
+</g>
+<g id="a3_0011"  >
+<polygon locus_tag="STRAU_RS10390" description="&lt;b&gt;STRAU_RS10390&lt;/b&gt;&lt;br&gt;acyl carrier protein&lt;br&gt;Location: 9451 - 9717" points="510,90 515,90 520,85 515,80 510,80 510,90 " style="stroke-width:1; stroke:black; fill:white; " id="dummy-3_h3_4_11" class="clusterblast-orf"  />
+</g>
+<g id="a3_0012"  >
+<polygon locus_tag="STRAU_RS10395" description="&lt;b&gt;STRAU_RS10395&lt;/b&gt;&lt;br&gt;SDR family NAD(P)-dependent oxidoreductase&lt;br&gt;Location: 9807 - 10592" points="523,90 548,90 553,85 548,80 523,80 523,90 " style="stroke-width:1; stroke:black; fill:white; " id="dummy-3_h3_4_12" class="clusterblast-orf"  />
+</g>
+<g id="a3_0013"  >
+<polygon locus_tag="STRAU_RS10400" description="&lt;b&gt;STRAU_RS10400&lt;/b&gt;&lt;br&gt;polyketide synthase&lt;br&gt;Location: 10626 - 11591" points="554,90 585,90 590,85 585,80 554,80 554,90 " style="stroke-width:1; stroke:black; fill:white; " id="dummy-3_h3_4_13" class="clusterblast-orf"  />
+</g>
+<g id="a3_0014"  >
+<polygon locus_tag="STRAU_RS10405" description="&lt;b&gt;STRAU_RS10405&lt;/b&gt;&lt;br&gt;alpha/beta hydrolase&lt;br&gt;Location: 11588 - 12502" points="590,90 620,90 625,85 620,80 590,80 590,90 " style="stroke-width:1; stroke:black; fill:white; " id="dummy-3_h3_4_14" class="clusterblast-orf"  />
+</g>
+</svg>

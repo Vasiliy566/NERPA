@@ -1,0 +1,29 @@
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg" height="230" width="800" xmlns:xlink="http://www.w3.org/1999/xlink" preserveAspectRatio="none" x="0" y="0" viewBox="0 0 800 230"  >
+<g label="Query sequence" class="clusterblast-cluster"  >
+<text class="clusterblast-acc" y="20" x="5"  >
+Query sequence</text>
+<line x1="10" x2="778.0" y2="35" style="stroke-width:1; stroke:grey; " y1="35"  />
+<polygon locus_tag="SSMG_07027" description="&lt;b&gt;SSMG_07027&lt;/b&gt;&lt;br&gt;predicted protein&lt;br&gt;Location: 7715160 - 7717953" points="1,35 6,30 347,30 347,40 6,40 1,35 " style="stroke-width:1; stroke:black; fill:white; " id="dummy-25_q0_0_all" class="clusterblast-orf"  />
+<polygon locus_tag="SSMG_07028" description="&lt;b&gt;SSMG_07028&lt;/b&gt;&lt;br&gt;ectoine hydroxylase&lt;br&gt;Location: 7718276 - 7719179" points="387,35 392,30 499,30 499,40 392,40 387,35 " style="stroke-width:1; stroke:black; fill:#d81515; " id="dummy-25_q1_0_all" class="clusterblast-orf"  />
+<polygon locus_tag="SSMG_07029" description="&lt;b&gt;SSMG_07029&lt;/b&gt;&lt;br&gt;ectoine synthase&lt;br&gt;Location: 7719245 - 7719638" points="507,35 512,30 556,30 556,40 512,40 507,35 " style="stroke-width:1; stroke:black; fill:#77d815; " id="dummy-25_q2_0_all" class="clusterblast-orf"  />
+<polygon locus_tag="SSMG_07030" description="&lt;b&gt;SSMG_07030&lt;/b&gt;&lt;br&gt;diaminobutyrate-2-oxoglutarate aminotransferase&lt;br&gt;Location: 7719669 - 7720920" points="559,35 564,30 714,30 714,40 564,40 559,35 " style="stroke-width:1; stroke:black; fill:#15d8d8; " id="dummy-25_q3_0_all" class="clusterblast-orf"  />
+<polygon locus_tag="SSMG_07031" description="&lt;b&gt;SSMG_07031&lt;/b&gt;&lt;br&gt;L-2,4-diaminobutyric acid acetyltransferase&lt;br&gt;Location: 7720961 - 7721456" points="719,35 724,30 781,30 781,40 724,40 719,35 " style="stroke-width:1; stroke:black; fill:#7715d8; " id="dummy-25_q4_0_all" class="clusterblast-orf"  />
+</g>
+<g label="BGC0000859" description="BGC0000859_c1: ectoine (50% of genes show similarity), Other" class="clusterblast-cluster"  >
+<text class="clusterblast-acc" y="70" x="5"  >
+<a xlink:href="https://mibig.secondarymetabolites.org/go/BGC0000859/1" target="_blank">BGC0000859</a>:                                                                          ectoine (50% of genes show similarity), Other</text>
+<line x1="10" x2="778.0" y2="85" style="stroke-width:1; stroke:grey; " y1="85"  />
+</g>
+<g id="a25_000"  >
+<polygon locus_tag="ACB30333.1" description="&lt;b&gt;ACB30333.1&lt;/b&gt;&lt;br&gt;aspartokinase&lt;br&gt;Location: 3305 - 2667" points="201,85 206,80 280,80 280,90 206,90 201,85 " style="stroke-width:1; stroke:black; fill:white; " id="dummy-25_h25_3_0" class="clusterblast-orf"  />
+</g>
+<g id="a25_001"  >
+<polygon locus_tag="ACB30332.1" description="&lt;b&gt;ACB30332.1&lt;/b&gt;&lt;br&gt;ectoine synthase&lt;br&gt;Location: 2607 - 2203&lt;br&gt;&lt;br&gt;&lt;b&gt;BlastP hit with SSMG_07029&lt;/b&gt;&lt;br&gt;Percentage identity: 46&lt;br&gt;Percentage coverage: 100&lt;br&gt;BLAST bit score: 132&lt;br&gt;E-value: 5.8e-31" points="287,85 292,80 337,80 337,90 292,90 287,85 " style="stroke-width:1; stroke:black; fill:#77d815; " id="dummy-25_h25_3_1" class="clusterblast-orf"  />
+</g>
+<g id="a25_002"  >
+<polygon locus_tag="ACB30331.1" description="&lt;b&gt;ACB30331.1&lt;/b&gt;&lt;br&gt;L-2,4-diaminobutyric acid aminotransferase&lt;br&gt;Location: 2151 - 820&lt;br&gt;&lt;br&gt;&lt;b&gt;BlastP hit with SSMG_07030&lt;/b&gt;&lt;br&gt;Percentage identity: 56&lt;br&gt;Percentage coverage: 100&lt;br&gt;BLAST bit score: 480&lt;br&gt;E-value: 2.8e-135" points="344,85 349,80 509,80 509,90 349,90 344,85 " style="stroke-width:1; stroke:black; fill:#15d8d8; " id="dummy-25_h25_3_2" class="clusterblast-orf"  />
+</g>
+<g id="a25_003"  >
+<polygon locus_tag="ACB30330.1" description="&lt;b&gt;ACB30330.1&lt;/b&gt;&lt;br&gt;L-2,4-diaminobutyric acid acetyltransferase&lt;br&gt;Location: 777 - 259" points="514,85 519,80 578,80 578,90 519,90 514,85 " style="stroke-width:1; stroke:black; fill:white; " id="dummy-25_h25_3_3" class="clusterblast-orf"  />
+</g>
+</svg>

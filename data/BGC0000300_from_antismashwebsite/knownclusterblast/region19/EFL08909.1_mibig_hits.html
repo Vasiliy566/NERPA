@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+<meta charset="utf-8" />
+<link rel="stylesheet" type="text/css" href="../../css/style.css">
+
+<script type="text/javascript" src="../../js/jquery.js"></script>
+<script type="text/javascript" src="../../js/jquery.tablesorter.min.js"></script>
+
+<script type="text/javascript" >
+var counter = 1;
+function addInput(divName){
+     var newdiv = document.createElement('div');
+     newdiv.innerHTML = "<b>Locus " + (counter + 1) + "</b><br> GenBank accession: <input type='text' required name='myInputs[]'> Start nt: <input type='number' name='myStartCoords[]' placeholder='N/A'> End nt: <input type='number' name='myEndCoords[]' placeholder='N/A'> <br><br>";
+     document.getElementById(divName).appendChild(newdiv);
+     counter++;
+}
+</script>
+
+<script>
+$(document).ready(function()
+    {
+        $("#myTable").tablesorter();
+    }
+);
+
+</script>
+<style>
+table {
+    border-width: thin;
+    border-spacing: 2px;
+    border-style: none;
+    border-color: black;
+}
+</style>
+</head>
+<body>
+    <table id="myTable" class="tablesorter" border=1>
+    <thead>
+    <tr>
+        <th>MIBiG Protein</th>
+        <th>Description</th>
+        <th>MIBiG Cluster</th>
+        <th>MiBiG Product</th>
+        <th>% ID</th>
+        <th>% Coverage</th>
+        <th>BLAST Score</th>
+        <th>E-value</th>
+    </tr>
+    </thead>
+    <tbody>
+    
+          <tr>
+              <td>AXL88822.1</td>
+              <td>MFS_transporter</td>
+              <td><a href="https://mibig.secondarymetabolites.org/go/BGC0001895/1">BGC0001895</a></td>
+              <td>Polyketide</td>
+              <td>30.0</td>
+              <td>89.9</td>
+              <td>114.0</td>
+              <td>6.1e-25</td>
+          </tr>
+    
+          <tr>
+              <td>CTQ34878.1</td>
+              <td>AtcA;_major_facilitator_superfamily_(MFS)_transporter;_12_transmembrane_helices</td>
+              <td><a href="https://mibig.secondarymetabolites.org/go/BGC0001301/1">BGC0001301</a></td>
+              <td>Polyketide</td>
+              <td>26.0</td>
+              <td>83.1</td>
+              <td>75.0</td>
+              <td>2.4e-13</td>
+          </tr>
+    
+          <tr>
+              <td>ALD83683.1</td>
+              <td>multidrug_efflux_protein</td>
+              <td><a href="https://mibig.secondarymetabolites.org/go/BGC0001300/1">BGC0001300</a></td>
+              <td>Polyketide</td>
+              <td>23.0</td>
+              <td>87.0</td>
+              <td>67.0</td>
+              <td>5e-11</td>
+          </tr>
+    
+          <tr>
+              <td>ATV95594.1</td>
+              <td>efflux_pump_transporter</td>
+              <td><a href="https://mibig.secondarymetabolites.org/go/BGC0001503/1">BGC0001503</a></td>
+              <td>Polyketide</td>
+              <td>26.0</td>
+              <td>81.4</td>
+              <td>67.0</td>
+              <td>8.6e-11</td>
+          </tr>
+    
+          <tr>
+              <td>ABP54623.1</td>
+              <td>drug_resistance_transporter,_EmrB/QacA_subfamily</td>
+              <td><a href="https://mibig.secondarymetabolites.org/go/BGC0000241/1">BGC0000241</a></td>
+              <td>Polyketide:Type II + Saccharide:Hybrid/tailoring</td>
+              <td>24.0</td>
+              <td>82.3</td>
+              <td>66.0</td>
+              <td>1.5e-10</td>
+          </tr>
+    
+          <tr>
+              <td>AHL24451.1</td>
+              <td>EmrB/QacA_subfamily_drug_resistance_transporter</td>
+              <td><a href="https://mibig.secondarymetabolites.org/go/BGC0000806/1">BGC0000806</a></td>
+              <td>Saccharide</td>
+              <td>24.0</td>
+              <td>83.9</td>
+              <td>66.0</td>
+              <td>1.5e-10</td>
+          </tr>
+    
+          <tr>
+              <td>AHZ61835.1</td>
+              <td>EmrB/QacA_family_drug_resistance_transporter</td>
+              <td><a href="https://mibig.secondarymetabolites.org/go/BGC0000240/1">BGC0000240</a></td>
+              <td>Polyketide:Type II + Saccharide:Hybrid/tailoring</td>
+              <td>25.0</td>
+              <td>82.7</td>
+              <td>58.0</td>
+              <td>4e-08</td>
+          </tr>
+    
+          <tr>
+              <td>CAC37879.1</td>
+              <td>CpkF;_Transmembrane_efflux_protein</td>
+              <td><a href="https://mibig.secondarymetabolites.org/go/BGC0000038/1">BGC0000038</a></td>
+              <td>Polyketide:Modular type I</td>
+              <td>25.0</td>
+              <td>84.5</td>
+              <td>55.0</td>
+              <td>3.4e-07</td>
+          </tr>
+    
+    </tbody>
+  </table>
+</body>

@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+<meta charset="utf-8" />
+<link rel="stylesheet" type="text/css" href="../../css/style.css">
+
+<script type="text/javascript" src="../../js/jquery.js"></script>
+<script type="text/javascript" src="../../js/jquery.tablesorter.min.js"></script>
+
+<script type="text/javascript" >
+var counter = 1;
+function addInput(divName){
+     var newdiv = document.createElement('div');
+     newdiv.innerHTML = "<b>Locus " + (counter + 1) + "</b><br> GenBank accession: <input type='text' required name='myInputs[]'> Start nt: <input type='number' name='myStartCoords[]' placeholder='N/A'> End nt: <input type='number' name='myEndCoords[]' placeholder='N/A'> <br><br>";
+     document.getElementById(divName).appendChild(newdiv);
+     counter++;
+}
+</script>
+
+<script>
+$(document).ready(function()
+    {
+        $("#myTable").tablesorter();
+    }
+);
+
+</script>
+<style>
+table {
+    border-width: thin;
+    border-spacing: 2px;
+    border-style: none;
+    border-color: black;
+}
+</style>
+</head>
+<body>
+    <table id="myTable" class="tablesorter" border=1>
+    <thead>
+    <tr>
+        <th>MIBiG Protein</th>
+        <th>Description</th>
+        <th>MIBiG Cluster</th>
+        <th>MiBiG Product</th>
+        <th>% ID</th>
+        <th>% Coverage</th>
+        <th>BLAST Score</th>
+        <th>E-value</th>
+    </tr>
+    </thead>
+    <tbody>
+    
+          <tr>
+              <td>CAE17546.1</td>
+              <td>acetyltransferase</td>
+              <td><a href="https://mibig.secondarymetabolites.org/go/BGC0000210/1">BGC0000210</a></td>
+              <td>Polyketide:Type II + Saccharide:Oligosaccharide</td>
+              <td>37.0</td>
+              <td>94.2</td>
+              <td>230.0</td>
+              <td>6.3e-60</td>
+          </tr>
+    
+          <tr>
+              <td>OWA25239.1</td>
+              <td>acyltransferase</td>
+              <td><a href="https://mibig.secondarymetabolites.org/go/BGC0001438/1">BGC0001438</a></td>
+              <td>Polyketide + Saccharide:Hybrid/tailoring</td>
+              <td>34.0</td>
+              <td>95.0</td>
+              <td>175.0</td>
+              <td>1.8e-43</td>
+          </tr>
+    
+          <tr>
+              <td>AAG13909.1</td>
+              <td>mycarose_O-acyltransferase</td>
+              <td><a href="https://mibig.secondarymetabolites.org/go/BGC0000092/1">BGC0000092</a></td>
+              <td>Polyketide</td>
+              <td>33.0</td>
+              <td>98.0</td>
+              <td>168.0</td>
+              <td>2.2e-41</td>
+          </tr>
+    
+          <tr>
+              <td>WP_053138539.1</td>
+              <td>acyltransferase</td>
+              <td><a href="https://mibig.secondarymetabolites.org/go/BGC0002033/1">BGC0002033</a></td>
+              <td>Polyketide</td>
+              <td>33.0</td>
+              <td>96.0</td>
+              <td>159.0</td>
+              <td>1e-38</td>
+          </tr>
+    
+          <tr>
+              <td>BAC76494.2</td>
+              <td>putative_O-acyltransferase</td>
+              <td><a href="https://mibig.secondarymetabolites.org/go/BGC0000085/1">BGC0000085</a></td>
+              <td>Polyketide</td>
+              <td>33.0</td>
+              <td>96.7</td>
+              <td>158.0</td>
+              <td>3e-38</td>
+          </tr>
+    
+          <tr>
+              <td>ctg1_5</td>
+              <td></td>
+              <td><a href="https://mibig.secondarymetabolites.org/go/BGC0001931/1">BGC0001931</a></td>
+              <td>Polyketide</td>
+              <td>32.0</td>
+              <td>96.0</td>
+              <td>156.0</td>
+              <td>8.8e-38</td>
+          </tr>
+    
+          <tr>
+              <td>ABY83154.1</td>
+              <td>Azi15</td>
+              <td><a href="https://mibig.secondarymetabolites.org/go/BGC0000960/1">BGC0000960</a></td>
+              <td>NRP + Polyketide</td>
+              <td>32.0</td>
+              <td>97.2</td>
+              <td>141.0</td>
+              <td>2.2e-33</td>
+          </tr>
+    
+          <tr>
+              <td>ADU86000.1</td>
+              <td>putative_O-acyltransferase</td>
+              <td><a href="https://mibig.secondarymetabolites.org/go/BGC0000165/1">BGC0000165</a></td>
+              <td>Polyketide:Modular type I</td>
+              <td>29.0</td>
+              <td>94.5</td>
+              <td>124.0</td>
+              <td>3.7e-28</td>
+          </tr>
+    
+    </tbody>
+  </table>
+</body>

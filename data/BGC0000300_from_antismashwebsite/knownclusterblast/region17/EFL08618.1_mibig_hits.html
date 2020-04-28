@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+<meta charset="utf-8" />
+<link rel="stylesheet" type="text/css" href="../../css/style.css">
+
+<script type="text/javascript" src="../../js/jquery.js"></script>
+<script type="text/javascript" src="../../js/jquery.tablesorter.min.js"></script>
+
+<script type="text/javascript" >
+var counter = 1;
+function addInput(divName){
+     var newdiv = document.createElement('div');
+     newdiv.innerHTML = "<b>Locus " + (counter + 1) + "</b><br> GenBank accession: <input type='text' required name='myInputs[]'> Start nt: <input type='number' name='myStartCoords[]' placeholder='N/A'> End nt: <input type='number' name='myEndCoords[]' placeholder='N/A'> <br><br>";
+     document.getElementById(divName).appendChild(newdiv);
+     counter++;
+}
+</script>
+
+<script>
+$(document).ready(function()
+    {
+        $("#myTable").tablesorter();
+    }
+);
+
+</script>
+<style>
+table {
+    border-width: thin;
+    border-spacing: 2px;
+    border-style: none;
+    border-color: black;
+}
+</style>
+</head>
+<body>
+    <table id="myTable" class="tablesorter" border=1>
+    <thead>
+    <tr>
+        <th>MIBiG Protein</th>
+        <th>Description</th>
+        <th>MIBiG Cluster</th>
+        <th>MiBiG Product</th>
+        <th>% ID</th>
+        <th>% Coverage</th>
+        <th>BLAST Score</th>
+        <th>E-value</th>
+    </tr>
+    </thead>
+    <tbody>
+    
+          <tr>
+              <td>ATY12796.1</td>
+              <td>TauD/TfdA_family_dioxygenase</td>
+              <td><a href="https://mibig.secondarymetabolites.org/go/BGC0001504/1">BGC0001504</a></td>
+              <td>Polyketide</td>
+              <td>100.0</td>
+              <td>100.0</td>
+              <td>599.0</td>
+              <td>2.9e-171</td>
+          </tr>
+    
+          <tr>
+              <td>ATY72528.1</td>
+              <td>taurine_catabolism_dioxygenase</td>
+              <td><a href="https://mibig.secondarymetabolites.org/go/BGC0001574/1">BGC0001574</a></td>
+              <td>NRP</td>
+              <td>66.0</td>
+              <td>98.0</td>
+              <td>408.0</td>
+              <td>9.5e-114</td>
+          </tr>
+    
+          <tr>
+              <td>ACR50790.1</td>
+              <td>putative_oxidoreductase</td>
+              <td><a href="https://mibig.secondarymetabolites.org/go/BGC0000163/1">BGC0000163</a></td>
+              <td>Polyketide</td>
+              <td>62.0</td>
+              <td>99.7</td>
+              <td>386.0</td>
+              <td>5e-107</td>
+          </tr>
+    
+          <tr>
+              <td>AZF85937.1</td>
+              <td>taurine_dioxygenase</td>
+              <td><a href="https://mibig.secondarymetabolites.org/go/BGC0001963/1">BGC0001963</a></td>
+              <td>NRP + Polyketide</td>
+              <td>55.0</td>
+              <td>99.7</td>
+              <td>335.0</td>
+              <td>1e-91</td>
+          </tr>
+    
+          <tr>
+              <td>CCP42822.1</td>
+              <td>Possible_oxidoreductase</td>
+              <td><a href="https://mibig.secondarymetabolites.org/go/BGC0001627/1">BGC0001627</a></td>
+              <td>NRP</td>
+              <td>43.0</td>
+              <td>93.5</td>
+              <td>248.0</td>
+              <td>1.3e-65</td>
+          </tr>
+    
+          <tr>
+              <td>ctg1_orf9</td>
+              <td></td>
+              <td><a href="https://mibig.secondarymetabolites.org/go/BGC0000846/1">BGC0000846</a></td>
+              <td>Other</td>
+              <td>30.0</td>
+              <td>88.1</td>
+              <td>123.0</td>
+              <td>7.9e-28</td>
+          </tr>
+    
+          <tr>
+              <td>ABC36162.1</td>
+              <td>dioxygenase,_TauD/TfdA_family</td>
+              <td><a href="https://mibig.secondarymetabolites.org/go/BGC0000961/1">BGC0000961</a></td>
+              <td>NRP + Polyketide</td>
+              <td>28.0</td>
+              <td>97.6</td>
+              <td>103.0</td>
+              <td>5e-22</td>
+          </tr>
+    
+    </tbody>
+  </table>
+</body>

@@ -1,0 +1,29 @@
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg" height="230" width="800" xmlns:xlink="http://www.w3.org/1999/xlink" preserveAspectRatio="none" x="0" y="0" viewBox="0 0 800 230"  >
+<g label="Query sequence" class="clusterblast-cluster"  >
+<text class="clusterblast-acc" y="20" x="5"  >
+Query sequence</text>
+<line x1="10" x2="778.0" y2="35" style="stroke-width:1; stroke:grey; " y1="35"  />
+<polygon locus_tag="SSMG_07027" description="&lt;b&gt;SSMG_07027&lt;/b&gt;&lt;br&gt;predicted protein&lt;br&gt;Location: 7715160 - 7717953" points="1,35 6,30 347,30 347,40 6,40 1,35 " style="stroke-width:1; stroke:black; fill:white; " id="dummy-25_q0_0_all" class="clusterblast-orf"  />
+<polygon locus_tag="SSMG_07028" description="&lt;b&gt;SSMG_07028&lt;/b&gt;&lt;br&gt;ectoine hydroxylase&lt;br&gt;Location: 7718276 - 7719179" points="387,35 392,30 499,30 499,40 392,40 387,35 " style="stroke-width:1; stroke:black; fill:#d81515; " id="dummy-25_q1_0_all" class="clusterblast-orf"  />
+<polygon locus_tag="SSMG_07029" description="&lt;b&gt;SSMG_07029&lt;/b&gt;&lt;br&gt;ectoine synthase&lt;br&gt;Location: 7719245 - 7719638" points="507,35 512,30 556,30 556,40 512,40 507,35 " style="stroke-width:1; stroke:black; fill:#77d815; " id="dummy-25_q2_0_all" class="clusterblast-orf"  />
+<polygon locus_tag="SSMG_07030" description="&lt;b&gt;SSMG_07030&lt;/b&gt;&lt;br&gt;diaminobutyrate-2-oxoglutarate aminotransferase&lt;br&gt;Location: 7719669 - 7720920" points="559,35 564,30 714,30 714,40 564,40 559,35 " style="stroke-width:1; stroke:black; fill:#15d8d8; " id="dummy-25_q3_0_all" class="clusterblast-orf"  />
+<polygon locus_tag="SSMG_07031" description="&lt;b&gt;SSMG_07031&lt;/b&gt;&lt;br&gt;L-2,4-diaminobutyric acid acetyltransferase&lt;br&gt;Location: 7720961 - 7721456" points="719,35 724,30 781,30 781,40 724,40 719,35 " style="stroke-width:1; stroke:black; fill:#7715d8; " id="dummy-25_q4_0_all" class="clusterblast-orf"  />
+</g>
+<g label="BGC0000853" description="BGC0000853_c1: ectoine (100% of genes show similarity), Other" class="clusterblast-cluster"  >
+<text class="clusterblast-acc" y="70" x="5"  >
+<a xlink:href="https://mibig.secondarymetabolites.org/go/BGC0000853/1" target="_blank">BGC0000853</a>:                                                                          ectoine (100% of genes show similarity), Other</text>
+<line x1="10" x2="778.0" y2="85" style="stroke-width:1; stroke:grey; " y1="85"  />
+</g>
+<g id="a25_000"  >
+<polygon locus_tag="AAS02097.1" description="&lt;b&gt;AAS02097.1&lt;/b&gt;&lt;br&gt;ThpD&lt;br&gt;Location: 3345 - 2452&lt;br&gt;&lt;br&gt;&lt;b&gt;BlastP hit with SSMG_07028&lt;/b&gt;&lt;br&gt;Percentage identity: 57&lt;br&gt;Percentage coverage: 99&lt;br&gt;BLAST bit score: 337&lt;br&gt;E-value: 2.1e-92" points="183,85 188,80 293,80 293,90 188,90 183,85 " style="stroke-width:1; stroke:black; fill:#d81515; " id="dummy-25_h25_1_0" class="clusterblast-orf"  />
+</g>
+<g id="a25_001"  >
+<polygon locus_tag="AAS02096.1" description="&lt;b&gt;AAS02096.1&lt;/b&gt;&lt;br&gt;ThpC&lt;br&gt;Location: 2445 - 2047&lt;br&gt;&lt;br&gt;&lt;b&gt;BlastP hit with SSMG_07029&lt;/b&gt;&lt;br&gt;Percentage identity: 61&lt;br&gt;Percentage coverage: 102&lt;br&gt;BLAST bit score: 182&lt;br&gt;E-value: 3.7e-46" points="294,85 299,80 344,80 344,90 299,90 294,85 " style="stroke-width:1; stroke:black; fill:#77d815; " id="dummy-25_h25_1_1" class="clusterblast-orf"  />
+</g>
+<g id="a25_002"  >
+<polygon locus_tag="AAS02095.1" description="&lt;b&gt;AAS02095.1&lt;/b&gt;&lt;br&gt;ThpB&lt;br&gt;Location: 1960 - 698&lt;br&gt;&lt;br&gt;&lt;b&gt;BlastP hit with SSMG_07030&lt;/b&gt;&lt;br&gt;Percentage identity: 68&lt;br&gt;Percentage coverage: 99&lt;br&gt;BLAST bit score: 588&lt;br&gt;E-value: 7.2e-168" points="354,85 359,80 511,80 511,90 359,90 354,85 " style="stroke-width:1; stroke:black; fill:#15d8d8; " id="dummy-25_h25_1_2" class="clusterblast-orf"  />
+</g>
+<g id="a25_003"  >
+<polygon locus_tag="AAS02094.1" description="&lt;b&gt;AAS02094.1&lt;/b&gt;&lt;br&gt;ThpA&lt;br&gt;Location: 539 - 9&lt;br&gt;&lt;br&gt;&lt;b&gt;BlastP hit with SSMG_07031&lt;/b&gt;&lt;br&gt;Percentage identity: 59&lt;br&gt;Percentage coverage: 96&lt;br&gt;BLAST bit score: 177&lt;br&gt;E-value: 2e-44" points="530,85 535,80 596,80 596,90 535,90 530,85 " style="stroke-width:1; stroke:black; fill:#7715d8; " id="dummy-25_h25_1_3" class="clusterblast-orf"  />
+</g>
+</svg>

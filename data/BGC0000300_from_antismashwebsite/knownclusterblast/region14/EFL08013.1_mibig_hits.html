@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+<meta charset="utf-8" />
+<link rel="stylesheet" type="text/css" href="../../css/style.css">
+
+<script type="text/javascript" src="../../js/jquery.js"></script>
+<script type="text/javascript" src="../../js/jquery.tablesorter.min.js"></script>
+
+<script type="text/javascript" >
+var counter = 1;
+function addInput(divName){
+     var newdiv = document.createElement('div');
+     newdiv.innerHTML = "<b>Locus " + (counter + 1) + "</b><br> GenBank accession: <input type='text' required name='myInputs[]'> Start nt: <input type='number' name='myStartCoords[]' placeholder='N/A'> End nt: <input type='number' name='myEndCoords[]' placeholder='N/A'> <br><br>";
+     document.getElementById(divName).appendChild(newdiv);
+     counter++;
+}
+</script>
+
+<script>
+$(document).ready(function()
+    {
+        $("#myTable").tablesorter();
+    }
+);
+
+</script>
+<style>
+table {
+    border-width: thin;
+    border-spacing: 2px;
+    border-style: none;
+    border-color: black;
+}
+</style>
+</head>
+<body>
+    <table id="myTable" class="tablesorter" border=1>
+    <thead>
+    <tr>
+        <th>MIBiG Protein</th>
+        <th>Description</th>
+        <th>MIBiG Cluster</th>
+        <th>MiBiG Product</th>
+        <th>% ID</th>
+        <th>% Coverage</th>
+        <th>BLAST Score</th>
+        <th>E-value</th>
+    </tr>
+    </thead>
+    <tbody>
+    
+          <tr>
+              <td>AWR88383.1</td>
+              <td>putative_GntR_family_transcriptional_regulator</td>
+              <td><a href="https://mibig.secondarymetabolites.org/go/BGC0001522/1">BGC0001522</a></td>
+              <td>Polyketide</td>
+              <td>31.0</td>
+              <td>81.8</td>
+              <td>71.0</td>
+              <td>2.7e-12</td>
+          </tr>
+    
+          <tr>
+              <td>AEZ64551.1</td>
+              <td>GntR_family_transcriptional_regulator</td>
+              <td><a href="https://mibig.secondarymetabolites.org/go/BGC0001065/1">BGC0001065</a></td>
+              <td>Polyketide</td>
+              <td>29.0</td>
+              <td>84.0</td>
+              <td>70.0</td>
+              <td>3.6e-12</td>
+          </tr>
+    
+          <tr>
+              <td>NP_626685.1</td>
+              <td>GntR_family_transcriptional_regulator</td>
+              <td><a href="https://mibig.secondarymetabolites.org/go/BGC0000595/1">BGC0000595</a></td>
+              <td>RiPP</td>
+              <td>27.0</td>
+              <td>100.0</td>
+              <td>60.0</td>
+              <td>4.8e-09</td>
+          </tr>
+    
+          <tr>
+              <td>WP_003976364.1</td>
+              <td>FadR_family_transcriptional_regulator</td>
+              <td><a href="https://mibig.secondarymetabolites.org/go/BGC0000596/1">BGC0000596</a></td>
+              <td>RiPP</td>
+              <td>27.0</td>
+              <td>100.0</td>
+              <td>60.0</td>
+              <td>4.8e-09</td>
+          </tr>
+    
+          <tr>
+              <td>BAK64630.1</td>
+              <td>putative_transcriptional_regulator</td>
+              <td><a href="https://mibig.secondarymetabolites.org/go/BGC0000135/1">BGC0000135</a></td>
+              <td>Polyketide</td>
+              <td>28.0</td>
+              <td>53.3</td>
+              <td>53.0</td>
+              <td>5.9e-07</td>
+          </tr>
+    
+    </tbody>
+  </table>
+</body>

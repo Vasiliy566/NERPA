@@ -1,0 +1,78 @@
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg" height="230" width="800" xmlns:xlink="http://www.w3.org/1999/xlink" preserveAspectRatio="none" x="0" y="0" viewBox="0 0 800 230"  >
+<g label="Query sequence" class="clusterblast-cluster"  >
+<text class="clusterblast-acc" y="20" x="5"  >
+Query sequence</text>
+<line x1="10" x2="778.0" y2="35" style="stroke-width:1; stroke:grey; " y1="35"  />
+<polygon locus_tag="SSMG_02720" description="&lt;b&gt;SSMG_02720&lt;/b&gt;&lt;br&gt;beta-1,3-glucanase&lt;br&gt;Location: 2943276 - 2944449" points="0,35 5,30 37,30 37,40 5,40 0,35 " style="stroke-width:1; stroke:black; fill:white; " id="dummy-9_q0_0_all" class="clusterblast-orf"  />
+<polygon locus_tag="SSMG_02721" description="&lt;b&gt;SSMG_02721&lt;/b&gt;&lt;br&gt;chitin-binding domain-containing protein&lt;br&gt;Location: 2944638 - 2945157" points="43,35 48,30 59,30 59,40 48,40 43,35 " style="stroke-width:1; stroke:black; fill:white; " id="dummy-9_q1_0_all" class="clusterblast-orf"  />
+<polygon locus_tag="SSMG_02722" description="&lt;b&gt;SSMG_02722&lt;/b&gt;&lt;br&gt;LysR-family transcriptional regulator&lt;br&gt;Location: 2945951 - 2946902" points="84,35 89,30 114,30 114,40 89,40 84,35 " style="stroke-width:1; stroke:black; fill:white; " id="dummy-9_q2_0_all" class="clusterblast-orf"  />
+<polygon locus_tag="SSMG_02723" description="&lt;b&gt;SSMG_02723&lt;/b&gt;&lt;br&gt;hypothetical protein&lt;br&gt;Location: 2946986 - 2948312" points="116,40 153,40 158,35 153,30 116,30 116,40 " style="stroke-width:1; stroke:black; fill:white; " id="dummy-9_q3_0_all" class="clusterblast-orf"  />
+<polygon locus_tag="SSMG_02724" description="&lt;b&gt;SSMG_02724&lt;/b&gt;&lt;br&gt;IS901 protein&lt;br&gt;Location: 2948210 - 2949422" points="155,35 160,30 193,30 193,40 160,40 155,35 " style="stroke-width:1; stroke:black; fill:white; " id="dummy-9_q4_0_all" class="clusterblast-orf"  />
+<polygon locus_tag="SSMG_02725" description="&lt;b&gt;SSMG_02725&lt;/b&gt;&lt;br&gt;conserved hypothetical protein&lt;br&gt;Location: 2949650 - 2950073" points="200,40 208,40 213,35 208,30 200,30 200,40 " style="stroke-width:1; stroke:black; fill:white; " id="dummy-9_q5_0_all" class="clusterblast-orf"  />
+<polygon locus_tag="SSMG_02726" description="&lt;b&gt;SSMG_02726&lt;/b&gt;&lt;br&gt;radical SAM domain-containing protein&lt;br&gt;Location: 2950637 - 2951639" points="231,35 236,30 262,30 262,40 236,40 231,35 " style="stroke-width:1; stroke:black; fill:#d81515; " id="dummy-9_q6_0_all" class="clusterblast-orf"  />
+<polygon locus_tag="SSMG_02727" description="&lt;b&gt;SSMG_02727&lt;/b&gt;&lt;br&gt;LytB protein&lt;br&gt;Location: 2951642 - 2953106" points="262,35 267,30 308,30 308,40 267,40 262,35 " style="stroke-width:1; stroke:black; fill:#15d815; " id="dummy-9_q7_0_all" class="clusterblast-orf"  />
+<polygon locus_tag="SSMG_02728" description="&lt;b&gt;SSMG_02728&lt;/b&gt;&lt;br&gt;squalene-hopene cyclase&lt;br&gt;Location: 2953102 - 2955016" points="308,35 313,30 368,30 368,40 313,40 308,35 " style="stroke-width:1; stroke:black; fill:#1515d8; " id="dummy-9_q8_0_all" class="clusterblast-orf"  />
+<polygon locus_tag="SSMG_02729" description="&lt;b&gt;SSMG_02729&lt;/b&gt;&lt;br&gt;polyprenyl diphosphate synthase&lt;br&gt;Location: 2955012 - 2956044" points="368,35 373,30 400,30 400,40 373,40 368,35 " style="stroke-width:1; stroke:black; fill:#d815d8; " id="dummy-9_q9_0_all" class="clusterblast-orf"  />
+<polygon locus_tag="SSMG_02730" description="&lt;b&gt;SSMG_02730&lt;/b&gt;&lt;br&gt;phytoene desaturase&lt;br&gt;Location: 2956040 - 2957378" points="400,35 405,30 442,30 442,40 405,40 400,35 " style="stroke-width:1; stroke:black; fill:#d8d815; " id="dummy-9_q10_0_all" class="clusterblast-orf"  />
+<polygon locus_tag="SSMG_02731" description="&lt;b&gt;SSMG_02731&lt;/b&gt;&lt;br&gt;squalene synthase HpnD&lt;br&gt;Location: 2957374 - 2958286" points="442,35 447,30 471,30 471,40 447,40 442,35 " style="stroke-width:1; stroke:black; fill:#15d8d8; " id="dummy-9_q11_0_all" class="clusterblast-orf"  />
+<polygon locus_tag="SSMG_02732" description="&lt;b&gt;SSMG_02732&lt;/b&gt;&lt;br&gt;squalene synthase HpnC&lt;br&gt;Location: 2958240 - 2959029" points="469,35 474,30 494,30 494,40 474,40 469,35 " style="stroke-width:1; stroke:black; fill:white; " id="dummy-9_q12_0_all" class="clusterblast-orf"  />
+<polygon locus_tag="SSMG_02733" description="&lt;b&gt;SSMG_02733&lt;/b&gt;&lt;br&gt;predicted protein&lt;br&gt;Location: 2959080 - 2960454" points="495,40 534,40 539,35 534,30 495,30 495,40 " style="stroke-width:1; stroke:black; fill:white; " id="dummy-9_q13_0_all" class="clusterblast-orf"  />
+<polygon locus_tag="SSMG_02734" description="&lt;b&gt;SSMG_02734&lt;/b&gt;&lt;br&gt;2-hydroxycyclohexanecarboxyl-CoA dehydrogenase&lt;br&gt;Location: 2960567 - 2961398" points="542,35 547,30 568,30 568,40 547,40 542,35 " style="stroke-width:1; stroke:black; fill:white; " id="dummy-9_q14_0_all" class="clusterblast-orf"  />
+<polygon locus_tag="SSMG_02735" description="&lt;b&gt;SSMG_02735&lt;/b&gt;&lt;br&gt;predicted protein&lt;br&gt;Location: 2961316 - 2961982" points="566,35 571,30 586,30 586,40 571,40 566,35 " style="stroke-width:1; stroke:black; fill:white; " id="dummy-9_q15_0_all" class="clusterblast-orf"  />
+<polygon locus_tag="SSMG_02736" description="&lt;b&gt;SSMG_02736&lt;/b&gt;&lt;br&gt;predicted protein&lt;br&gt;Location: 2962143 - 2963064" points="592,40 615,40 620,35 615,30 592,30 592,40 " style="stroke-width:1; stroke:black; fill:white; " id="dummy-9_q16_0_all" class="clusterblast-orf"  />
+<polygon locus_tag="SSMG_02737" description="&lt;b&gt;SSMG_02737&lt;/b&gt;&lt;br&gt;predicted protein&lt;br&gt;Location: 2963089 - 2965924" points="621,40 705,40 710,35 705,30 621,30 621,40 " style="stroke-width:1; stroke:black; fill:white; " id="dummy-9_q17_0_all" class="clusterblast-orf"  />
+<polygon locus_tag="SSMG_02738" description="&lt;b&gt;SSMG_02738&lt;/b&gt;&lt;br&gt;conserved hypothetical protein&lt;br&gt;Location: 2965924 - 2966659" points="710,35 715,30 733,30 733,40 715,40 710,35 " style="stroke-width:1; stroke:black; fill:white; " id="dummy-9_q18_0_all" class="clusterblast-orf"  />
+<polygon locus_tag="SSMG_02739" description="&lt;b&gt;SSMG_02739&lt;/b&gt;&lt;br&gt;peptide-methionine (S)-S-oxide reductase&lt;br&gt;Location: 2966662 - 2967160" points="733,35 738,30 749,30 749,40 738,40 733,35 " style="stroke-width:1; stroke:black; fill:white; " id="dummy-9_q19_0_all" class="clusterblast-orf"  />
+<polygon locus_tag="SSMG_02740" description="&lt;b&gt;SSMG_02740&lt;/b&gt;&lt;br&gt;predicted protein&lt;br&gt;Location: 2967240 - 2968146" points="751,35 756,30 780,30 780,40 756,40 751,35 " style="stroke-width:1; stroke:black; fill:white; " id="dummy-9_q20_0_all" class="clusterblast-orf"  />
+</g>
+<g label="BGC0000665" description="BGC0000665_c1: xiamycin (13% of genes show similarity), Terpene + Alkaloid" class="clusterblast-cluster"  >
+<text class="clusterblast-acc" y="70" x="5"  >
+<a xlink:href="https://mibig.secondarymetabolites.org/go/BGC0000665/1" target="_blank">BGC0000665</a>:                                                                         xiamycin (13% of genes show similarity), Terpene + Alkaloid</text>
+<line x1="10" x2="778.0" y2="85" style="stroke-width:1; stroke:grey; " y1="85"  />
+</g>
+<g id="a9_000"  >
+<polygon locus_tag="CCH63741.1" description="&lt;b&gt;CCH63741.1&lt;/b&gt;&lt;br&gt;XiaO protein&lt;br&gt;Location: 21259 - 18482" points="56,85 61,80 143,80 143,90 61,90 56,85 " style="stroke-width:1; stroke:black; fill:white; " id="dummy-9_h9_4_0" class="clusterblast-orf"  />
+</g>
+<g id="a9_001"  >
+<polygon locus_tag="CCH63740.1" description="&lt;b&gt;CCH63740.1&lt;/b&gt;&lt;br&gt;XiaN protein&lt;br&gt;Location: 18309 - 15358" points="149,90 236,90 241,85 236,80 149,80 149,90 " style="stroke-width:1; stroke:black; fill:white; " id="dummy-9_h9_4_1" class="clusterblast-orf"  />
+</g>
+<g id="a9_002"  >
+<polygon locus_tag="CCH63739.1" description="&lt;b&gt;CCH63739.1&lt;/b&gt;&lt;br&gt;Cytochrome P450&lt;br&gt;Location: 15263 - 14256" points="244,90 271,90 276,85 271,80 244,80 244,90 " style="stroke-width:1; stroke:black; fill:white; " id="dummy-9_h9_4_2" class="clusterblast-orf"  />
+</g>
+<g id="a9_003"  >
+<polygon locus_tag="CCH63738.1" description="&lt;b&gt;CCH63738.1&lt;/b&gt;&lt;br&gt;XiaL protein&lt;br&gt;Location: 14227 - 12059" points="277,90 340,90 345,85 340,80 277,80 277,90 " style="stroke-width:1; stroke:black; fill:white; " id="dummy-9_h9_4_3" class="clusterblast-orf"  />
+</g>
+<g id="a9_004"  >
+<polygon locus_tag="CCH63737.1" description="&lt;b&gt;CCH63737.1&lt;/b&gt;&lt;br&gt;XiaK protein&lt;br&gt;Location: 12036 - 10906&lt;br&gt;&lt;br&gt;&lt;b&gt;BlastP hit with SSMG_02729&lt;/b&gt;&lt;br&gt;Percentage identity: 50&lt;br&gt;Percentage coverage: 96&lt;br&gt;BLAST bit score: 275&lt;br&gt;E-value: 1.5e-73" points="345,90 376,90 381,85 376,80 345,80 345,90 " style="stroke-width:1; stroke:black; fill:#d815d8; " id="dummy-9_h9_4_4" class="clusterblast-orf"  />
+</g>
+<g id="a9_005"  >
+<polygon locus_tag="CCH63736.1" description="&lt;b&gt;CCH63736.1&lt;/b&gt;&lt;br&gt;XiaJ protein&lt;br&gt;Location: 10752 - 9583" points="386,90 417,90 422,85 417,80 386,80 386,90 " style="stroke-width:1; stroke:black; fill:white; " id="dummy-9_h9_4_5" class="clusterblast-orf"  />
+</g>
+<g id="a9_006"  >
+<polygon locus_tag="CCH63735.1" description="&lt;b&gt;CCH63735.1&lt;/b&gt;&lt;br&gt;Indole oxygenase &lt;br&gt;Location: 9557 - 9324" points="423,90 425,90 430,85 425,80 423,80 423,90 " style="stroke-width:1; stroke:black; fill:white; " id="dummy-9_h9_4_6" class="clusterblast-orf"  />
+</g>
+<g id="a9_007"  >
+<polygon locus_tag="CCH63734.1" description="&lt;b&gt;CCH63734.1&lt;/b&gt;&lt;br&gt;XiaH protein&lt;br&gt;Location: 9327 - 7534" points="430,90 482,90 487,85 482,80 430,80 430,90 " style="stroke-width:1; stroke:black; fill:white; " id="dummy-9_h9_4_7" class="clusterblast-orf"  />
+</g>
+<g id="a9_008"  >
+<polygon locus_tag="CCH63733.1" description="&lt;b&gt;CCH63733.1&lt;/b&gt;&lt;br&gt;XiaG protein&lt;br&gt;Location: 7531 - 7142" points="487,90 494,90 499,85 494,80 487,80 487,90 " style="stroke-width:1; stroke:black; fill:white; " id="dummy-9_h9_4_8" class="clusterblast-orf"  />
+</g>
+<g id="a9_009"  >
+<polygon locus_tag="CCH63732.1" description="&lt;b&gt;CCH63732.1&lt;/b&gt;&lt;br&gt;XiaF protein&lt;br&gt;Location: 7145 - 5946" points="499,90 531,90 536,85 531,80 499,80 499,90 " style="stroke-width:1; stroke:black; fill:white; " id="dummy-9_h9_4_9" class="clusterblast-orf"  />
+</g>
+<g id="a9_0010"  >
+<polygon locus_tag="CCH63731.1" description="&lt;b&gt;CCH63731.1&lt;/b&gt;&lt;br&gt;XiaE protein&lt;br&gt;Location: 5879 - 5127" points="539,90 557,90 562,85 557,80 539,80 539,90 " style="stroke-width:1; stroke:black; fill:white; " id="dummy-9_h9_4_10" class="clusterblast-orf"  />
+</g>
+<g id="a9_0011"  >
+<polygon locus_tag="CCH63730.1" description="&lt;b&gt;CCH63730.1&lt;/b&gt;&lt;br&gt;XiaD protein&lt;br&gt;Location: 5134 - 4412" points="562,85 567,80 585,80 585,90 567,90 562,85 " style="stroke-width:1; stroke:black; fill:white; " id="dummy-9_h9_4_11" class="clusterblast-orf"  />
+</g>
+<g id="a9_0012"  >
+<polygon locus_tag="CCH63729.1" description="&lt;b&gt;CCH63729.1&lt;/b&gt;&lt;br&gt;XiaC protein&lt;br&gt;Location: 3980 - 2829" points="598,85 603,80 634,80 634,90 603,90 598,85 " style="stroke-width:1; stroke:black; fill:white; " id="dummy-9_h9_4_12" class="clusterblast-orf"  />
+</g>
+<g id="a9_0013"  >
+<polygon locus_tag="CCH63728.1" description="&lt;b&gt;CCH63728.1&lt;/b&gt;&lt;br&gt;XiaB protein&lt;br&gt;Location: 2832 - 1015" points="634,85 639,80 691,80 691,90 639,90 634,85 " style="stroke-width:1; stroke:black; fill:white; " id="dummy-9_h9_4_13" class="clusterblast-orf"  />
+</g>
+<g id="a9_0014"  >
+<polygon locus_tag="CCH63727.1" description="&lt;b&gt;CCH63727.1&lt;/b&gt;&lt;br&gt;XiaA protein&lt;br&gt;Location: 1002 - 1&lt;br&gt;&lt;br&gt;&lt;b&gt;BlastP hit with SSMG_02727&lt;/b&gt;&lt;br&gt;Percentage identity: 63&lt;br&gt;Percentage coverage: 63&lt;br&gt;BLAST bit score: 354&lt;br&gt;E-value: 2.1e-97" points="691,85 696,80 723,80 723,90 696,90 691,85 " style="stroke-width:1; stroke:black; fill:#15d815; " id="dummy-9_h9_4_14" class="clusterblast-orf"  />
+</g>
+</svg>
