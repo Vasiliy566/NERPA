@@ -1,6 +1,2 @@
 numpy
 pandas
-pkg-resources
-python-dateutil
-pytz
-six
