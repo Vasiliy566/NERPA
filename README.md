@@ -41,8 +41,12 @@ and test Dictionary handler -> tests/Dictionary_handler.py
 
 Testt code style according to flake8
 
+if not flake8 installed 
 ```
-pip install flake8 ( if not installed)
+pip install flake8 
+```
+then run folowwing command in main repo
+```
 flake8
 ```
 
@@ -58,7 +62,7 @@ For the versions available, see the [tags on this repository](https://github.com
 
 * **Isaev Vasily** - *Coding* - [Vasiliy566](https://github.com/Vasiliy566)
 
-* **Gurevich Alexey** - *scientific director* - [Gurevich Alexey]http://bioinformaticsinstitute.ru/teachers/gurevich
+* **Gurevich Alexey** - *scientific director* - [Gurevich Alexey](http://bioinformaticsinstitute.ru/teachers/gurevich)
 
 * **Ol'ga kunyavskaya** - *scientific director*
 
