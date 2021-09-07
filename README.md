@@ -1,5 +1,5 @@
 ![Python application](https://github.com/Vasiliy566/NERPA/workflows/Python%20application/badge.svg)
-# Project Title
+# NERPA
 1. Reformat antismash5 output to antismash3 format
 2. Predict NRPS by 10-aa code
 3. Improve Nrpsp_redictor algorithm
